@@ -92,8 +92,8 @@
 * affirm
     - getstarted_1: utter_ask_migration
 * switch
-    - rasa_help: action_store_unknown_product
-    - getstarted_1: utter_no_guide_for_switch
+    - getstarted_1: action_store_unknown_product
+    - getstarted_1_success: utter_no_guide_for_switch
     - chitchat: utter_anything_else
 
 ##  migrating from dialogflow

@@ -1,12 +1,12 @@
 ## chitchat
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter + confirm
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter + confirm
 * greet
@@ -15,13 +15,13 @@
     - subscribe: utter_great
     - subscribe: utter_ask_email
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter (with email already) + confirm
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter +confirm - already subscribed
 * greet
@@ -30,19 +30,19 @@
     - subscribe: utter_great
     - subscribe: utter_ask_email
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter
 * greet
@@ -51,20 +51,20 @@
     - subscribe: utter_great
     - subscribe: utter_ask_email
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter - already subscribed
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just newsletter - already subscribed
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just newsletter - already subscribed
 * greet
@@ -73,21 +73,21 @@
     - subscribe: utter_great
     - subscribe: utter_ask_email
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just sales
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just sales
 * greet
     - greet_success: action_greet_user
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just sales
@@ -97,7 +97,7 @@
     - sales: utter_moreinformation
     - sales: utter_ask_jobfunction
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just sales
@@ -111,7 +111,7 @@
     - slot{"job_function": "Product Manager"}
     - sales: utter_ask_usecase
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 ## just sales
@@ -130,7 +130,7 @@
     - sales: utter_thank_usecase
     - sales: utter_ask_budget
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 
 
@@ -155,7 +155,7 @@
     - sales: utter_sales_contact
     - sales: utter_ask_name
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just sales
 * greet
@@ -182,7 +182,7 @@
     - slot{"person_name": "Max Meier"}
     - sales: utter_ask_company
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 
 ## just sales
 * greet
@@ -213,4 +213,4 @@
     - slot{"company_name": "Allianz"}
     - sales: utter_ask_businessmail
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email

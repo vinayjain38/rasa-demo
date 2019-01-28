@@ -38,7 +38,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter + confirm
@@ -60,7 +60,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) + confirm
@@ -78,7 +78,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already)
@@ -110,7 +110,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) - already subscribed
@@ -145,7 +145,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just sales

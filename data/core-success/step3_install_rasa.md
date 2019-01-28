@@ -145,7 +145,7 @@
     - getstarted_3: utter_ask_ready_to_build
 * ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
     - getstarted_3: action_store_problem_description
-    - faq: action_faqs
+    - getstarted_3_success: action_faqs
 
 ## Install Rasa: Ask ready to build -> No -> FAQ
 * enter_data{"package_manager": "pip"} OR install_rasa{"package_manager": "pip"}

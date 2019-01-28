@@ -49,7 +49,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter + confirm
@@ -59,7 +59,7 @@
     - subscribe: utter_great
     - subscribe: utter_ask_email
 * ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
-    - subscribe: action_chitchat
+    - chitchat: action_chitchat
     - subscribe: utter_ask_email
 * enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
     - subscribe: action_store_email
@@ -71,7 +71,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) + confirm
@@ -89,7 +89,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already)
@@ -121,7 +121,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) - already subscribed
@@ -155,7 +155,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter +confirm - already subscribed
@@ -176,7 +176,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter

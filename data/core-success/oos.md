@@ -40,7 +40,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter + confirm
@@ -63,7 +63,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) + confirm
@@ -81,7 +81,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already)
@@ -113,7 +113,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter (with email already) - already subscribed
@@ -147,14 +147,14 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter +confirm - already subscribed
 * greet
     - greet_success: action_greet_user
 * signup_newsletter
-    - chitchat: utter_great
+    - subscribe: utter_great
     - subscribe: utter_ask_email
 * out_of_scope
     - oos: utter_out_of_scope
@@ -169,7 +169,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## just newsletter

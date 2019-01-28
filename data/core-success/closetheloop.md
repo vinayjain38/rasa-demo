@@ -265,7 +265,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * enter_data
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## story number 12
@@ -289,7 +289,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * enter_data
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## story number 13
@@ -313,7 +313,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## story number 14
@@ -581,9 +581,8 @@
     - sales_success: utter_confirm_salesrequest
     - feedback: utter_ask_feedback
 * deny
-    - chitchat: utter_nohelp
-* affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
+    - chitchat: utter_anything_else
 
 ## Story from conversation with 4c274f8d470e4b77adbfefe7cda7cad7 on October 27th 2018
 
@@ -1102,7 +1101,7 @@
 * enter_data
     - getstarted_3: action_store_problem_description
     - slot{"problem_description":"tensorflow 1.10.0 has requirement numpy<=1.14.5,>=1.13.3, but you'll have numpy 1.16.0 which is incompatible."}
-    - getstarted_3_success: utter_direct_to_forum_for_help
+    - getstarted_3: utter_direct_to_forum_for_help
     - getstarted_3_success: utter_direct_to_step4
 * enter_data
     - chitchat: utter_not_sure

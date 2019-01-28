@@ -48,7 +48,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletter + feedback
@@ -68,7 +68,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletter + affirm feedback
@@ -87,7 +87,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * affirm
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 
@@ -107,7 +107,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * deny
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## newsletter, don't give email once
@@ -169,7 +169,7 @@
     - sales_success: utter_confirm_salesrequest
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletter, don't give email twice then contact sales
@@ -215,7 +215,7 @@
     - sales_success: utter_confirm_salesrequest
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletter, don't give email twice
@@ -252,7 +252,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 
@@ -282,7 +282,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 
@@ -314,7 +314,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 
@@ -398,7 +398,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletter (already subscribed) then sales
@@ -449,7 +449,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## just sales
@@ -489,7 +489,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## just sales + confirm
@@ -529,7 +529,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## sales then newsletter
@@ -676,7 +676,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## newsletters (already subscribed), confirm, then sales
@@ -695,7 +695,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 * contact_sales
     - sales: utter_moreinformation
@@ -731,7 +731,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## sales, then newsletter, then confirm
@@ -783,7 +783,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## sales, then newsletter (already subscribed), then confirm
@@ -834,7 +834,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## neither options
@@ -906,7 +906,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "positive"}
     - slot{"feedback_value": "positive"}
-    - chitchat: utter_great
+    - feedback_success: utter_great
     - chitchat: utter_anything_else
 
 ## chitchat --> email --> no email
@@ -930,7 +930,7 @@
     - feedback: utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
-    - chitchat: utter_thumbsup
+    - feedback_success: utter_thumbsup
     - chitchat: utter_anything_else
 
 ## anything else? - yes
