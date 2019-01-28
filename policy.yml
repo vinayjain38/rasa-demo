@@ -7,9 +7,9 @@ policies:
 #        state_featurizer:
 #        - name: BinarySingleStateFeaturizer
     max_history: 6
-#  - name: MemoizationPolicy
+#  - name: AugmentedMemoizationPolicy
 #    max_history: 6
-#  - name: FallbackPolicy
+#  - name: TwoStageFallbackPolicy
 #    nlu_threshold: 0.8
 #    core_threshold: 0.3
   - name: FormPolicy

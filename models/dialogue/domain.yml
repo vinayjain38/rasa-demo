@@ -130,11 +130,15 @@ actions:
 - utter_ask_for_feedback_message
 - utter_not_sure
 - utter_no_community_event
+- utter_no_event_for_location_but_next
+- utter_next_event_for_location
+- utter_next_event
 - utter_describe_step4
 - utter_reasons_to_contribute
 - utter_possibilities_to_contribute
 - utter_recommend_forum
 - utter_link_to_forum
+- utter_direct_step3
 - action_subscribe_newsletter
 - action_store_sales_info
 - action_store_budget
@@ -159,6 +163,7 @@ actions:
 - utter_react_positive
 - utter_react_negative
 - action_get_community_events
+- action_next_step
 config:
   store_entities_as_slots: true
 entities:
@@ -312,6 +317,8 @@ intents:
     use_entities: true
 - restart:
     use_entities: true
+- next_step:
+    use_entities: true
 slots:
   budget:
     auto_fill: true
@@ -408,6 +415,10 @@ slots:
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
   shown_privacy:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  step:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
@@ -598,6 +609,21 @@ templates:
   utter_contact_email:
   - text: You can’t speak to a human directly in this chat, but you can email us at
       hi@rasa.com.
+  utter_continue_step2:
+  - buttons:
+    - payload: /get_started_step2
+      title: Continue
+    text: Let's continue, click the button below
+  utter_continue_step3:
+  - buttons:
+    - payload: /get_started_step3
+      title: Continue
+    text: Let's continue, click the button below
+  utter_continue_step4:
+  - buttons:
+    - payload: /get_started_step4
+      title: Continue
+    text: Let's continue, click the button below
   utter_core_tutorial:
   - text: 'There was an interesting talk at the PyData conference about. Maybe this
       helps you: https://youtu.be/HV0bJMkzpO4'
@@ -619,10 +645,20 @@ templates:
       events we have planned, how to contribute, or about our Rasa forum.
   utter_direct_install:
   - text: 'Alright, you can directly install it here: (link)'
+  utter_direct_step3:
+  - buttons:
+    - payload: /get_started_step3
+      title: Continue
+    text: If you have no questions, you can click the button below to go to the next
+      step once you're ready. Or when you're finished asking questions, you can say
+      'take me to the next step' at any point
   utter_direct_to_forum_for_help:
   - text: I cannot help you on that 🙁. Please get help in our [forum](https://forum.rasa.com/).
   utter_direct_to_step4:
-  - text: Since you are now also a chatbot builder, you should join our [community](https://rasa.com/docs/get_started_step4/).
+  - buttons:
+    - payload: /get_started_step4
+      title: Continue
+    text: The next step is to join our community, click the button below to continue.
   utter_docu:
   - text: 'If you want some more awesome Rasa content, check out our forum: https://forum.rasa.com/'
   utter_dont_know_nlu_part:
@@ -659,6 +695,9 @@ templates:
   - text: I can help you solving commonon problems with Rasa 🙂
   utter_get_started_step3:
   - text: I can help you to install Rasa Stack.
+  utter_get_started_step4:
+  - text: As Rasa developer you will be part of a huge community. You can ask me which
+      events we have planned, how to contribute, or about our Rasa forum.
   utter_get_starter_pack:
   - text: Great, you installed Rasa! If you don't want to start from scratch, you
       can use our [starter pack](https://github.com/RasaHQ/starter-pack-rasa-stack).
@@ -695,6 +734,12 @@ templates:
   - text: Sure! Let's get to know each other first 😉
   utter_must_accept:
   - text: We can't speak until you accept.
+  utter_next_event:
+  - text: The next event is the {event_name} in {event_location} on {event_date}.
+      Hope to see you there!
+  utter_next_event_for_location:
+  - text: The next event in {event_location} is the {event_name} on {event_date}.
+      Hope to see you there!
   utter_nicetomeeyou:
   - text: Thank you. It is a pleasure to meet you as well!
   - text: It is nice to meet you too!
@@ -714,8 +759,13 @@ templates:
       \ you to ease things: https://rasahq.github.io/rasa-nlu-trainer/\n"
   utter_no_community_event:
   - text: Sorry, we currently don't have any planned community events 😞.
+  utter_no_event_for_location_but_next:
+  - text: Sorry, there are currently no events at your location. However, the next
+      event is the {event_name} in {event_location} on {event_date}.
   utter_no_guide_for_switch:
   - text: Sorry, but we don't have a guide for this yet.
+  utter_no_more_steps:
+  - text: Looks like you've already completed all the steps!
   utter_no_speak:
   - text: I'm afraid we can't chat then 😢
   utter_nohelp:
@@ -743,8 +793,11 @@ templates:
       \ issues\n- improve our documentation\n- help others by answering questions\
       \ on the [forum](https://forum.rasa.com)\n"
   utter_quickstart:
-  - text: 'We have a quickstart here where you can try the Rasa stack without installing
-      anything: https://rasa.com/docs/core/quickstart/'
+  - buttons:
+    - payload: /get_started_step2
+      title: Continue
+    text: Click the button below to go to our quickstart where you can try it out
+      without installing anything
   utter_quickstart_nlu_only:
   - text: "Here is a quickstart for people who only need NLU for now here: https://rasa.com/docs/nlu/quickstart/\
       \ . You don't have to install anything to try it out."

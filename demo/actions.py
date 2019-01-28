@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-
 import logging
+from datetime import datetime
+from typing import Text, Dict, Any, List
+import json
 
-from rasa_core_sdk import Action
+from rasa_core_sdk import Action, Tracker
+from rasa_core_sdk.executor import CollectingDispatcher
 from rasa_core_sdk.forms import FormAction
 from rasa_core_sdk.events import SlotSet, UserUtteranceReverted, \
-                                 ConversationPaused
+    ConversationPaused, FollowupAction, Form
 
 from demo.api import MailChimpAPI
 from demo import config
@@ -93,7 +96,6 @@ class ActionStoreUsecase(Action):
         return "action_store_usecase"
 
     def run(self, dispatcher, tracker, domain):
-
         # we grab the whole user utterance here as there are no real entities
         # in the use case
         use_case = tracker.latest_message.get('text')
@@ -108,13 +110,35 @@ class ActionChitchat(Action):
         return "action_chitchat"
 
     def run(self, dispatcher, tracker, domain):
-
         intent = tracker.latest_message['intent'].get('name')
 
         # retrieve the correct chitchat utterance dependent on the intent
-        if intent in ['ask_builder', 'ask_howdoing', 'ask_weather',
-                      'ask_whatspossible', 'ask_whoisit', 'ask_whatisrasa',
-                      'ask_isbot']:
+        if intent in ['ask_builder', 'ask_weather', 'ask_howdoing',
+                      'ask_whatspossible', 'ask_whatisrasa', 'ask_isbot',
+                      'ask_howold', 'ask_languagesbot', 'ask_restaurant',
+                      'ask_time', 'ask_wherefrom', 'ask_whoami',
+                      'handleinsult', 'nicetomeeyou', 'telljoke',
+                      'ask_whatismyname', 'howwereyoubuilt', 'ask_whoisit']:
+            dispatcher.utter_template('utter_' + intent, tracker)
+        return []
+
+
+class ActionFaqs(Action):
+    """Returns the chitchat utterance dependent on the intent"""
+
+    def name(self):
+        return "action_faqs"
+
+    def run(self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent'].get('name')
+
+        # retrieve the correct chitchat utterance dependent on the intent
+        if intent in ['ask_faq_platform', 'ask_faq_languages',
+                      'ask_faq_tutorialcore', 'ask_faq_tutorialnlu',
+                      'ask_faq_opensource', 'ask_faq_voice', 'ask_faq_slots',
+                      'ask_faq_channels', 'ask_faq_differencecorenlu',
+                      'ask_faq_python_version', 'ask_faq_community_size',
+                      'ask_faq_what_is_forum']:
             dispatcher.utter_template('utter_' + intent, tracker)
         return []
 
@@ -126,7 +150,6 @@ class ActionStoreName(Action):
         return "action_store_name"
 
     def run(self, dispatcher, tracker, domain):
-
         person_name = next(tracker.get_latest_entity_values('name'), None)
 
         # if no name was extracted, use the whole user utterance
@@ -202,7 +225,6 @@ class ActionPause(Action):
         return "action_pause"
 
     def run(self, dispatcher, tracker, domain):
-
         return [ConversationPaused()]
 
 
@@ -229,7 +251,8 @@ class ActionStoreUnknownNluPart(Action):
     def run(self, dispatcher, tracker, domain):
         # if we dont know the part of nlu the user wants information on,
         # store his last message in a slot.
-        return [SlotSet('unknown_nlu_part', tracker.latest_message.get('text'))]
+        return [SlotSet('unknown_nlu_part',
+                tracker.latest_message.get('text'))]
 
 
 class ActionStoreBotLanguage(Action):
@@ -262,9 +285,11 @@ class ActionStoreEntityExtractor(Action):
 
     def run(self, dispatcher, tracker, domain):
         spacy_entities = ['place', 'date', 'name', 'organisation']
-        duckling = ['money', 'duration', 'distance', 'ordinals', 'time', 'amount-of-money']
+        duckling = ['money', 'duration', 'distance', 'ordinals', 'time',
+                    'amount-of-money', 'numbers']
 
-        entity_to_extract = next(tracker.get_latest_entity_values('entity'), None)
+        entity_to_extract = next(tracker.get_latest_entity_values('entity'),
+                                 None)
 
         extractor = 'ner_crf'
         if entity_to_extract in spacy_entities:
@@ -284,10 +309,9 @@ class ActionSetOnboarding(Action):
 
     def run(self, dispatcher, tracker, domain):
         intent = tracker.latest_message['intent'].get('name')
-        # latest_action = tracker.latest_action_name
-        # print(latest_action)
-        # if latest_action == 'utter_first_bot_with_rasa':
-        if intent == 'mood_confirm':
+        user_type = next(tracker.get_latest_entity_values("user_type"), None)
+        is_new_user = intent == "how_to_get_started" and user_type == "new"
+        if intent == 'affirm' or is_new_user:
             return [SlotSet('onboarding', True)]
         elif intent == 'deny':
             return [SlotSet('onboarding', False)]
@@ -295,20 +319,304 @@ class ActionSetOnboarding(Action):
 
 
 class SuggestionForm(FormAction):
-    """Accept free text input from the user for suggesetions"""
+    """Accept free text input from the user for suggestions"""
 
     def name(self):
         return "suggestion_form"
 
     @staticmethod
     def required_slots(tracker):
-
         return ["suggestion"]
 
     def slot_mappings(self):
-
         return {"suggestion": self.from_text()}
 
     def submit(self, dispatcher, tracker, domain):
         dispatcher.utter_template('utter_thank_suggestion', tracker)
+        return []
+
+
+class ActionStackInstallationCommand(Action):
+    """Utters the installation command for rasa depending whether
+       they are using `pip` or `conda`
+    """
+
+    def name(self):
+        return "action_select_installation_command"
+
+    def run(self, dispatcher, tracker, domain):
+        package_manager = tracker.get_slot('package_manager')
+
+        if package_manager == 'conda':
+            dispatcher.utter_template('utter_installation_with_conda', tracker)
+        else:
+            dispatcher.utter_template('utter_installation_with_pip', tracker)
+
+        return []
+
+
+class ActionStoreProblemDescription(Action):
+    """Stores the problem description in a slot."""
+
+    def name(self):
+        return "action_store_problem_description"
+
+    def run(self, dispatcher, tracker, domain):
+        problem = tracker.latest_message.get('text')
+
+        return [SlotSet('problem_description', problem)]
+
+
+class ActionGreetUser(Action):
+    """Greets the user with/without privacy policy"""
+
+    def name(self):
+        return "action_greet_user"
+
+    def run(self, dispatcher, tracker, domain):
+        intent = tracker.latest_message['intent'].get('name')
+        shown_privacy = tracker.get_slot("shown_privacy")
+        name_entity = next(tracker.get_latest_entity_values("name"), None)
+        if intent == "greet":
+            if shown_privacy and name_entity and name_entity.lower() != 'sara':
+                dispatcher.utter_template("utter_greet_name", tracker,
+                                          name=name_entity)
+                return []
+            elif shown_privacy:
+                dispatcher.utter_template("utter_greet_noname", tracker)
+                return []
+            else:
+                dispatcher.utter_template("utter_greet", tracker)
+                dispatcher.utter_template("utter_inform_privacypolicy", tracker)
+                dispatcher.utter_template("utter_ask_goal", tracker)
+                return [SlotSet('shown_privacy', True)]
+        elif intent[:-1] == 'get_started_step' and not shown_privacy:
+            dispatcher.utter_template("utter_greet", tracker)
+            dispatcher.utter_template("utter_inform_privacypolicy", tracker)
+            dispatcher.utter_template("utter_"+intent, tracker)
+            return [SlotSet('shown_privacy', True), SlotSet('step', intent[-1])]
+        elif intent[:-1] == 'get_started_step' and shown_privacy:
+            dispatcher.utter_template("utter_"+intent, tracker)
+            return [SlotSet('step', intent[-1])]
+        return []
+
+
+class ActionDefaultAskAffirmation(Action):
+    """Asks for an affirmation of the intent if NLU threshold is not met."""
+
+    def name(self) -> Text:
+        return "action_default_ask_affirmation"
+
+    def __init__(self) -> None:
+        import csv
+
+        self.intent_mappings = {}
+        with open('data/intent_description_mapping.csv',
+                  newline='',
+                  encoding='utf-8') as file:
+            csv_reader = csv.reader(file)
+            for row in csv_reader:
+                self.intent_mappings[row[0]] = row[1]
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]
+            ) -> List['Event']:
+
+        intent_ranking = tracker.latest_message.get('intent_ranking', [])
+        if len(intent_ranking) > 1:
+            diff_intent_confidence = (intent_ranking[0].get("confidence") -
+                                      intent_ranking[1].get("confidence"))
+            if diff_intent_confidence < 0.2:
+                intent_ranking = intent_ranking[:2]
+            else:
+                intent_ranking = intent_ranking[:1]
+        first_intent_names = [intent.get('name', '')
+                              for intent in intent_ranking
+                              if intent.get('name', '') != 'out_of_scope']
+
+        message_title = "Sorry, I'm not sure I've understood " \
+                        "you correctly 🤔 Do you mean..."
+
+        mapped_intents = [(name, self.intent_mappings.get(name, name))
+                          for name in first_intent_names]
+
+        entities = tracker.latest_message.get("entities", [])
+        entities_json, entities_text = get_formatted_entities(entities)
+
+        buttons = []
+        for intent in mapped_intents:
+            buttons.append({'title': intent[1] + entities_text,
+                            'payload': '/{}{}'.format(intent[0],
+                                                      entities_json)})
+
+        buttons.append({'title': 'Something else',
+                        'payload': '/out_of_scope'})
+
+        dispatcher.utter_button_message(message_title, buttons=buttons)
+
+        return []
+
+
+def get_formatted_entities(entities: List[Dict[str, Any]]) -> (Text, Text):
+    key_value_entities = {}
+    for e in entities:
+        key_value_entities[e.get("entity")] = e.get("value")
+    entities_json = ""
+    entities_text = ""
+    if len(entities) > 0:
+        entities_json = json.dumps(key_value_entities)
+        entities_text = ["'{}': '{}'".format(k, key_value_entities[k])
+                         for k in key_value_entities]
+        entities_text = ", ".join(entities_text)
+        entities_text = " ({})".format(entities_text)
+
+    return entities_json, entities_text
+
+
+class ActionDefaultFallback(Action):
+
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]
+            ) -> List['Event']:
+
+        # Fallback caused by TwoStageFallbackPolicy
+        if (len(tracker.events) >= 4 and
+                tracker.events[-4].get('name') ==
+                'action_default_ask_affirmation'):
+
+            return [SlotSet('feedback_value', 'negative'),
+                    Form('feedback_form'),
+                    FollowupAction('feedback_form')]
+
+        # Fallback caused by Core
+        else:
+            dispatcher.utter_template('utter_default', tracker)
+            return [UserUtteranceReverted()]
+
+
+class FeedbackMessageForm(FormAction):
+    """Accept free text input from the user for feedback."""
+
+    def name(self) -> Text:
+        return "feedback_form"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        return ["feedback_message"]
+
+    def slot_mappings(self) -> Dict[Text, Text]:
+        return {"feedback_message": self.from_text()}
+
+    def submit(self,
+               dispatcher: CollectingDispatcher,
+               tracker: Tracker,
+               domain: Dict[Text, Any]
+               ) -> List['Event']:
+        dispatcher.utter_template('utter_thanks_for_feedback', tracker)
+        dispatcher.utter_template('utter_restart_with_button', tracker)
+
+        return [FollowupAction('action_listen')]
+
+
+class CommunityEventAction(Action):
+    """Utters Rasa community events."""
+
+    def __init__(self):
+        self.last_event_update = None
+        self.events = None
+        self.events = self._get_events()
+
+    def name(self) -> Text:
+        return "action_get_community_events"
+
+    def _get_events(self) -> List['CommunityEvent']:
+        if self.events is None or self._are_events_expired():
+            from demo.community_events import get_community_events
+            logger.debug("Getting events from website.")
+            self.last_event_update = datetime.now()
+            self.events = get_community_events()
+
+        return self.events
+
+    def _are_events_expired(self) -> bool:
+        # events are expired after 1 hour
+        return (
+            self.last_event_update is None or
+            (datetime.now() - self.last_event_update).total_seconds() > 3600)
+
+    def run(self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]
+            ) -> List['Event']:
+        intent = tracker.latest_message['intent'].get('name')
+        events = self._get_events()
+
+        if not events:
+            dispatcher.utter_template("utter_no_community_event", tracker)
+        elif intent == 'ask_which_events':
+            self._utter_event_overview(dispatcher)
+        elif intent == 'ask_when_next_event':
+            self._utter_next_event(tracker, dispatcher)
+
+        return []
+
+    def _utter_event_overview(self,
+                              dispatcher: CollectingDispatcher) -> None:
+        events = self._get_events()
+        event_items = ["- {} in {}".format(e.name_as_link(), e.city)
+                       for e in events]
+        locations = "\n".join(event_items)
+        dispatcher.utter_message("Here are the next Rasa events:\n"
+                                 "" + locations +
+                                 "\nWe hope to see you at them!")
+
+    def _utter_next_event(self,
+                          tracker: Tracker,
+                          dispatcher: CollectingDispatcher
+                          ) -> None:
+        location = next(tracker.get_latest_entity_values('location'), None)
+        events = self._get_events()
+
+        if location:
+            events_for_location = [e for e in events
+                                   if e.city == location or
+                                   e.country == location]
+            if not events_for_location and events:
+                next_event = events[0]
+                dispatcher.utter_template(
+                    'utter_no_event_for_location_but_next',
+                    tracker, **next_event.as_kwargs())
+            elif events_for_location:
+                next_event = events_for_location[0]
+                dispatcher.utter_template('utter_next_event_for_location',
+                                          tracker,
+                                          **next_event.as_kwargs())
+        elif events:
+            next_event = events[0]
+            dispatcher.utter_template('utter_next_event', tracker,
+                                      **next_event.as_kwargs())
+
+
+class ActionNextStep(Action):
+
+    def name(self):
+        return "action_next_step"
+
+    def run(self, dispatcher, tracker, domain):
+        step = int(tracker.get_slot('step'))+1
+
+        if step in [2, 3, 4]:
+            dispatcher.utter_template("utter_continue_step{}".format(step),
+                                      tracker)
+        else:
+            dispatcher.utter_template("utter_no_more_steps", tracker)
+
         return []

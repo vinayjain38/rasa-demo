@@ -4,10 +4,13 @@ import os
 
 install_requires = [
     'rasa_nlu[tensorflow]~=0.14.0a1',
-    'rasa_core~=0.12.2',
+    'rasa_core==0.13.0a4',
     'mailchimp3~=3.0.2',
     'oauth2client~=4.1.2',
-    'gspread~=3.0.0'
+    'gspread~=3.0.0',
+    'beautifulsoup4~=4.6.3',
+    'requests~=2.21.0',
+    'geopy~=1.18.1',
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
