@@ -2,167 +2,91 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "product",
         "email",
-        "current_api",
-        "name",
         "language",
+        "current_api",
+        "feedback_value",
         "package_manager",
         "nlu_part",
-        "feedback_value",
-        "product"
+        "name"
       ]
     },
-    "action_greet_user": {
-      "slots": [
-        "shown_privacy"
-      ]
-    },
-    "action_set_onboarding": {
-      "slots": [
-        "onboarding"
-      ]
-    },
-    "utter_already_subscribed": {
-      "slots": []
-    },
-    "action_store_problem_description": {
-      "slots": [
-        "problem_description"
-      ]
-    },
-    "action_chitchat": {
-      "slots": []
-    },
-    "utter_what_help": {
-      "slots": []
-    },
-    "action_default_ask_rephrase": {
-      "slots": []
-    },
-    "action_default_ask_affirmation": {
-      "slots": []
-    },
-    "utter_out_of_scope": {
-      "slots": []
-    },
-    "action_default_fallback": {
-      "slots": [
-        "feedback_message",
-        "requested_slot",
-        "feedback_value"
-      ]
-    },
-    "null": {
-      "slots": []
-    },
-    "utter_ask_jobfunction": {
-      "slots": []
-    },
-    "action_store_job": {
-      "slots": [
-        "job_function"
-      ]
-    },
-    "utter_ask_describe_problem": {
-      "slots": []
-    },
-    "utter_contact_email": {
-      "slots": []
-    },
-    "action_store_usecase": {
-      "slots": [
-        "use_case"
-      ]
-    },
-    "action_store_budget": {
-      "slots": [
-        "budget"
-      ]
-    },
-    "action_store_name": {
-      "slots": [
-        "person_name"
-      ]
-    },
-    "action_store_company": {
-      "slots": [
-        "company_name"
-      ]
-    },
-    "utter_ask_businessmail": {
-      "slots": []
-    },
-    "action_store_email": {
+    "subscribe: action_store_email": {
       "slots": [
         "email"
       ]
     },
-    "action_subscribe_newsletter": {
+    "subscribe: action_subscribe_newsletter": {
       "slots": [
         "subscribed"
       ]
     },
-    "utter_anything_else": {
-      "slots": []
-    },
-    "utter_first_bot_with_rasa": {
-      "slots": []
-    },
-    "utter_built_bot_before": {
-      "slots": []
-    },
-    "utter_bye": {
-      "slots": []
-    },
-    "utter_canthelp": {
-      "slots": []
-    },
-    "action_faqs": {
-      "slots": []
-    },
-    "action_store_unknown_nlu_part": {
+    "sales: action_store_job": {
       "slots": [
-        "unknown_nlu_part"
+        "job_function"
       ]
     },
-    "utter_tryout": {
-      "slots": []
-    },
-    "utter_explain_nlucore": {
-      "slots": []
-    },
-    "utter_thumbsup": {
-      "slots": []
-    },
-    "action_store_entity_extractor": {
+    "sales: action_store_usecase": {
       "slots": [
-        "entity_extractor"
+        "use_case"
       ]
     },
-    "utter_nohelp": {
-      "slots": []
-    },
-    "action_store_unknown_product": {
+    "getstarted_1: action_set_onboarding": {
       "slots": [
-        "unknown_product"
+        "onboarding"
       ]
     },
-    "utter_possibilities": {
-      "slots": []
+    "sales: action_store_budget": {
+      "slots": [
+        "budget"
+      ]
     },
-    "utter_ask_usecase": {
-      "slots": []
+    "sales: action_store_name": {
+      "slots": [
+        "person_name"
+      ]
     },
-    "action_store_sales_info": {
+    "sales: action_store_company": {
+      "slots": [
+        "company_name"
+      ]
+    },
+    "sales: action_store_email": {
+      "slots": [
+        "email"
+      ]
+    },
+    "sales: action_store_sales_info": {
       "slots": [
         "data_stored"
       ]
     },
-    "utter_ask_email": {
-      "slots": []
+    "greet_success: action_greet_user": {
+      "slots": [
+        "step",
+        "shown_privacy"
+      ]
     },
-    "utter_ask_which_tool": {
-      "slots": []
+    "rasa_help: action_set_onboarding": {
+      "slots": [
+        "onboarding"
+      ]
+    },
+    "rasa_help: action_store_entity_extractor": {
+      "slots": [
+        "entity_extractor"
+      ]
+    },
+    "rasa_help: action_store_bot_language": {
+      "slots": [
+        "can_use_spacy"
+      ]
+    },
+    "getstarted_3: action_store_problem_description": {
+      "slots": [
+        "problem_description"
+      ]
     }
   },
   "python": "3.6.5",
@@ -173,9 +97,10 @@
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_topic_policy.KerasTopicPolicy",
+    "rasa_core.policies.keras_flag_policy.KerasFlagPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190128-111117",
+  "trained_at": "20190201-111122",
   "rasa_core": "0.13.0a5",
   "tensorflow": "1.12.0",
   "sklearn": "0.19.1"

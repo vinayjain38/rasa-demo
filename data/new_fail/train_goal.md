@@ -1091,7 +1091,7 @@
 * ask_howold
     - chitchat: action_chitchat
 * ask_howold
-    - chitchat: action_faqs
+    - chitchat: action_faqs -> fail
 * greet
     - greet_success: action_default_fallback
     - rewind
@@ -2743,13 +2743,13 @@
 * deny
     - chitchat: utter_nohelp
 * human_handoff
-    - handoff: action_default_ask_affirmation
+    - sales: action_default_ask_affirmation
 * human_handoff
     - fallback: action_revert_fallback_events
     - rewind
     - rewind
 * human_handoff
-    - handoff: utter_contact_email
+    - sales: utter_contact_email
 * deny
     - chitchat: utter_nohelp
 * enter_data

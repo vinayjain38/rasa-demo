@@ -67,7 +67,7 @@
     - subscribe: utter_docu
     - feedback: utter_ask_feedback
 * out_of_scope
-    - oos: utter_out_of_scope
+    - chitchat: utter_noworries
     - chitchat: utter_anything_else
 
 ## story number 3
@@ -504,7 +504,7 @@
     - getstarted_1: utter_also_explain_nlu
 * how_to_get_started{"product":"core"}
     - slot{"product":"core"}
-    - getstarted_1: utter_explain_nlu
+    - getstarted_1: utter_tryout
 
 
 ## Story from conversation with 7830abb04e1c49809d89b0d420443928 on November 19th 2018
@@ -981,7 +981,7 @@
 * get_started_step2
     - greet_success: action_greet_user
     - slot{"step":"2"}
-    - utter_direct_step3
+    - getstarted_2: utter_direct_step3
 * get_started_step3
     - greet_success: action_greet_user
     - slot{"step":"3"}

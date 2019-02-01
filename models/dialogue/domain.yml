@@ -183,6 +183,9 @@ entities:
 - user_type
 - package_manager
 - location
+flags:
+- null
+- fail
 forms:
 - suggestion_form
 - feedback_form

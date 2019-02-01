@@ -738,3 +738,6 @@ topics:
   - onboarding_fail
   - faq_success
   - getstarted_4_fail
+
+flags:
+  - fail

@@ -21,6 +21,12 @@ train-nlu:
 train-core:
 	python3 -m rasa_core.train -d domain.yml -s data/new_fail/train_goal.md -c policy.yml --debug -o models/dialogue --augmentation 0
 
+train-core-2:
+	python3 -m rasa_core.train -d domain.yml -s data/core-success/ -c policy.yml --debug -o models/dialogue --augmentation 0
+
+train-core-3:
+	python3 -m rasa_core.train -d domain.yml -s data/new_fail -c policy.yml --debug -o models/dialogue --augmentation 0
+
 run-cmdline:
 	make run-actions&
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml
@@ -34,5 +40,14 @@ train-online:
 evaluate-core:
 	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/train_goal.md --topics
 
+evaluate-core-1:
+	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/test_goal.md --topics
+
 evaluate-core-2:
 	python3 -m rasa_core.evaluate --core models/dialogue -s data/core-success/ --topics
+
+evaluate-core-3:
+	python3 -m rasa_core.evaluate --core models/dialogue -s data/success/test_for_success.md --topics
+
+evaluate-core-4:
+	python3 -m rasa_core.evaluate --core models/dialogue -s data/success/test_new_for_success.md --topics

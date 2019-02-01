@@ -1,12 +1,22 @@
 policies:
   - name: KerasTopicPolicy
-    epochs: 200
-#    batch_size: 8
+#    epochs: 100
+#    batch_size: 4
 #    featurizer:
 #      - name: FullDialogueTrackerFeaturizer
 #        state_featurizer:
-#        - name: BinarySingleStateFeaturizer
+#          - name: BinarySingleStateFeaturizer
+    epochs: 200
     max_history: 6
+#  - name: KerasFlagPolicy
+#    epochs: 100
+#    batch_size: 4
+#    featurizer:
+#      - name: FullDialogueTrackerFeaturizer
+#        state_featurizer:
+#          - name: BinarySingleStateFeaturizer
+#    epochs: 200
+#    max_history: 6
 #  - name: AugmentedMemoizationPolicy
 #    max_history: 6
 #  - name: TwoStageFallbackPolicy
