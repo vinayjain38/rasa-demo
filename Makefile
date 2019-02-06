@@ -27,8 +27,7 @@ train-core-2:
 train-core-3:
 	python3 -m rasa_core.train -d domain.yml -s data/new_fail -c policy.yml --debug -o models/dialogue --augmentation 0
 
-run-cmdline:
-	make run-actions&
+run-core:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml
 
 visualize:
