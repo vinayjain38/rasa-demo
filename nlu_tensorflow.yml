@@ -1,16 +1,21 @@
 pipeline:
 - name: tokenizer_whitespace
-- name: ner_crf
+  intent_split_symbol: '_'
 - name: intent_featurizer_count_vectors
-  OOV_token: oov
-  token_pattern: (?u)\b\w+\b
+#  sequence: true
+#  use_shared_vocab: true
+  sparse: true
 - name: intent_classifier_tensorflow_embedding
+  hidden_layers_sizes_a: [256, 128]
+  hidden_layers_sizes_b: [256, 128]
+  fused: true
+#  gpu: true
+  use_neg_from_batch: true
+  use_iou: true
+  bidirectional: true
+#  share_embedding: true
   epochs: 50
-- name: ner_duckling_http
-  url: http://localhost:8000
-  dimensions:
-  - email
-  - number
-  - amount-of-money
-- name: ner_synonyms
+  intent_tokenization_flag: true
+  evaluate_on_num_examples: 64
+
 language: en

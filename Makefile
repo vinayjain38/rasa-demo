@@ -16,16 +16,15 @@ run-actions:
 	python3 -m rasa_core_sdk.endpoint --actions demo.actions
 
 train-nlu:
-	python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/ -o models --project nlu --verbose
+	python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/1000_persona.md -o models --project nlu --verbose
 
 train-core:
-	python3 -m rasa_core.train -d domain.yml -s data/core -c policy.yml --debug -o models/dialogue
+	python3 -m rasa_core.train -d domain.yml -s data/core -c policy.yml --debug -o models/dialogue --augmentation 0
 
 train-memo:
 	python -m rasa_core.train -d domain.yml -s data/core -c augmentedmemo-only.yml -o models/dialogue --augmentation 0
 
-run-cmdline:
-	make run-actions&
+run-core:
 	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml
 
 visualize:
@@ -36,3 +35,9 @@ train-online:
 
 evaluate-core:
 	python -m rasa_core.evaluate --core models/dialogue -s data/core/ --fail_on_prediction_errors
+
+evaluate-nlu:
+	python3 -m rasa_nlu.evaluate --data data/nlu/1000_persona.md --model models/nlu/current
+
+evaluate-nlu-1:
+	python3 -m rasa_nlu.evaluate --data data/valid_personachat_other_original_nlu.md --model models/nlu/current
