@@ -16,7 +16,7 @@ run-actions:
 	python3 -m rasa_core_sdk.endpoint --actions demo.actions
 
 train-nlu:
-	python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/ -o models --project nlu --verbose
+	python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/nlu.md -o models --project nlu --verbose
 
 train-core:
 	python3 -m rasa_core.train -d domain.yml -s data/new_fail/train_goal.md -c policy.yml --debug -o models/dialogue --augmentation 0
