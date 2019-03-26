@@ -2,19 +2,22 @@ pipeline:
 - name: tokenizer_whitespace
   intent_split_symbol: '_'
 - name: intent_featurizer_count_vectors
-#  sequence: true
+  sequence: true
 #  use_shared_vocab: true
   sparse: true
 - name: intent_classifier_tensorflow_embedding
-  hidden_layers_sizes_a: [256, 128]
-  hidden_layers_sizes_b: [256, 128]
-  fused: true
-#  gpu: true
-  use_neg_from_batch: true
-  use_iou: true
+  hidden_layers_sizes_a: [256, 256]
+  hidden_layers_sizes_b: [256, 256]
+#  fused_lstm: true
+#  gpu_lstm: true
+  transformer: true
+#  pos_encoding: 'emb'
+  pos_max_timescale: 40
+  num_heads: 2
+  iou_threshold: 0.66
   bidirectional: true
 #  share_embedding: true
-  epochs: 50
+  epochs: 200
   intent_tokenization_flag: true
   evaluate_on_num_examples: 64
 
