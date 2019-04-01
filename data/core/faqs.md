@@ -8,22 +8,22 @@
     - action_next_step
 
 ## faqs
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 
 ## more faqs
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 
 
 ## just newsletter + confirm
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * signup_newsletter
     - utter_great
@@ -47,7 +47,7 @@
 * signup_newsletter
     - utter_great
     - utter_ask_email
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_email
 * enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
@@ -66,7 +66,7 @@
 ## just newsletter (with email already) + confirm
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR  ask_faq_channels OR  ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR  ask_faq_channels OR  ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * signup_newsletter{"email": "maxmeier@firma.de"}
     - action_store_email
@@ -84,7 +84,7 @@
 ## just newsletter (with email already)
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * signup_newsletter{"email": "maxmeier@firma.de"}
     - action_store_email
@@ -99,7 +99,7 @@
 ## just newsletter (with email already) + confirm - already subscribed
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * signup_newsletter{"email": "maxmeier@firma.de"}
     - action_store_email
@@ -116,7 +116,7 @@
 ## just newsletter (with email already) - already subscribed
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * signup_newsletter{"email": "maxmeier@firma.de"}
     - action_store_email
@@ -133,7 +133,7 @@
 * signup_newsletter
     - utter_great
     - utter_ask_email
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_email
 * enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
@@ -151,7 +151,7 @@
 ## just sales
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * contact_sales
     - utter_moreinformation
@@ -192,7 +192,7 @@
 * contact_sales
     - utter_moreinformation
     - utter_ask_jobfunction
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_jobfunction
 * enter_data{"jobfunction": "Product Manager"}
@@ -241,7 +241,7 @@
     - slot{"use_case": "bots"}
     - utter_thank_usecase
     - utter_ask_budget
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_thank_usecase
     - utter_ask_budget
@@ -288,7 +288,7 @@
     - slot{"budget": "100k"}
     - utter_sales_contact
     - utter_ask_name
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_name
 * enter_data{"name": "Max Meier"}
@@ -331,7 +331,7 @@
     - action_store_name
     - slot{"person_name": "Max Meier"}
     - utter_ask_company
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_company
 * enter_data{"company": "Allianz"}
@@ -374,7 +374,7 @@
     - action_store_company
     - slot{"company_name": "Allianz"}
     - utter_ask_businessmail
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_businessmail
 * enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
@@ -388,7 +388,7 @@
 ## new to rasa + not new to chatbots + not migrating
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * how_to_get_started
     - utter_getstarted
@@ -406,9 +406,7 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 
 ## new to rasa + not new to chatbots + not migrating
@@ -417,7 +415,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_first_bot_with_rasa
 * affirm
@@ -433,36 +431,8 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-
-## new to rasa + not new to chatbots + not migrating
-* greet
-    - action_greet_user
-* how_to_get_started
-    - utter_getstarted
-    - utter_first_bot_with_rasa
-* affirm
-    - action_set_onboarding
-    - slot{"onboarding": true}
-    - utter_built_bot_before
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
-    - action_faqs
-    - utter_built_bot_before
-* affirm
-    - utter_ask_migration
-* deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
-* affirm OR how_to_get_started{"product":"stack"}
-    - utter_explain_nlu
-    - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
 
 ## new to rasa + not new to chatbots + not migrating
 * greet
@@ -474,9 +444,33 @@
     - action_set_onboarding
     - slot{"onboarding": true}
     - utter_built_bot_before
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
+    - action_faqs
+    - utter_built_bot_before
 * affirm
     - utter_ask_migration
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* deny
+    - utter_explain_stack
+    - utter_stack_details
+    - utter_explain_nlucore
+* affirm OR how_to_get_started{"product":"stack"}
+    - utter_explain_nlu
+    - utter_explain_core
+    - utter_direct_to_step2
+
+## new to rasa + not new to chatbots + not migrating
+* greet
+    - action_greet_user
+* how_to_get_started
+    - utter_getstarted
+    - utter_first_bot_with_rasa
+* affirm
+    - action_set_onboarding
+    - slot{"onboarding": true}
+    - utter_built_bot_before
+* affirm
+    - utter_ask_migration
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_migration
 * deny
@@ -486,9 +480,7 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 ## new to rasa + not new to chatbots + not migrating
 * greet
@@ -506,15 +498,13 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_explain_nlucore
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 ## new to rasa + not new to chatbots + not migrating
 * greet
@@ -535,13 +525,10 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
-
+    - utter_direct_to_step2
 
 ## new to rasa/bots, explain stack and try it out
 * greet
@@ -553,7 +540,7 @@
     - action_set_onboarding
     - slot{"onboarding": true}
     - utter_built_bot_before
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_built_bot_before
 * deny
@@ -563,9 +550,7 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 ## new to rasa/bots, explain stack and try it out
 * greet
@@ -581,15 +566,13 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_explain_nlucore
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 ## new to rasa/bots, explain stack and try it out
 * greet
@@ -608,14 +591,12 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-## new to rasa/bots, explain core and try out stack
+## new to rasa/bots, explain core and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -632,15 +613,13 @@
 * how_to_get_started{"product": "core"}
     - utter_explain_core
     - utter_also_explain_nlu
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_also_explain_nlu
 * deny
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-## new to rasa/bots, explain core and try out stack
+## new to rasa/bots, explain core and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -658,15 +637,13 @@
     - utter_explain_core
     - utter_also_explain_nlu
 * deny
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 
-## new to rasa/bots, explain core, then nlu and try out stack
+## new to rasa/bots, explain core, then nlu and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -683,16 +660,14 @@
 * how_to_get_started{"product": "core"}
     - utter_explain_core
     - utter_also_explain_nlu
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_also_explain_nlu
 * affirm
     - utter_explain_nlu
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-## new to rasa/bots, explain core, then nlu and try out stack
+## new to rasa/bots, explain core, then nlu and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -711,15 +686,13 @@
     - utter_also_explain_nlu
 * affirm
     - utter_explain_nlu
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 
-## new to rasa/bots, explain nlu and try out stack
+## new to rasa/bots, explain nlu and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -736,15 +709,13 @@
 * how_to_get_started{"product": "nlu"}
     - utter_explain_nlu
     - utter_also_explain_core
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_also_explain_core
 * deny
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-## new to rasa/bots, explain nlu and try out stack
+## new to rasa/bots, explain nlu and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -762,15 +733,13 @@
     - utter_explain_nlu
     - utter_also_explain_core
 * deny
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
 
-## new to rasa/bots, don't explain and try out stack
+## new to rasa/bots, don't explain and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -784,15 +753,13 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_explain_nlucore
 * deny
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
 
-## new to rasa/bots, don't explain and try out stack
+## new to rasa/bots, don't explain and direct to step2
 * greet
     - action_greet_user
 * how_to_get_started
@@ -807,44 +774,15 @@
     - utter_stack_details
     - utter_explain_nlucore
 * deny
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+    - utter_direct_to_step2
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
-
-
-## new to rasa/bots, explain and skip to installation
-* greet
-    - action_greet_user
-* how_to_get_started
-    - utter_getstarted
-    - utter_first_bot_with_rasa
-* affirm
-    - action_set_onboarding
-    - slot{"onboarding": true}
-    - utter_built_bot_before
-* deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
-* affirm OR how_to_get_started{"product":"stack"}
-    - utter_explain_nlu
-    - utter_explain_core
-    - utter_tryout
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
-    - action_faqs
-    - utter_tryout
-* deny
-    - utter_direct_install
-    - utter_anything_else
-
+    - utter_direct_to_step2
 
 ## not new to rasa + not interested in products
 * greet
     - action_greet_user
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
 * how_to_get_started
     - utter_getstarted
@@ -862,7 +800,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_first_bot_with_rasa
 * deny
@@ -882,7 +820,7 @@
     - action_set_onboarding
     - slot{"onboarding": false}
     - utter_ask_which_product
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_which_product
 * deny
@@ -901,7 +839,7 @@
     - utter_ask_which_product
 * how_to_get_started{"product": "nlu"}
     - utter_ask_for_nlu_specifics
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_for_nlu_specifics
 * deny
@@ -921,7 +859,7 @@
     - utter_ask_which_product
 * how_to_get_started{"product": "nlu"}
     - utter_ask_for_nlu_specifics
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_for_nlu_specifics
 * nlu_info
@@ -946,7 +884,7 @@
 * nlu_info{"nlu_part": "intent classification"}
     - utter_nlu_intent_tutorial
     - utter_offer_recommendation
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_offer_recommendation
 * deny
@@ -971,7 +909,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_what_language
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_what_language
 * enter_data{"language": "en"}
@@ -997,7 +935,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_what_language
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_what_language
 * enter_data{"language": "en"}
@@ -1022,7 +960,7 @@
 * nlu_info{"nlu_part": "entity recognition"}
     - utter_nlu_entity_tutorial
     - utter_offer_recommendation
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
@@ -1050,7 +988,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_ask_entities
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_ask_entities
 * enter_data{"entity": "date ranges"}
@@ -1064,7 +1002,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum
+* ask_faq_platform OR ask_faq_languages OR ask_faq_tutorialcore OR ask_faq_tutorialnlu OR ask_faq_opensource OR ask_faq_voice OR ask_faq_slots OR ask_faq_channels OR ask_faq_differencecorenlu OR ask_faq_python_version OR ask_faq_community_size OR ask_faq_what_is_forum OR ask_faq_tutorials
     - action_faqs
     - utter_first_bot_with_rasa
 * affirm
@@ -1080,6 +1018,4 @@
 * affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
-    - utter_tryout
-* how_to_get_started{"product":"core"} OR affirm OR how_to_get_started{"product":"stack"}
-    - utter_quickstart
+    - utter_direct_to_step2
