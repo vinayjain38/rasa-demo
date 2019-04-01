@@ -38,10 +38,10 @@ train-online:
 	python3 -m rasa_core.train -u models/nlu/current/ --online --core models/dialogue/
 
 evaluate-core:
-	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/train_goal.md --topics
+	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/train_goal.md
 
 evaluate-core-1:
-	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/test_goal.md --topics
+	python3 -m rasa_core.evaluate --core models/dialogue -s data/new_fail/test_goal.md
 
 evaluate-core-2:
 	python3 -m rasa_core.evaluate --core models/dialogue -s data/core-success/ --topics
