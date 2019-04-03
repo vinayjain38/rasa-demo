@@ -1,6 +1,7 @@
 %YAML 1.1
 ---
 actions:
+- utter_ask_faq_tutorials
 - utter_greet
 - utter_ask_usecase
 - utter_ask_businessmail
@@ -138,6 +139,7 @@ actions:
 - utter_possibilities_to_contribute
 - utter_recommend_forum
 - utter_link_to_forum
+- utter_direct_to_step2
 - utter_direct_step3
 - action_subscribe_newsletter
 - action_store_sales_info
@@ -292,6 +294,8 @@ intents:
     use_entities: true
 - ask_faq_platform:
     use_entities: true
+- ask_faq_tutorials:
+    use_entities: true
 - ask_faq_languages:
     use_entities: true
 - ask_faq_tutorialcore:
@@ -317,8 +321,6 @@ intents:
 - ask_faq_community_size:
     use_entities: true
 - ask_faq_what_is_forum:
-    use_entities: true
-- restart:
     use_entities: true
 - next_step:
     use_entities: true
@@ -496,6 +498,9 @@ templates:
   - text: You can find a preview of Rasa Core [here](https://rasa.com/docs/core/quickstart/).
   utter_ask_faq_tutorialnlu:
   - text: You can find a preview of Rasa NLU [here](https://rasa.com/docs/core/quickstart/).
+  utter_ask_faq_tutorials:
+  - text: Yes, [here](https://blog.rasa.com/tag/tutorials/) are some tutorials that
+      can help you get started and learn more about Rasa.
   utter_ask_faq_voice:
   - text: Yes, that is possible! You can connect Rasa to any channel you like. Here
       you can find more informations.
@@ -643,9 +648,6 @@ templates:
   - text: I'm afraid I didn't get what you just said. Could you rephrase that?
   - text: I didn't quite get that, could you rephrase your message?
   - text: Could you rephrase your message? I didn't get it, I'm sorry.
-  utter_describe_step4:
-  - text: As Rasa developer you will be part of a huge community. You can ask me which
-      events we have planned, how to contribute, or about our Rasa forum.
   utter_direct_install:
   - text: 'Alright, you can directly install it here: (link)'
   utter_direct_step3:
@@ -657,6 +659,12 @@ templates:
       'take me to the next step' at any point
   utter_direct_to_forum_for_help:
   - text: I cannot help you on that 🙁. Please get help in our [forum](https://forum.rasa.com/).
+  utter_direct_to_step2:
+  - buttons:
+    - payload: /get_started_step2
+      title: Continue
+    text: You can click the button below to go to the next step and to try out Rasa
+      once you're ready.
   utter_direct_to_step4:
   - buttons:
     - payload: /get_started_step4
@@ -795,12 +803,6 @@ templates:
       \ or [Rasa NLU](https://github.com/RasaHQ/rasa_core/labels/good%20first%20issue)\
       \ issues\n- improve our documentation\n- help others by answering questions\
       \ on the [forum](https://forum.rasa.com)\n"
-  utter_quickstart:
-  - buttons:
-    - payload: /get_started_step2
-      title: Continue
-    text: Click the button below to go to our quickstart where you can try it out
-      without installing anything
   utter_quickstart_nlu_only:
   - text: "Here is a quickstart for people who only need NLU for now here: https://rasa.com/docs/nlu/quickstart/\
       \ . You don't have to install anything to try it out."
@@ -861,8 +863,6 @@ templates:
   - text: 👍
   - text: ok
   - text: got it
-  utter_tryout:
-  - text: Would you like to try out the full stack, or just Rasa NLU?
   utter_what_help:
   - text: Ok, what can I help you with?
   utter_what_language:

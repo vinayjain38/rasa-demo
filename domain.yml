@@ -69,6 +69,7 @@ intents:
   - get_started_step3
   - get_started_step4
   - ask_faq_platform
+  - ask_faq_tutorials
   - ask_faq_languages
   - ask_faq_tutorialcore
   - ask_faq_tutorialnlu
@@ -82,9 +83,7 @@ intents:
   - react_positive
   - ask_faq_community_size
   - ask_faq_what_is_forum
-  - restart
   - next_step
-
 
 slots:
   budget:
@@ -189,11 +188,6 @@ templates:
   utter_docu:
     - text: "If you want some more awesome Rasa content, check out our forum:
       https://forum.rasa.com/"
-  utter_quickstart:
-    - text: "Click the button below to go to our quickstart where you can try it out without installing anything"
-      buttons:
-        - title: "Continue"
-          payload: "/get_started_step2"
   utter_quickstart_nlu_only:
     - text: "Here is a quickstart for people who only need NLU for now here: https://rasa.com/docs/nlu/quickstart/ . You don't have to install anything to try it out."
   utter_ask_migration:
@@ -361,8 +355,6 @@ templates:
     - text: 'Rasa NLU performs Natural Language Understanding, which means taking free-form text like "Please send the confirmation to amy@example.com" and turning it into structured data.'
   utter_explain_core:
     - text: "Rasa Core performs Dialog Management, which means keeping track of a conversation, and deciding how to proceed."
-  utter_tryout:
-    - text: "Would you like to try out the full stack, or just Rasa NLU?"
   utter_also_explain_nlu:
     - text: "Would you also like me to explain Rasa NLU?"
   utter_also_explain_core:
@@ -437,6 +429,8 @@ templates:
     - text: "I can help you solving commonon problems with Rasa 🙂"
   utter_get_started_step3:
     - text: "I can help you to install Rasa Stack."
+  utter_ask_faq_tutorials:
+    - text: "Yes, [here](https://blog.rasa.com/tag/tutorials/) are some tutorials that can help you get started and learn more about Rasa."
   utter_ask_faq_platform:
     - text: "Rasa Platform is our enterprise product. It expands Rasa Stack and empowers business users to iterate faster, change the content of the AI assistant and see what impact it had."
   utter_ask_faq_languages:
@@ -488,8 +482,6 @@ templates:
     - text: "I suggest to sign up in our [forum](https://forum.rasa.com) to stay up to date on product updates, events, and resources."
   utter_no_community_event:
     - text: "Sorry, we currently don't have any planned community events 😞."
-  utter_describe_step4:
-    - text: "As Rasa developer you will be part of a huge community. You can ask me which events we have planned, how to contribute, or about our Rasa forum."
   utter_get_started_step4:
     - text: "As Rasa developer you will be part of a huge community. You can ask me which events we have planned, how to contribute, or about our Rasa forum."
   utter_no_event_for_location_but_next:
@@ -516,6 +508,11 @@ templates:
       buttons:
         - title: "Continue"
           payload: "/get_started_step3"
+  utter_direct_to_step2:
+    - text: "You can click the button below to go to the next step and to try out Rasa once you're ready."
+      buttons:
+        - title: "Continue"
+          payload: "/get_started_step2"
   utter_continue_step2:
     - text: "Let's continue, click the button below"
       buttons:
@@ -531,6 +528,7 @@ templates:
 
 
 actions:
+  - utter_ask_faq_tutorials
   - utter_greet
   - utter_ask_usecase
   - utter_ask_businessmail
@@ -668,6 +666,7 @@ actions:
   - utter_possibilities_to_contribute
   - utter_recommend_forum
   - utter_link_to_forum
+  - utter_direct_to_step2
   - utter_direct_step3
   - action_subscribe_newsletter
   - action_store_sales_info

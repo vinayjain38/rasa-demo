@@ -3,51 +3,14 @@
     "action_listen": {
       "slots": [
         "name",
-        "product",
-        "current_api",
-        "email",
-        "package_manager",
-        "feedback_value",
         "language",
-        "nlu_part"
+        "feedback_value",
+        "current_api",
+        "package_manager",
+        "nlu_part",
+        "email",
+        "product"
       ]
-    },
-    "action_greet_user": {
-      "slots": [
-        "shown_privacy"
-      ]
-    },
-    "action_default_ask_affirmation": {
-      "slots": []
-    },
-    "action_set_onboarding": {
-      "slots": [
-        "onboarding"
-      ]
-    },
-    "action_default_ask_rephrase": {
-      "slots": []
-    },
-    "utter_first_bot_with_rasa": {
-      "slots": []
-    },
-    "utter_built_bot_before": {
-      "slots": []
-    },
-    "utter_bye": {
-      "slots": []
-    },
-    "utter_contact_email": {
-      "slots": []
-    },
-    "action_chitchat": {
-      "slots": []
-    },
-    "utter_tryout": {
-      "slots": []
-    },
-    "utter_anything_else": {
-      "slots": []
     },
     "action_store_email": {
       "slots": [
@@ -57,22 +20,6 @@
     "action_subscribe_newsletter": {
       "slots": [
         "subscribed"
-      ]
-    },
-    "utter_canthelp": {
-      "slots": []
-    },
-    "action_store_company": {
-      "slots": [
-        "company_name"
-      ]
-    },
-    "action_faqs": {
-      "slots": []
-    },
-    "action_store_unknown_nlu_part": {
-      "slots": [
-        "unknown_nlu_part"
       ]
     },
     "action_store_job": {
@@ -95,73 +42,76 @@
         "person_name"
       ]
     },
-    "utter_ask_businessmail": {
-      "slots": []
-    },
-    "utter_what_help": {
-      "slots": []
-    },
-    "utter_ask_describe_problem": {
-      "slots": []
-    },
-    "action_store_problem_description": {
+    "action_store_company": {
       "slots": [
-        "problem_description"
+        "company_name"
       ]
-    },
-    "utter_already_subscribed": {
-      "slots": []
-    },
-    "utter_explain_nlucore": {
-      "slots": []
-    },
-    "action_default_fallback": {
-      "slots": [
-        "requested_slot",
-        "feedback_value",
-        "feedback_message"
-      ]
-    },
-    "utter_thumbsup": {
-      "slots": []
-    },
-    "action_store_entity_extractor": {
-      "slots": [
-        "entity_extractor"
-      ]
-    },
-    "utter_out_of_scope": {
-      "slots": []
-    },
-    "null": {
-      "slots": []
-    },
-    "utter_ask_jobfunction": {
-      "slots": []
-    },
-    "utter_nohelp": {
-      "slots": []
-    },
-    "utter_ask_which_tool": {
-      "slots": []
-    },
-    "utter_ask_email": {
-      "slots": []
-    },
-    "utter_possibilities": {
-      "slots": []
-    },
-    "utter_ask_usecase": {
-      "slots": []
     },
     "action_store_sales_info": {
       "slots": [
         "data_stored"
       ]
     },
-    "action_store_unknown_product": {
+    "action_set_onboarding": {
       "slots": [
-        "unknown_product"
+        "onboarding"
+      ]
+    },
+    "utter_direct_to_step2": {
+      "slots": []
+    },
+    "utter_anything_else": {
+      "slots": []
+    },
+    "utter_ask_feedback": {
+      "slots": []
+    },
+    "action_chitchat": {
+      "slots": []
+    },
+    "action_faqs": {
+      "slots": []
+    },
+    "action_greet_user": {
+      "slots": [
+        "shown_privacy",
+        "step"
+      ]
+    },
+    "action_store_bot_language": {
+      "slots": [
+        "can_use_spacy"
+      ]
+    },
+    "action_store_entity_extractor": {
+      "slots": [
+        "entity_extractor"
+      ]
+    },
+    "utter_thumbsup": {
+      "slots": []
+    },
+    "utter_possibilities": {
+      "slots": []
+    },
+    "utter_explain_nlucore": {
+      "slots": []
+    },
+    "utter_ask_python_installed": {
+      "slots": []
+    },
+    "utter_direct_to_step4": {
+      "slots": []
+    },
+    "utter_canthelp": {
+      "slots": []
+    },
+    "utter_ask_for_nlu_specifics": {
+      "slots": []
+    },
+    "action_store_problem_description": {
+      "slots": [
+        "problem_description"
       ]
     }
   },
@@ -181,7 +131,7 @@
     "rasa_core.policies.two_stage_fallback.TwoStageFallbackPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190401-133454",
+  "trained_at": "20190402-140858",
   "rasa_core": "0.13.6",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.2"
