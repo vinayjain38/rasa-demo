@@ -1,19 +1,23 @@
 pipeline:
 - name: tokenizer_whitespace
   intent_split_symbol: '_'
+  add_class_label: true
 - name: intent_featurizer_count_vectors
   sequence: true
 #  use_shared_vocab: true
   sparse: true
+#  token_pattern: (?u)\b\w+\b
 - name: intent_classifier_tensorflow_embedding
-  hidden_layers_sizes_a: [256, 256]
-  hidden_layers_sizes_b: [256, 256]
+  hidden_layers_sizes_a: [128, 128, 128]
+  hidden_layers_sizes_b: [128, 128, 128]
+#  embed_dim: 40
 #  fused_lstm: true
 #  gpu_lstm: true
   transformer: true
 #  pos_encoding: 'emb'
-  pos_max_timescale: 40
-  num_heads: 2
+#  pos_max_timescale: 40
+#  num_heads: 2
+  use_last: true
   iou_threshold: 0.66
   bidirectional: true
 #  share_embedding: true
