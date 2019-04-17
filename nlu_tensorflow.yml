@@ -4,12 +4,13 @@ pipeline:
   add_class_label: true
 - name: intent_featurizer_count_vectors
   sequence: true
+#  shuffle_sequence: true
 #  use_shared_vocab: true
   sparse: true
 #  token_pattern: (?u)\b\w+\b
 - name: intent_classifier_tensorflow_embedding
-  hidden_layers_sizes_a: [128, 128, 128]
-  hidden_layers_sizes_b: [128, 128, 128]
+  hidden_layers_sizes_a: [256, 256]
+  hidden_layers_sizes_b: [256, 256]
 #  embed_dim: 40
 #  fused_lstm: true
 #  gpu_lstm: true
@@ -21,8 +22,12 @@ pipeline:
   iou_threshold: 0.66
   bidirectional: true
 #  share_embedding: true
-  epochs: 200
+  epochs: 101
+#  batch_size: 256
+#  C_emb: 0
+#  use_max_sim_neg: false
   intent_tokenization_flag: true
   evaluate_on_num_examples: 64
+  evaluate_every_num_epochs: 1
 
 language: en
