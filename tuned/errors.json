@@ -1,0 +1,1738 @@
+[
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.629233717918396,
+            "name": "deny"
+        },
+        "text": "I guess so"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.8234831094741821,
+            "name": "out_of_scope"
+        },
+        "text": "please"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yap"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.8305088877677917,
+            "name": "signup_newsletter"
+        },
+        "text": "hm, i'd like that"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.8646674156188965,
+            "name": "enter_data"
+        },
+        "text": "Sweet"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.6236858367919922,
+            "name": "ask_whatspossible"
+        },
+        "text": "yep if i have to"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "Yea"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.736667275428772,
+            "name": "out_of_scope"
+        },
+        "text": "how nice!"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yesss"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yesssss"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.7728506922721863,
+            "name": "deny"
+        },
+        "text": "go for it"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "absolutely"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.673071026802063,
+            "name": "ask_weather"
+        },
+        "text": "it is ok"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yyeeeh"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yez"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "done"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.8811408281326294,
+            "name": "out_of_scope"
+        },
+        "text": "ya i want"
+    },
+    {
+        "intent": "affirm",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "yeeees"
+    },
+    {
+        "intent": "ask_builder",
+        "intent_prediction": {
+            "confidence": 0.7554447054862976,
+            "name": "ask_howbuilt"
+        },
+        "text": "why were you made?"
+    },
+    {
+        "intent": "ask_faq_channels",
+        "intent_prediction": {
+            "confidence": 0.6510770320892334,
+            "name": "how_to_get_started"
+        },
+        "text": "what are the channels Rasa NLU supports"
+    },
+    {
+        "intent": "ask_faq_channels",
+        "intent_prediction": {
+            "confidence": 0.6462189555168152,
+            "name": "ask_whatisrasa"
+        },
+        "text": "What are the requirements for connecting messaging channel to rasa?"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.8501391410827637,
+            "name": "enter_data"
+        },
+        "text": "does rasa works in spanish"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.7600010633468628,
+            "name": "enter_data"
+        },
+        "text": "Which programming language is rasa written in?"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.5403159260749817,
+            "name": "ask_howbuilt"
+        },
+        "text": "do you support french ?"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.8900988101959229,
+            "name": "ask_languagesbot"
+        },
+        "text": "How many languages can you speak"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.8992385864257812,
+            "name": "enter_data"
+        },
+        "text": "I want Vietnamese language processing"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.6810251474380493,
+            "name": "ask_faq_channels"
+        },
+        "text": "what dialects does rasa support"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.6942307949066162,
+            "name": "enter_data"
+        },
+        "text": "I want to add Romanian language support"
+    },
+    {
+        "intent": "ask_faq_languages",
+        "intent_prediction": {
+            "confidence": 0.8364709615707397,
+            "name": "out_of_scope"
+        },
+        "text": "need to use portuguese"
+    },
+    {
+        "intent": "ask_faq_platform",
+        "intent_prediction": {
+            "confidence": 0.8201824426651001,
+            "name": "ask_whatisrasa"
+        },
+        "text": "tell me more about rasa platform"
+    },
+    {
+        "intent": "ask_faq_slots",
+        "intent_prediction": {
+            "confidence": 0.627477765083313,
+            "name": "enter_data"
+        },
+        "text": "describe the word slot please"
+    },
+    {
+        "intent": "ask_faq_voice",
+        "intent_prediction": {
+            "confidence": 0.588535487651825,
+            "name": "ask_how_contribute"
+        },
+        "text": "how to add voice assitant to chat bot"
+    },
+    {
+        "intent": "ask_faq_voice",
+        "intent_prediction": {
+            "confidence": 0.6835033893585205,
+            "name": "out_of_scope"
+        },
+        "text": "you have speech recognition?"
+    },
+    {
+        "intent": "ask_how_contribute",
+        "intent_prediction": {
+            "confidence": 0.7983574867248535,
+            "name": "ask_whatspossible"
+        },
+        "text": "What can I do to help?"
+    },
+    {
+        "intent": "ask_how_contribute",
+        "intent_prediction": {
+            "confidence": 0.9153249263763428,
+            "name": "enter_data"
+        },
+        "text": "How does one go about making their contribution?"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.6252845525741577,
+            "name": "ask_whoisit"
+        },
+        "text": "hw r u?"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.6252845525741577,
+            "name": "ask_whoisit"
+        },
+        "text": "h r u ?"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.6690715551376343,
+            "name": "out_of_scope"
+        },
+        "text": "how is your evening"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.8906967043876648,
+            "name": "deny"
+        },
+        "text": "Hows it going"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.6540359854698181,
+            "name": "out_of_scope"
+        },
+        "text": "and you"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.6511534452438354,
+            "name": "out_of_scope"
+        },
+        "text": "Do you have a great day?"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.905984103679657,
+            "name": "how_to_get_started"
+        },
+        "text": "whats new"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.7506677508354187,
+            "name": "out_of_scope"
+        },
+        "text": "how do you do?"
+    },
+    {
+        "intent": "ask_howdoing",
+        "intent_prediction": {
+            "confidence": 0.733932614326477,
+            "name": "out_of_scope"
+        },
+        "text": "yow are you"
+    },
+    {
+        "intent": "ask_howold",
+        "intent_prediction": {
+            "confidence": 0.733360767364502,
+            "name": "out_of_scope"
+        },
+        "text": "how aold are you"
+    },
+    {
+        "intent": "ask_howold",
+        "intent_prediction": {
+            "confidence": 0.8573169708251953,
+            "name": "out_of_scope"
+        },
+        "text": "how many ages?"
+    },
+    {
+        "intent": "ask_languagesbot",
+        "intent_prediction": {
+            "confidence": 0.733932614326477,
+            "name": "out_of_scope"
+        },
+        "text": "are you multilingual?"
+    },
+    {
+        "intent": "ask_restaurant",
+        "intent_prediction": {
+            "confidence": 0.8586068153381348,
+            "name": "out_of_scope"
+        },
+        "text": "Can you find me a burger joint?"
+    },
+    {
+        "intent": "ask_time",
+        "intent_prediction": {
+            "confidence": 0.8514761924743652,
+            "name": "out_of_scope"
+        },
+        "text": "What is the hour and minute right now?"
+    },
+    {
+        "intent": "ask_weather",
+        "intent_prediction": {
+            "confidence": 0.9292083382606506,
+            "name": "enter_data"
+        },
+        "text": "hows the waether"
+    },
+    {
+        "intent": "ask_weather",
+        "intent_prediction": {
+            "confidence": 0.8076378703117371,
+            "name": "out_of_scope"
+        },
+        "text": "Do you have good weather?"
+    },
+    {
+        "intent": "ask_weather",
+        "intent_prediction": {
+            "confidence": 0.9737130403518677,
+            "name": "enter_data"
+        },
+        "text": "Are we in for a scorcher?"
+    },
+    {
+        "intent": "ask_whatismyname",
+        "intent_prediction": {
+            "confidence": 0.8365529775619507,
+            "name": "out_of_scope"
+        },
+        "text": "Say my name."
+    },
+    {
+        "intent": "ask_whatismyname",
+        "intent_prediction": {
+            "confidence": 0.7828236818313599,
+            "name": "ask_whoami"
+        },
+        "text": "Can you tell me what I am called?"
+    },
+    {
+        "intent": "ask_whatisrasa",
+        "intent_prediction": {
+            "confidence": 0.9316359758377075,
+            "name": "technical_question"
+        },
+        "text": "What components does Rasa have?"
+    },
+    {
+        "intent": "ask_whatisrasa",
+        "intent_prediction": {
+            "confidence": 0.8540617227554321,
+            "name": "how_to_get_started"
+        },
+        "text": "what can i build with rasa core?"
+    },
+    {
+        "intent": "ask_whatisrasa",
+        "intent_prediction": {
+            "confidence": 0.8573987483978271,
+            "name": "how_to_get_started"
+        },
+        "text": "What's rasa?"
+    },
+    {
+        "intent": "ask_whatisrasa",
+        "intent_prediction": {
+            "confidence": 0.6481210589408875,
+            "name": "react_positive"
+        },
+        "text": "Rasa Is?"
+    },
+    {
+        "intent": "ask_whatspossible",
+        "intent_prediction": {
+            "confidence": 0.5845966935157776,
+            "name": "ask_howbuilt"
+        },
+        "text": "what are you ding"
+    },
+    {
+        "intent": "ask_whatspossible",
+        "intent_prediction": {
+            "confidence": 0.5824160575866699,
+            "name": "canthelp"
+        },
+        "text": "i don't know what i want"
+    },
+    {
+        "intent": "ask_whatspossible",
+        "intent_prediction": {
+            "confidence": 0.923556923866272,
+            "name": "how_to_get_started"
+        },
+        "text": "more info"
+    },
+    {
+        "intent": "ask_whatspossible",
+        "intent_prediction": {
+            "confidence": 0.8383547067642212,
+            "name": "enter_data"
+        },
+        "text": "hep me"
+    },
+    {
+        "intent": "ask_whatspossible",
+        "intent_prediction": {
+            "confidence": 0.800507128238678,
+            "name": "out_of_scope"
+        },
+        "text": "Can you explain me in one sentence what you are doing?"
+    },
+    {
+        "intent": "ask_when_next_event",
+        "intent_prediction": {
+            "confidence": 0.5596785545349121,
+            "name": "enter_data"
+        },
+        "text": "What even is coming up next and when is it please?"
+    },
+    {
+        "intent": "ask_wherefrom",
+        "intent_prediction": {
+            "confidence": 0.9039506912231445,
+            "name": "ask_howbuilt"
+        },
+        "text": "You were conceived in what location?"
+    },
+    {
+        "intent": "ask_wherefrom",
+        "intent_prediction": {
+            "confidence": 0.5633212327957153,
+            "name": "ask_whoisit"
+        },
+        "text": "What is your root?"
+    },
+    {
+        "intent": "ask_which_events",
+        "intent_prediction": {
+            "confidence": 0.7192138433456421,
+            "name": "enter_data"
+        },
+        "text": "What is on the calendar for this month?"
+    },
+    {
+        "intent": "ask_whoami",
+        "intent_prediction": {
+            "confidence": 0.6790924072265625,
+            "name": "out_of_scope"
+        },
+        "text": "what's my identity?"
+    },
+    {
+        "intent": "ask_whoami",
+        "intent_prediction": {
+            "confidence": 0.778562068939209,
+            "name": "ask_whoisit"
+        },
+        "text": "who are I ?"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.6141865849494934,
+            "name": "ask_howbuilt"
+        },
+        "text": "What are you ?"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.9678207039833069,
+            "name": "enter_data"
+        },
+        "text": "wer bist Du?"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.8464875221252441,
+            "name": "ask_whoami"
+        },
+        "text": "who am i talking to"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.7305848598480225,
+            "name": "telljoke"
+        },
+        "text": "tell me something about you"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.7237893342971802,
+            "name": "out_of_scope"
+        },
+        "text": "who talks?"
+    },
+    {
+        "intent": "ask_whoisit",
+        "intent_prediction": {
+            "confidence": 0.8913480043411255,
+            "name": "ask_whoami"
+        },
+        "text": "who am i speaking with"
+    },
+    {
+        "intent": "ask_why_contribute",
+        "intent_prediction": {
+            "confidence": 0.7326858639717102,
+            "name": "enter_data"
+        },
+        "text": "Why aid your opportunity?"
+    },
+    {
+        "intent": "bye",
+        "intent_prediction": {
+            "confidence": 0.8093338012695312,
+            "name": "out_of_scope"
+        },
+        "text": "take care"
+    },
+    {
+        "intent": "bye",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "goodnight"
+    },
+    {
+        "intent": "bye",
+        "intent_prediction": {
+            "confidence": 0.8887536525726318,
+            "name": "affirm"
+        },
+        "text": "see ya"
+    },
+    {
+        "intent": "bye",
+        "intent_prediction": {
+            "confidence": 0.6689534187316895,
+            "name": "handleinsult"
+        },
+        "text": "catch you later"
+    },
+    {
+        "intent": "canthelp",
+        "intent_prediction": {
+            "confidence": 0.6571319103240967,
+            "name": "ask_whatspossible"
+        },
+        "text": "you can't help me"
+    },
+    {
+        "intent": "canthelp",
+        "intent_prediction": {
+            "confidence": 0.6920586824417114,
+            "name": "out_of_scope"
+        },
+        "text": "exit now"
+    },
+    {
+        "intent": "contact_sales",
+        "intent_prediction": {
+            "confidence": 0.8114619255065918,
+            "name": "how_to_get_started"
+        },
+        "text": "i need to know how i can book support"
+    },
+    {
+        "intent": "contact_sales",
+        "intent_prediction": {
+            "confidence": 0.9035186767578125,
+            "name": "enter_data"
+        },
+        "text": "sign me up, my email is linda@linda.com"
+    },
+    {
+        "intent": "contact_sales",
+        "intent_prediction": {
+            "confidence": 0.852666974067688,
+            "name": "out_of_scope"
+        },
+        "text": "can i get a ssales call"
+    },
+    {
+        "intent": "contact_sales",
+        "intent_prediction": {
+            "confidence": 0.5573958158493042,
+            "name": "enter_data"
+        },
+        "text": "are there different packages customers can book?"
+    },
+    {
+        "intent": "contact_sales",
+        "intent_prediction": {
+            "confidence": 0.8980091214179993,
+            "name": "how_to_get_started"
+        },
+        "text": "we started working with rasa but now we need support"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.8258374929428101,
+            "name": "ask_time"
+        },
+        "text": "nah, first time"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "nehi"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "decline"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "Never"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "Neither"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "noooooooooo"
+    },
+    {
+        "intent": "deny",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "never"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.8008837103843689,
+            "name": "technical_question"
+        },
+        "text": "pip please"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.7061519026756287,
+            "name": "contact_sales"
+        },
+        "text": "sales assitant"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.7201002836227417,
+            "name": "ask_time"
+        },
+        "text": "an akela bot that I can talk to akela all the time"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.586819589138031,
+            "name": "deny"
+        },
+        "text": "I do not know yet"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.9269448518753052,
+            "name": "greet"
+        },
+        "text": "hello@hello.com"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.8588768839836121,
+            "name": "deny"
+        },
+        "text": "No company!! "
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.7350853681564331,
+            "name": "out_of_scope"
+        },
+        "text": "i want to extract names"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.7306305766105652,
+            "name": "out_of_scope"
+        },
+        "text": "I want to use pip"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.89680415391922,
+            "name": "ask_time"
+        },
+        "text": "time"
+    },
+    {
+        "intent": "enter_data",
+        "intent_prediction": {
+            "confidence": 0.7716182470321655,
+            "name": "react_positive"
+        },
+        "text": "funny bot"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "Heya"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "heya"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.954121470451355,
+            "name": "enter_data"
+        },
+        "text": "i am zack"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "greetings"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "hellio"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "greetings"
+    },
+    {
+        "intent": "greet",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "hiii"
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.5914077162742615,
+            "name": "ask_languagesbot"
+        },
+        "text": "You know nothing."
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.8559897541999817,
+            "name": "affirm"
+        },
+        "text": "ok shut up"
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.7876390218734741,
+            "name": "out_of_scope"
+        },
+        "text": "you are so ignorant"
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "Loser"
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.9203120470046997,
+            "name": "enter_data"
+        },
+        "text": "sara you look like a burnt sparrow"
+    },
+    {
+        "intent": "handleinsult",
+        "intent_prediction": {
+            "confidence": 0.7817679047584534,
+            "name": "enter_data"
+        },
+        "text": "go away"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7966963052749634,
+            "name": "out_of_scope"
+        },
+        "text": "how to use"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7743002772331238,
+            "name": "enter_data"
+        },
+        "text": "what is componenbts"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.479544460773468,
+            "name": "ask_which_events"
+        },
+        "text": "What do I Need for Rasa implementation?"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.623141884803772,
+            "name": "telljoke"
+        },
+        "text": "give me some information on nlu"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7756646871566772,
+            "name": "out_of_scope"
+        },
+        "text": "what are your features ?"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.8659640550613403,
+            "name": "out_of_scope"
+        },
+        "text": "can i try it out"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.5790669322013855,
+            "name": "telljoke"
+        },
+        "text": "Sure, give me the basics"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7236688137054443,
+            "name": "install_rasa"
+        },
+        "text": "rasa stack"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.775640070438385,
+            "name": "out_of_scope"
+        },
+        "text": "how do you build a bot"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7707744836807251,
+            "name": "ask_whatisrasa"
+        },
+        "text": "What are the prerequisites for installing RASA"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7773237228393555,
+            "name": "technical_question"
+        },
+        "text": "what is a component in rasa?"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.9328140020370483,
+            "name": "enter_data"
+        },
+        "text": "how toget strated?"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7728373408317566,
+            "name": "ask_faq_differencecorenlu"
+        },
+        "text": "NLU and Core"
+    },
+    {
+        "intent": "how_to_get_started",
+        "intent_prediction": {
+            "confidence": 0.7613781690597534,
+            "name": "enter_data"
+        },
+        "text": "get starte"
+    },
+    {
+        "intent": "human_handoff",
+        "intent_prediction": {
+            "confidence": 0.6586641669273376,
+            "name": "contact_sales"
+        },
+        "text": "I want to talk to the founders"
+    },
+    {
+        "intent": "human_handoff",
+        "intent_prediction": {
+            "confidence": 0.6691395044326782,
+            "name": "ask_whatspossible"
+        },
+        "text": "Can I speak to anyone who can really help me?"
+    },
+    {
+        "intent": "human_handoff",
+        "intent_prediction": {
+            "confidence": 0.9695860743522644,
+            "name": "enter_data"
+        },
+        "text": "service agent"
+    },
+    {
+        "intent": "install_rasa",
+        "intent_prediction": {
+            "confidence": 0.805422842502594,
+            "name": "how_to_get_started"
+        },
+        "text": "am struck with installation of rasa nlu and core in my mac book"
+    },
+    {
+        "intent": "install_rasa",
+        "intent_prediction": {
+            "confidence": 0.6767845153808594,
+            "name": "how_to_get_started"
+        },
+        "text": "can you help me with installation of rasa nlu and train my first bot"
+    },
+    {
+        "intent": "install_rasa",
+        "intent_prediction": {
+            "confidence": 0.745564341545105,
+            "name": "ask_whatspossible"
+        },
+        "text": "i need help setting up"
+    },
+    {
+        "intent": "nicetomeeyou",
+        "intent_prediction": {
+            "confidence": 0.9696043133735657,
+            "name": "enter_data"
+        },
+        "text": "I am glad he introduced us."
+    },
+    {
+        "intent": "nlu_info",
+        "intent_prediction": {
+            "confidence": 0.9143978357315063,
+            "name": "how_to_get_started"
+        },
+        "text": "Rasa NLu"
+    },
+    {
+        "intent": "nlu_info",
+        "intent_prediction": {
+            "confidence": 0.7797852754592896,
+            "name": "out_of_scope"
+        },
+        "text": "what is a intent?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7706531882286072,
+            "name": "enter_data"
+        },
+        "text": "Is today saturday?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9695860743522644,
+            "name": "enter_data"
+        },
+        "text": "custom service"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7485461831092834,
+            "name": "canthelp"
+        },
+        "text": "go back"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5450494289398193,
+            "name": "technical_question"
+        },
+        "text": "what's 5 + 5"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6304560899734497,
+            "name": "technical_question"
+        },
+        "text": "Can I use your open source code on my website?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9333032965660095,
+            "name": "enter_data"
+        },
+        "text": "can we keep chatting?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8850939273834229,
+            "name": "enter_data"
+        },
+        "text": "you lock sweety"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5623725056648254,
+            "name": "ask_builder"
+        },
+        "text": "who was hitler"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6236449480056763,
+            "name": "ask_question_in_forum"
+        },
+        "text": "Can I ask you questions first?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7940322160720825,
+            "name": "ask_weather"
+        },
+        "text": "what is the day ?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7006138563156128,
+            "name": "enter_data"
+        },
+        "text": "who are the engineers at rasa?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9388299584388733,
+            "name": "deny"
+        },
+        "text": "no stop"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9136324524879456,
+            "name": "ask_languagesbot"
+        },
+        "text": "can you speak about politic ?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6493686437606812,
+            "name": "handleinsult"
+        },
+        "text": "is that any of your business"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "colder"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "license"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8534168004989624,
+            "name": "ask_isbot"
+        },
+        "text": "are you human ?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8737295866012573,
+            "name": "enter_data"
+        },
+        "text": "common, just try"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6186554431915283,
+            "name": "enter_data"
+        },
+        "text": "I like you"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "genocide"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9506683349609375,
+            "name": "technical_question"
+        },
+        "text": "can I install this on a mac?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9208968877792358,
+            "name": "how_to_get_started"
+        },
+        "text": "how to get rasa studio"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9241656064987183,
+            "name": "enter_data"
+        },
+        "text": "I can barely see this white text on light gray background ..."
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5779138803482056,
+            "name": "ask_whatisrasa"
+        },
+        "text": "tell me more about next best action"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8224677443504333,
+            "name": "enter_data"
+        },
+        "text": "how to extract relationship"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7080958485603333,
+            "name": "ask_faq_community_size"
+        },
+        "text": "HomeBase is advertised as a community. Is there a way to interact with other members of the community?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5953949093818665,
+            "name": "enter_data"
+        },
+        "text": "i am not a developer but need this for business"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "ljljl"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "refresh"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8546997308731079,
+            "name": "enter_data"
+        },
+        "text": "is rasa a studio?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9084054231643677,
+            "name": "enter_data"
+        },
+        "text": "how to climb the tree?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6268293261528015,
+            "name": "greet"
+        },
+        "text": "whats that"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9559997916221619,
+            "name": "enter_data"
+        },
+        "text": "hey little mama let em whisper in your ear"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5109481811523438,
+            "name": "source_code"
+        },
+        "text": "hang on let me find it"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8118388652801514,
+            "name": "enter_data"
+        },
+        "text": "region with no. of records"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9617093205451965,
+            "name": "enter_data"
+        },
+        "text": "I am an opioid addic"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.968142032623291,
+            "name": "enter_data"
+        },
+        "text": "wait a bit i am still reading"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9213213920593262,
+            "name": "enter_data"
+        },
+        "text": "rasa topics"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9731062054634094,
+            "name": "enter_data"
+        },
+        "text": "privacy policy"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9595606327056885,
+            "name": "enter_data"
+        },
+        "text": "kannst du auch deutsch?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5852124691009521,
+            "name": "install_rasa"
+        },
+        "text": "I need to eat cake"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8119784593582153,
+            "name": "enter_data"
+        },
+        "text": "where is mexico?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7343298196792603,
+            "name": "technical_question"
+        },
+        "text": "will this work on windows server"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.64780193567276,
+            "name": "enter_data"
+        },
+        "text": "does it support AI"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9578028917312622,
+            "name": "enter_data"
+        },
+        "text": "have you ever seen Shahrukh Khan?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9171240925788879,
+            "name": "enter_data"
+        },
+        "text": "buy groceries"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.941871166229248,
+            "name": "enter_data"
+        },
+        "text": "who is the MD of samsung bangalore ?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.5450494289398193,
+            "name": "technical_question"
+        },
+        "text": "What's 1 + 1?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.9266148209571838,
+            "name": "ask_builder"
+        },
+        "text": "who is your favourite robot?"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7122633457183838,
+            "name": "technical_question"
+        },
+        "text": "how much is 10 +89"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8625015020370483,
+            "name": "enter_data"
+        },
+        "text": "how about NYC"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.8436777591705322,
+            "name": "handleinsult"
+        },
+        "text": "you're rather dull"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.939139723777771,
+            "name": "enter_data"
+        },
+        "text": "como inicio en rasa"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.6135874390602112,
+            "name": "enter_data"
+        },
+        "text": "i wanna party"
+    },
+    {
+        "intent": "out_of_scope",
+        "intent_prediction": {
+            "confidence": 0.7921029329299927,
+            "name": "ask_builder"
+        },
+        "text": "Who are your customers"
+    },
+    {
+        "intent": "rasa_cost",
+        "intent_prediction": {
+            "confidence": 0.9350317716598511,
+            "name": "ask_faq_platform"
+        },
+        "text": "how much costs the rasa platform"
+    },
+    {
+        "intent": "rasa_cost",
+        "intent_prediction": {
+            "confidence": 0.7353695631027222,
+            "name": "how_to_get_started"
+        },
+        "text": "is rasa core paid?"
+    },
+    {
+        "intent": "react_positive",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "hahaha"
+    },
+    {
+        "intent": "react_positive",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "haha"
+    },
+    {
+        "intent": "react_positive",
+        "intent_prediction": {
+            "confidence": 0.7346399426460266,
+            "name": "handleinsult"
+        },
+        "text": "you are a badass bot!"
+    },
+    {
+        "intent": "react_positive",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "hAHAHA"
+    },
+    {
+        "intent": "signup_newsletter",
+        "intent_prediction": {
+            "confidence": 0.9629214406013489,
+            "name": "enter_data"
+        },
+        "text": "newslettwr"
+    },
+    {
+        "intent": "signup_newsletter",
+        "intent_prediction": {
+            "confidence": 0.9598761796951294,
+            "name": "enter_data"
+        },
+        "text": "nl"
+    },
+    {
+        "intent": "signup_newsletter",
+        "intent_prediction": {
+            "confidence": 0.7455176115036011,
+            "name": "out_of_scope"
+        },
+        "text": "i want to  suscribe"
+    },
+    {
+        "intent": "switch",
+        "intent_prediction": {
+            "confidence": 0.7514368295669556,
+            "name": "out_of_scope"
+        },
+        "text": "Migration please"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.9324610233306885,
+            "name": "out_of_scope"
+        },
+        "text": "how can I get a docker image"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.9625781178474426,
+            "name": "enter_data"
+        },
+        "text": "training model?"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.6170700192451477,
+            "name": "how_to_get_started"
+        },
+        "text": "is rasa core able to run standalone?"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.7831949591636658,
+            "name": "ask_faq_languages"
+        },
+        "text": "can rasa run standalone"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.6854754686355591,
+            "name": "ask_faq_channels"
+        },
+        "text": "does rasa support prestashop?"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.6117377281188965,
+            "name": "how_to_get_started"
+        },
+        "text": "how can I train data"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.610467255115509,
+            "name": "enter_data"
+        },
+        "text": "do you have docker image for rasa?"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.7743002772331238,
+            "name": "enter_data"
+        },
+        "text": "what is endpoint"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.7057924270629883,
+            "name": "how_to_get_started"
+        },
+        "text": "I wanted to build a bot my product customer support"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.8837016820907593,
+            "name": "enter_data"
+        },
+        "text": "conda threw some weird error"
+    },
+    {
+        "intent": "technical_question",
+        "intent_prediction": {
+            "confidence": 0.7838305830955505,
+            "name": "enter_data"
+        },
+        "text": "Is there a connector for skype?"
+    },
+    {
+        "intent": "thank",
+        "intent_prediction": {
+            "confidence": 0.6199668645858765,
+            "name": "signup_newsletter"
+        },
+        "text": "thanks this is great news"
+    }
+]

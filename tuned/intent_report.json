@@ -1,0 +1,362 @@
+{
+    "ask_time": {
+        "recall": 0.9,
+        "f1-score": 0.8181818181818182,
+        "support": 10,
+        "precision": 0.75
+    },
+    "thank": {
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8,
+        "precision": 1.0
+    },
+    "contact_sales": {
+        "recall": 0.8387096774193549,
+        "f1-score": 0.8813559322033899,
+        "support": 31,
+        "precision": 0.9285714285714286
+    },
+    "ask_why_contribute": {
+        "recall": 0.8,
+        "f1-score": 0.888888888888889,
+        "support": 5,
+        "precision": 1.0
+    },
+    "install_rasa": {
+        "recall": 0.8421052631578947,
+        "f1-score": 0.8648648648648649,
+        "support": 19,
+        "precision": 0.8888888888888888
+    },
+    "ask_how_contribute": {
+        "recall": 0.8181818181818182,
+        "f1-score": 0.8571428571428572,
+        "support": 11,
+        "precision": 0.9
+    },
+    "ask_howold": {
+        "recall": 0.8181818181818182,
+        "f1-score": 0.9,
+        "support": 11,
+        "precision": 1.0
+    },
+    "nlu_generation_tool_recommendation": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "precision": 1.0
+    },
+    "weighted avg": {
+        "recall": 0.7801418439716312,
+        "f1-score": 0.7747554784299499,
+        "support": 987,
+        "precision": 0.7938836083588935
+    },
+    "macro avg": {
+        "recall": 0.8160806611253347,
+        "f1-score": 0.8334411163940407,
+        "support": 987,
+        "precision": 0.868307493394884
+    },
+    "how_to_get_started": {
+        "recall": 0.7741935483870968,
+        "f1-score": 0.768,
+        "support": 62,
+        "precision": 0.7619047619047619
+    },
+    "ask_faq_differencecorenlu": {
+        "recall": 1.0,
+        "f1-score": 0.9600000000000001,
+        "support": 12,
+        "precision": 0.9230769230769231
+    },
+    "signup_newsletter": {
+        "recall": 0.896551724137931,
+        "f1-score": 0.912280701754386,
+        "support": 29,
+        "precision": 0.9285714285714286
+    },
+    "ask_whoisit": {
+        "recall": 0.5384615384615384,
+        "f1-score": 0.5833333333333334,
+        "support": 13,
+        "precision": 0.6363636363636364
+    },
+    "ask_whoami": {
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6153846153846153,
+        "support": 6,
+        "precision": 0.5714285714285714
+    },
+    "ask_faq_opensource": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11,
+        "precision": 1.0
+    },
+    "react_negative": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6,
+        "precision": 1.0
+    },
+    "technical_question": {
+        "recall": 0.21428571428571427,
+        "f1-score": 0.23076923076923075,
+        "support": 14,
+        "precision": 0.25
+    },
+    "telljoke": {
+        "recall": 1.0,
+        "f1-score": 0.8421052631578948,
+        "support": 8,
+        "precision": 0.7272727272727273
+    },
+    "ask_whatismyname": {
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 8,
+        "precision": 1.0
+    },
+    "ask_when_next_event": {
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8,
+        "precision": 1.0
+    },
+    "nicetomeeyou": {
+        "recall": 0.9,
+        "f1-score": 0.9473684210526316,
+        "support": 10,
+        "precision": 1.0
+    },
+    "bye": {
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 8,
+        "precision": 1.0
+    },
+    "next_step": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "precision": 1.0
+    },
+    "ask_restaurant": {
+        "recall": 0.9090909090909091,
+        "f1-score": 0.9523809523809523,
+        "support": 11,
+        "precision": 1.0
+    },
+    "ask_howbuilt": {
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 10,
+        "precision": 0.6666666666666666
+    },
+    "ask_faq_what_is_forum": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10,
+        "precision": 1.0
+    },
+    "ask_which_events": {
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 10,
+        "precision": 0.9
+    },
+    "pipeline_recommendation": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "precision": 1.0
+    },
+    "source_code": {
+        "recall": 1.0,
+        "f1-score": 0.923076923076923,
+        "support": 6,
+        "precision": 0.8571428571428571
+    },
+    "ask_faq_languages": {
+        "recall": 0.6,
+        "f1-score": 0.7272727272727274,
+        "support": 20,
+        "precision": 0.9230769230769231
+    },
+    "ask_weather": {
+        "recall": 0.8125,
+        "f1-score": 0.8387096774193549,
+        "support": 16,
+        "precision": 0.8666666666666667
+    },
+    "ask_faq_slots": {
+        "recall": 0.9230769230769231,
+        "f1-score": 0.9600000000000001,
+        "support": 13,
+        "precision": 1.0
+    },
+    "ask_wherefrom": {
+        "recall": 0.8,
+        "f1-score": 0.888888888888889,
+        "support": 10,
+        "precision": 1.0
+    },
+    "greet": {
+        "recall": 0.7666666666666667,
+        "f1-score": 0.8363636363636363,
+        "support": 30,
+        "precision": 0.92
+    },
+    "ask_languagesbot": {
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8461538461538461,
+        "support": 12,
+        "precision": 0.7857142857142857
+    },
+    "ask_question_in_forum": {
+        "recall": 1.0,
+        "f1-score": 0.9473684210526316,
+        "support": 9,
+        "precision": 0.9
+    },
+    "micro avg": {
+        "recall": 0.7801418439716312,
+        "f1-score": 0.7801418439716311,
+        "support": 987,
+        "precision": 0.7801418439716312
+    },
+    "nlu_info": {
+        "recall": 0.8461538461538461,
+        "f1-score": 0.9166666666666666,
+        "support": 13,
+        "precision": 1.0
+    },
+    "rasa_cost": {
+        "recall": 0.8,
+        "f1-score": 0.888888888888889,
+        "support": 10,
+        "precision": 1.0
+    },
+    "ask_builder": {
+        "recall": 0.9523809523809523,
+        "f1-score": 0.909090909090909,
+        "support": 21,
+        "precision": 0.8695652173913043
+    },
+    "out_of_scope": {
+        "recall": 0.3037974683544304,
+        "f1-score": 0.35036496350364965,
+        "support": 79,
+        "precision": 0.41379310344827586
+    },
+    "deny": {
+        "recall": 0.631578947368421,
+        "f1-score": 0.6486486486486486,
+        "support": 19,
+        "precision": 0.6666666666666666
+    },
+    "ask_howdoing": {
+        "recall": 0.5263157894736842,
+        "f1-score": 0.6896551724137931,
+        "support": 19,
+        "precision": 1.0
+    },
+    "handleinsult": {
+        "recall": 0.7,
+        "f1-score": 0.7368421052631577,
+        "support": 20,
+        "precision": 0.7777777777777778
+    },
+    "ask_isbot": {
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8,
+        "precision": 0.8888888888888888
+    },
+    "human_handoff": {
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 9,
+        "precision": 1.0
+    },
+    "affirm": {
+        "recall": 0.625,
+        "f1-score": 0.75,
+        "support": 48,
+        "precision": 0.9375
+    },
+    "switch": {
+        "recall": 0.8888888888888888,
+        "f1-score": 0.9411764705882353,
+        "support": 9,
+        "precision": 1.0
+    },
+    "ask_faq_platform": {
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4,
+        "precision": 0.75
+    },
+    "react_positive": {
+        "recall": 0.5555555555555556,
+        "f1-score": 0.6250000000000001,
+        "support": 9,
+        "precision": 0.7142857142857143
+    },
+    "enter_data": {
+        "recall": 0.9444444444444444,
+        "f1-score": 0.7744874715261959,
+        "support": 180,
+        "precision": 0.6563706563706564
+    },
+    "ask_whatisrasa": {
+        "recall": 0.7333333333333333,
+        "f1-score": 0.7333333333333333,
+        "support": 15,
+        "precision": 0.7333333333333333
+    },
+    "ask_faq_community_size": {
+        "recall": 1.0,
+        "f1-score": 0.9473684210526316,
+        "support": 9,
+        "precision": 0.9
+    },
+    "ask_whatspossible": {
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 20,
+        "precision": 0.75
+    },
+    "ask_faq_python_version": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "precision": 1.0
+    },
+    "ask_faq_voice": {
+        "recall": 0.8571428571428571,
+        "f1-score": 0.923076923076923,
+        "support": 14,
+        "precision": 1.0
+    },
+    "ask_faq_channels": {
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 8,
+        "precision": 0.75
+    },
+    "ask_faq_tutorials": {
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8,
+        "precision": 1.0
+    },
+    "canthelp": {
+        "recall": 0.6,
+        "f1-score": 0.6,
+        "support": 5,
+        "precision": 0.6
+    }
+}
