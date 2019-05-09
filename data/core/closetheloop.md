@@ -4,10 +4,15 @@
 * out_of_scope
     - utter_out_of_scope
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - utter_great
+    - utter_ask_email
+* enter_data{"email":"hi@rasa.com"}
+    - slot{"email":"hi@rasa.com"}
+    - action_store_email
+    - slot{"email":"hi@rasa.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":false}
+    - utter_already_subscribed
     - utter_docu
     - utter_ask_feedback
 * thank
@@ -15,33 +20,114 @@
     - utter_anything_else
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"} OR enter_data
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
     - utter_ask_feedback
 
 ## story number 2
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - utter_great
+    - utter_ask_email
+* enter_data{"email":"hi@rasa.com"}
+    - slot{"email":"hi@rasa.com"}
+    - action_store_email
+    - slot{"email":"hi@rasa.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":false}
+    - utter_already_subscribed
     - utter_docu
     - utter_ask_feedback
 * out_of_scope
     - utter_thumbsup
     - utter_anything_else
 
+## story number 3
+* greet
+    - action_greet_user
+* contact_sales
+    - utter_moreinformation
+    - utter_ask_jobfunction
+* out_of_scope
+    - utter_out_of_scope
+    - utter_possibilities
+    - utter_ask_jobfunction
+* out_of_scope
+    - utter_out_of_scope
+    - utter_possibilities
+    - utter_ask_jobfunction
+* enter_data{"jobfunction":"engineer"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
+
 ## story number 4
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - utter_great
+    - utter_ask_email
+* enter_data{"email":"hi@rasa.com"}
+    - slot{"email":"hi@rasa.com"}
+    - action_store_email
+    - slot{"email":"hi@rasa.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 * thank
@@ -57,10 +143,18 @@
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - utter_great
+    - utter_ask_email
+* enter_data
+    - action_store_email
+* enter_data{"email":"hi@rasa.com"}
+    - slot{"email":"hi@rasa.com"}
+    - action_store_email
+    - slot{"email":"hi@rasa.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 * thank
@@ -87,9 +181,35 @@
     - action_chitchat
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
     - utter_ask_feedback
 
 ## story number 8
@@ -111,7 +231,7 @@
 * deny
     - utter_nohelp
 
-## story number 11, continue
+## story number 11
 * greet
     - action_greet_user
 * ask_whatspossible
@@ -123,90 +243,50 @@
 * ask_weather
     - action_chitchat
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* deny
-    - utter_cantsignup
-    - utter_ask_continue_newsletter
-* affirm
     - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-
-## story number 11, don't continue
-* greet
-    - action_greet_user
-* ask_whatspossible
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
+    - utter_ask_email
 * deny
     - utter_cantsignup
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
 
 ## story number 12
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-
-## story number 12, continue
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* out_of_scope
-    - utter_out_of_scope
-    - utter_ask_continue_newsletter
-* affirm
     - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
+    - utter_ask_email
+* enter_data{"email":"test@gmail.com"}
+    - slot{"email":"test@gmail.com"}
+    - action_store_email
+    - slot{"email":"test@gmail.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 * enter_data
     - utter_thumbsup
     - utter_anything_else
 
-## story number 12, don't continue
+## story number 12
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
+    - utter_great
+    - utter_ask_email
 * out_of_scope
     - utter_out_of_scope
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
+    - utter_possibilities
+    - utter_ask_email
+* enter_data{"email":"test@gmail.com"}
+    - slot{"email":"test@gmail.com"}
+    - action_store_email
+    - slot{"email":"test@gmail.com"}
+    - action_subscribe_newsletter
+    - slot{"subscribed":true}
+    - utter_awesome
+    - utter_confirmationemail
+    - utter_docu
     - utter_ask_feedback
 * enter_data
     - utter_thumbsup
@@ -421,9 +501,36 @@
     - utter_possibilities
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data
+    - action_store_job
+    - slot{"job_function":"test"}
+    - utter_ask_usecase
+* enter_data
+    - action_store_usecase
+    - slot{"use_case":"test"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data
+    - action_store_budget
+    - slot{"budget":"not sure yet"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data
+    - action_store_name
+    - slot{"person_name":"akela"}
+    - utter_ask_company
+* enter_data
+    - action_store_company
+    - slot{"company_name":"muster"}
+    - utter_ask_businessmail
+* enter_data{"email":"test@gmail.com"}
+    - slot{"email":"test@gmail.com"}
+    - action_store_email
+    - slot{"email":"test@gmail.com"}
+    - action_store_sales_info
+    - slot{"data_stored":true}
+    - utter_confirm_salesrequest
     - utter_ask_feedback
 * deny
     - utter_thumbsup
@@ -446,9 +553,36 @@
 ## Story from conversation with d041ba4b0a89479e9bb6a5007f2cdc87 on November 15th 2018
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data
+    - action_store_job
+    - slot{"job_function":"repair ac"}
+    - utter_ask_usecase
+* enter_data
+    - action_store_usecase
+    - slot{"use_case":"for some eamples"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"amount-of-money":1}
+    - action_store_budget
+    - slot{"budget":1}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data
+    - action_store_name
+    - slot{"person_name":"xijinping"}
+    - utter_ask_company
+* enter_data
+    - action_store_company
+    - slot{"company_name":"USA."}
+    - utter_ask_businessmail
+* enter_data{"email":"abc@163.com"}
+    - slot{"email":"abc@163.com"}
+    - action_store_email
+    - slot{"email":"abc@163.com"}
+    - action_store_sales_info
+    - slot{"data_stored":true}
+    - utter_confirm_salesrequest
     - utter_ask_feedback
 * enter_data
     - utter_thumbsup
@@ -769,28 +903,6 @@
     - utter_out_of_scope
     - utter_possibilities
 
-## Story from conversation with af5a6b3c39d04c6db2b682960e63f01c on January 21st 2019
-* get_started_step1
-    - action_greet_user
-    - slot{"shown_privacy":true}
-    - slot{"step":"1"}
-* greet
-    - action_greet_user
-* ask_howdoing
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-* react_positive
-    - utter_react_positive
-    - utter_ask_continue_sales
-* affirm
-    - utter_great
-    - sales_form
-    - form{"name": null}
 
 ## Story from conversation with af5a6b3c39d04c6db2b682960e63f01c on January 21st 2019
 * get_started_step1
@@ -805,15 +917,13 @@
     - action_chitchat
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
+    - utter_ask_jobfunction
 * react_positive
     - utter_react_positive
-    - utter_ask_continue_sales
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
+* enter_data{"jobfunction":"dancer"}
+    - utter_not_sure
+    - utter_possibilities
+
 
 ## Story from conversation with 53d4ca53494d4469b7d94aca2f7b3fec on January 21st 2019
 * get_started_step1

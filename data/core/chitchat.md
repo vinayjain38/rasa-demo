@@ -1,5 +1,5 @@
 ## chitchat
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
     - action_chitchat
 
 ## deny ask_whatspossible
@@ -11,9 +11,9 @@
 ## more chitchat
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 
 ## ask_whatspossible
@@ -30,56 +30,45 @@
 * ask_whatspossible
     - action_chitchat
 
+
 ## just newsletter + confirm
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* affirm
-    - utter_thumbsup
-    - utter_anything_else
-
-## just newsletter, continue, + confirm
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
-    - action_chitchat
-    - utter_ask_continue_newsletter
-* affirm
     - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 * affirm
     - utter_thumbsup
     - utter_anything_else
 
-## just newsletter, don't continue, + confirm
+## just newsletter + confirm
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
+    - utter_great
+    - utter_ask_email
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
     - action_chitchat
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
+    - utter_docu
     - utter_ask_feedback
 * affirm
     - utter_thumbsup
@@ -88,13 +77,15 @@
 ## just newsletter (with email already) + confirm
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * signup_newsletter{"email": "maxmeier@firma.de"}
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 * affirm
@@ -104,108 +95,442 @@
 ## just newsletter (with email already)
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * signup_newsletter{"email": "maxmeier@firma.de"}
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
+    - utter_docu
+    - utter_ask_feedback
+
+## just newsletter (with email already) + confirm - already subscribed
+* greet
+    - action_greet_user
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+* signup_newsletter{"email": "maxmeier@firma.de"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
+    - utter_ask_feedback
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
+
+## just newsletter (with email already) - already subscribed
+* greet
+    - action_greet_user
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+* signup_newsletter{"email": "maxmeier@firma.de"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
+    - utter_ask_feedback
+
+## just newsletter +confirm - already subscribed
+* greet
+    - action_greet_user
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+* signup_newsletter
+    - utter_great
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
+    - utter_ask_feedback
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
+
+## just newsletter +confirm - already subscribed
+* greet
+    - action_greet_user
+* signup_newsletter
+    - utter_great
+    - utter_ask_email
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
+    - utter_ask_feedback
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
+
+## just newsletter
+* greet
+    - action_greet_user
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+* signup_newsletter
+    - utter_great
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 
 ## just newsletter
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
-    - action_chitchat
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-
-## just newsletter, continue
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
-    - action_chitchat
-    - utter_ask_continue_newsletter
-* affirm
     - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
+    - utter_ask_email
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": true}
+    - utter_awesome
+    - utter_confirmationemail
     - utter_docu
     - utter_ask_feedback
 
-## just newsletter, don't continue
+## just newsletter - already subscribed
+* greet
+    - action_greet_user
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+* signup_newsletter
+    - utter_great
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
+    - utter_ask_feedback
+
+## just newsletter - already subscribed
 * greet
     - action_greet_user
 * signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
+    - utter_great
+    - utter_ask_email
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
     - action_chitchat
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
+    - utter_ask_email
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_subscribe_newsletter
+    - slot{"subscribed": false}
+    - utter_already_subscribed
+    - utter_docu
     - utter_ask_feedback
 
 ## just sales
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
     - utter_ask_feedback
 
-## just sales, continue
+## just sales
 * greet
     - action_greet_user
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
+    - utter_ask_jobfunction
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
     - action_chitchat
-    - utter_ask_continue_sales
-* affirm
-    - utter_great
-    - sales_form
-    - form{"name": null}
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
 
-## just sales, don't continue
+## just sales
 * greet
     - action_greet_user
 * contact_sales
     - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt OR ask_whatspossible
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
     - action_chitchat
-    - utter_ask_continue_sales
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
+
+
+## just sales
+* greet
+    - action_greet_user
+* contact_sales
+    - utter_moreinformation
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
+
+
+
+## just sales
+* greet
+    - action_greet_user
+* contact_sales
+    - utter_moreinformation
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
+
+## just sales
+* greet
+    - action_greet_user
+* contact_sales
+    - utter_moreinformation
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
+
+## just sales
+* greet
+    - action_greet_user
+* contact_sales
+    - utter_moreinformation
+    - utter_ask_jobfunction
+* enter_data{"jobfunction": "Product Manager"}
+    - action_store_job
+    - slot{"job_function": "Product Manager"}
+    - utter_ask_usecase
+* enter_data    
+    - action_store_usecase
+    - slot{"use_case": "bots"}
+    - utter_thank_usecase
+    - utter_ask_budget
+* enter_data{"number": "100"} OR enter_data{"amount-of-money": "100k"} OR enter_data{"number": "100", "amount-of-money": "100"}
+    - action_store_budget
+    - slot{"budget": "100k"}
+    - utter_sales_contact
+    - utter_ask_name
+* enter_data{"name": "Max Meier"}
+    - action_store_name
+    - slot{"person_name": "Max Meier"}
+    - utter_ask_company
+* enter_data{"company": "Allianz"}
+    - action_store_company
+    - slot{"company_name": "Allianz"}
+    - utter_ask_businessmail
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt OR ask_whatspossible
+    - action_chitchat
+    - utter_ask_businessmail
+* enter_data{"email": "maxmeier@firma.de"} OR enter_data{"number":"1"}
+    - action_store_email
+    - slot{"email": "maxmeier@firma.de"}
+    - action_store_sales_info
+    - slot{"data_stored": true}
+    - utter_confirm_salesrequest
+    - utter_ask_feedback
 
 ## new to rasa + not new to chatbots + not migrating
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * how_to_get_started
     - utter_getstarted
@@ -232,7 +557,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_first_bot_with_rasa
 * affirm
@@ -261,7 +586,7 @@
     - action_set_onboarding
     - slot{"onboarding": true}
     - utter_built_bot_before
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_built_bot_before
 * affirm
@@ -287,7 +612,7 @@
     - utter_built_bot_before
 * affirm
     - utter_ask_migration
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_ask_migration
 * deny
@@ -315,7 +640,7 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_explain_nlucore
 * affirm OR how_to_get_started{"product":"stack"}
@@ -343,7 +668,7 @@
     - utter_explain_nlu
     - utter_explain_core
     - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_direct_to_step2
 
@@ -358,7 +683,7 @@
     - action_set_onboarding
     - slot{"onboarding": true}
     - utter_built_bot_before
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_built_bot_before
 * deny
@@ -384,7 +709,7 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_explain_nlucore
 * affirm OR how_to_get_started{"product":"stack"}
@@ -410,7 +735,7 @@
     - utter_explain_nlu
     - utter_explain_core
     - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_direct_to_step2
 
@@ -431,7 +756,7 @@
 * how_to_get_started{"product": "core"}
     - utter_explain_core
     - utter_also_explain_nlu
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_also_explain_nlu
 * deny
@@ -456,7 +781,7 @@
     - utter_also_explain_nlu
 * deny
     - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_direct_to_step2
 
@@ -478,7 +803,7 @@
 * how_to_get_started{"product": "core"}
     - utter_explain_core
     - utter_also_explain_nlu
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_also_explain_nlu
 * affirm
@@ -505,8 +830,32 @@
 * affirm
     - utter_explain_nlu
     - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
+    - utter_direct_to_step2
+
+
+## new to rasa/bots, explain nlu and try out stack
+* greet
+    - action_greet_user
+* how_to_get_started
+    - utter_getstarted
+    - utter_first_bot_with_rasa
+* affirm
+    - action_set_onboarding
+    - slot{"onboarding": true}
+    - utter_built_bot_before
+* deny
+    - utter_explain_stack
+    - utter_stack_details
+    - utter_explain_nlucore
+* how_to_get_started{"product": "nlu"}
+    - utter_explain_nlu
+    - utter_also_explain_core
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
+    - action_chitchat
+    - utter_also_explain_core
+* deny
     - utter_direct_to_step2
 
 ## new to rasa/bots, explain nlu and try out stack
@@ -526,32 +875,9 @@
 * how_to_get_started{"product": "nlu"}
     - utter_explain_nlu
     - utter_also_explain_core
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
-    - action_chitchat
-    - utter_also_explain_core
 * deny
     - utter_direct_to_step2
-
-## new to rasa/bots, explain nlu and try out stack
-* greet
-    - action_greet_user
-* how_to_get_started
-    - utter_getstarted
-    - utter_first_bot_with_rasa
-* affirm
-    - action_set_onboarding
-    - slot{"onboarding": true}
-    - utter_built_bot_before
-* deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
-* how_to_get_started{"product": "nlu"}
-    - utter_explain_nlu
-    - utter_also_explain_core
-* deny
-    - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_direct_to_step2
 
@@ -569,7 +895,7 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_explain_nlucore
 * deny
@@ -591,7 +917,7 @@
     - utter_explain_nlucore
 * deny
     - utter_direct_to_step2
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_direct_to_step2
 
@@ -599,7 +925,7 @@
 ## not new to rasa + not interested in products
 * greet
     - action_greet_user
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
 * how_to_get_started
     - utter_getstarted
@@ -617,7 +943,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_first_bot_with_rasa
 * deny
@@ -637,7 +963,7 @@
     - action_set_onboarding
     - slot{"onboarding": false}
     - utter_ask_which_product
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_ask_which_product
 * deny
@@ -656,7 +982,7 @@
     - utter_ask_which_product
 * how_to_get_started{"product": "nlu"}
     - utter_ask_for_nlu_specifics
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_ask_for_nlu_specifics
 * deny
@@ -676,7 +1002,7 @@
     - utter_ask_which_product
 * how_to_get_started{"product": "nlu"}
     - utter_ask_for_nlu_specifics
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_ask_for_nlu_specifics
 * nlu_info
@@ -701,7 +1027,7 @@
 * nlu_info{"nlu_part": "intent classification"}
     - utter_nlu_intent_tutorial
     - utter_offer_recommendation
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_offer_recommendation
 * deny
@@ -726,7 +1052,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_what_language
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_what_language
 * enter_data{"language": "en"}
@@ -752,7 +1078,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_what_language
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_what_language
 * enter_data{"language": "en"}
@@ -777,7 +1103,7 @@
 * nlu_info{"nlu_part": "entity recognition"}
     - utter_nlu_entity_tutorial
     - utter_offer_recommendation
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
@@ -805,7 +1131,7 @@
     - utter_offer_recommendation
 * pipeline_recommendation OR affirm
     - utter_ask_entities
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_ask_entities
 * enter_data{"entity": "date ranges"}
@@ -819,7 +1145,7 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR ask_howbuilt
+* ask_weather OR ask_builder OR ask_howdoing OR ask_whoisit OR ask_whatisrasa OR ask_isbot OR ask_howold OR ask_languagesbot OR ask_restaurant OR ask_time OR ask_wherefrom OR ask_whoami OR handleinsult OR nicetomeeyou OR telljoke OR ask_whatismyname OR howwereyoubuilt
     - action_chitchat
     - utter_first_bot_with_rasa
 * affirm

@@ -49,6 +49,7 @@
     - utter_direct_to_step2
 
 ## new to rasa + not new to chatbots + migrating from dialogflow
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -63,6 +64,7 @@
     - utter_anything_else
 
 ## new to rasa + not new to chatbots + migrating from luis
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -77,6 +79,7 @@
     - utter_anything_else
 
 ## new to rasa + not new to chatbots + migrating from something else
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -92,6 +95,7 @@
     - utter_anything_else
 
 ##  migrating from dialogflow
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -108,6 +112,7 @@
     - utter_anything_else
 
 ## new to rasa + not new to chatbots + migrating from luis
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -124,6 +129,7 @@
     - utter_anything_else
 
 ## new to rasa + not new to chatbots + migrating from something else
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -140,7 +146,9 @@
     - utter_no_guide_for_switch
     - utter_anything_else
 
+
 ## new to rasa/bots, explain stack
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -152,12 +160,13 @@
     - utter_explain_stack
     - utter_stack_details
     - utter_explain_nlucore
-* affirm OR how_to_get_started{"product":"stack"} OR explain
+* affirm OR how_to_get_started{"product":"stack"}
     - utter_explain_nlu
     - utter_explain_core
     - utter_direct_to_step2
 
 ## new to rasa/bots, explain core
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -176,6 +185,7 @@
     - utter_direct_to_step2
 
 ## new to rasa/bots, explain core, then nlu
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -195,6 +205,7 @@
     - utter_direct_to_step2
 
 ## new to rasa/bots, explain nlu
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -213,6 +224,7 @@
     - utter_direct_to_step2
 
 ## new to rasa/bots, explain nlu then core
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -231,38 +243,9 @@
     - utter_explain_core
     - utter_direct_to_step2
 
-## not new to rasa/bots, explain difference between nlu and core
-* how_to_get_started
-    - utter_getstarted
-    - utter_first_bot_with_rasa
-* deny
-    - action_set_onboarding
-    - slot{"onboarding": false}
-    - utter_ask_which_product
-* explain
-    - utter_explain_stack
-    - utter_explain_nlu
-    - utter_explain_core
-    - utter_direct_to_step2
-
-## new to rasa/bots, explain difference between nlu and core
-* how_to_get_started
-    - utter_getstarted
-    - utter_first_bot_with_rasa
-* affirm OR how_to_get_started{"user_type": "new"}
-    - action_set_onboarding
-    - slot{"onboarding": true}
-    - utter_built_bot_before
-* deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
-* explain
-    - utter_explain_nlu
-    - utter_explain_core
-    - utter_direct_to_step2
 
 ## new to rasa/bots, don't explain
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -278,6 +261,7 @@
     - utter_direct_to_step2
 
 ## not new to rasa + not interested in products
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -289,6 +273,7 @@
     - utter_thumbsup
 
 ## not new to rasa + core
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -306,6 +291,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + nothing special
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -320,6 +306,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + unknown topic
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -336,6 +323,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + intent + no recommendation
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -353,6 +341,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + intent + pipeline recommendation, spacy
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -374,6 +363,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + intent + pipeline recommendation, not spacy
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -395,6 +385,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + intent + tool recommendation
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -411,6 +402,7 @@
     - utter_nlu_tools
 
 ## not new to rasa + nlu + entity + no recommendation
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -428,6 +420,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + entity + pipeline spacy
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -449,6 +442,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + entity + pipeline duckling
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -470,6 +464,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + entity + pipeline ner_crf
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -491,6 +486,7 @@
     - utter_anything_else
 
 ## not new to rasa + nlu + entity + duckling info
+
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
