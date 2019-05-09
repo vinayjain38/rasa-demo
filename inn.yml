@@ -1,0 +1,10 @@
+language: en
+pipeline:
+  - name: "tokenizer_whitespace"
+  - name: "ner_crf"
+  - name: "ner_synonyms"
+  - name: "innatis.classifiers.BertIntentClassifier"
+    "batch_size": 64
+    "epochs": 1
+    "learning_rate": 2e-10
+    "max_seq_length": 128

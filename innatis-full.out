@@ -1,0 +1,180 @@
+python3 -m rasa_nlu.train -c innatis-config.yml --fixed_model_name innatis-full --data train.md -o models --project nlu --verbose
+2019-04-18 13:09:10 INFO     innatis.classifiers.bert_intent_classifier  - Loading pretrained model from /home/t_metcalfe/uncased_L-24_H-1024_A-16
+2019-04-18 13:09:10 INFO     rasa_nlu.training_data.loading  - Training data format of train.md is md
+2019-04-18 13:09:11 INFO     rasa_nlu.training_data.training_data  - Training data stats: 
+	- intent examples: 3823 (57 distinct intents)
+	- Found intents: 'ask_whoisit', 'bye', 'nlu_info', 'ask_howdoing', 'install_rasa', 'thank', 'contact_sales', 'greet', 'ask_faq_tutorials', 'ask_howbuilt', 'nlu_generation_tool_recommendation', 'pipeline_recommendation', 'source_code', 'technical_question', 'ask_weather', 'out_of_scope', 'ask_faq_voice', 'rasa_cost', 'ask_faq_opensource', 'ask_time', 'affirm', 'handleinsult', 'signup_newsletter', 'react_negative', 'ask_whoami', 'switch', 'ask_why_contribute', 'ask_faq_differencecorenlu', 'next_step', 'ask_whatisrasa', 'ask_whatspossible', 'enter_data', 'react_positive', 'ask_which_events', 'ask_faq_platform', 'ask_howold', 'ask_restaurant', 'ask_builder', 'ask_faq_python_version', 'canthelp', 'human_handoff', 'ask_how_contribute', 'ask_faq_community_size', 'deny', 'ask_faq_slots', 'how_to_get_started', 'ask_when_next_event', 'nicetomeeyou', 'ask_faq_languages', 'ask_question_in_forum', 'ask_faq_what_is_forum', 'ask_wherefrom', 'telljoke', 'ask_isbot', 'ask_languagesbot', 'ask_faq_channels', 'ask_whatismyname'
+	- entity examples: 843 (19 distinct entities)
+	- found entities: '', 'entity', 'package_manager', 'email', 'product', 'language', 'nlu_part', 'PERSON', 'user_type', 'current_api', 'amount-of-money', 'CARDINAL', 'GPE', 'jobfunction', 'location', 'ORG', 'number', 'name', 'company'
+
+/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/training_data/training_data.py:199: UserWarning: Entity '' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/training_data/training_data.py:199: UserWarning: Entity 'GPE' has only 1 training examples! minimum is 2, training may fail.
+  self.MIN_EXAMPLES_PER_ENTITY))
+2019-04-18 13:09:11 INFO     rasa_nlu.model  - Starting to train component tokenizer_whitespace
+2019-04-18 13:09:11 INFO     rasa_nlu.model  - Finished training component.
+2019-04-18 13:09:11 INFO     rasa_nlu.model  - Starting to train component ner_crf
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'Jim HalpertJim Halpert'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'BCBSMBCBSM'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'Chief ShitmuncherShitmuncher'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'PhilippPhilipp'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'N2626'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'HelvetiaHelvetia'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'ulrike@rasa.comulrike@rasa.com'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'i'm donezo'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'we don't have oneone'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'don't have oneone'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'Philipp WolfPhilipp Wolf ist der coolste AG'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'philipp@thephilippcompany.comphilipp@thephilippcompany.com'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I'm a full stack developer'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I am a freelancer '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'It is juste@rasa.comjuste@rasa.com'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'John SmithJohn Smith'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'philipp@rasa.comphilipp@rasa.com'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'I'm in business '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'ey b0ss'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'i am a new '. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'Do you know Linda Schuster?'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'ok oneone philipp then'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'i'd like to buy oneone akela please'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:11 WARNING  rasa_nlu.extractors.crf_entity_extractor  - Misaligned entity annotation in sentence 'sign me up for the newsletter - my email is alex@rasa.aialex@rasa.ai'. Make sure the start and end values of the annotated training examples end at token boundaries (e.g. don't include trailing whitespaces or punctuation).
+2019-04-18 13:09:21 INFO     rasa_nlu.model  - Finished training component.
+2019-04-18 13:09:21 INFO     rasa_nlu.model  - Starting to train component ner_synonyms
+2019-04-18 13:09:21 INFO     rasa_nlu.model  - Finished training component.
+2019-04-18 13:09:21 INFO     rasa_nlu.model  - Starting to train component intent_classifier_bert
+2019-04-18 13:09:21 INFO     tensorflow  - ***** Running training *****
+2019-04-18 13:09:21 INFO     tensorflow  - Num examples = 3823
+2019-04-18 13:09:21 INFO     tensorflow  - Batch size = 32
+2019-04-18 13:09:21 INFO     tensorflow  - Num steps = 3584
+2019-04-18 13:09:21 INFO     tensorflow  - Num epochs = 30
+2019-04-18 13:09:22 INFO     tensorflow  - Using config: {'_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_save_checkpoints_steps': 1000, '_task_id': 0, '_log_step_count_steps': 100, '_tf_random_seed': None, '_keep_checkpoint_every_n_hours': 10000, '_device_fn': None, '_model_dir': './tmp/bert', '_is_chief': True, '_master': '', '_save_checkpoints_secs': None, '_eval_distribute': None, '_protocol': None, '_experimental_distribute': None, '_num_worker_replicas': 1, '_evaluation_master': '', '_global_id_in_cluster': 0, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f0a15395400>, '_service': None, '_keep_checkpoint_max': 5, '_num_ps_replicas': 0, '_save_summary_steps': 500, '_train_distribute': None, '_task_type': 'worker'}
+2019-04-18 13:09:24 INFO     tensorflow  - Calling model_fn.
+2019-04-18 13:09:51 INFO     tensorflow  - Done calling model_fn.
+2019-04-18 13:09:51 INFO     tensorflow  - Create CheckpointSaverHook.
+2019-04-18 13:09:59 INFO     tensorflow  - Graph was finalized.
+2019-04-18 13:10:20 INFO     tensorflow  - Running local_init_op.
+2019-04-18 13:10:20 INFO     tensorflow  - Done running local_init_op.
+2019-04-18 13:10:37 INFO     tensorflow  - Saving checkpoints for 0 into ./tmp/bert/model.ckpt.
+2019-04-18 13:11:46.871983: W tensorflow/core/framework/op_kernel.cc:1273] OP_REQUIRES failed at transpose_op.cc:199 : Resource exhausted: OOM when allocating tensor with shape[32,16,128,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+2019-04-18 13:11:46.871948: W tensorflow/core/framework/op_kernel.cc:1273] OP_REQUIRES failed at transpose_op.cc:199 : Resource exhausted: OOM when allocating tensor with shape[32,16,128,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+Traceback (most recent call last):
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[32,16,128,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[{{node bert/encoder/layer_14/attention/self/transpose}} = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](bert/encoder/layer_14/attention/self/Reshape, gradients/bert/encoder/layer_0/attention/self/transpose_grad/InvertPermutation)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/train.py", line 184, in <module>
+    num_threads=cmdline_args.num_threads)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/train.py", line 154, in do_train
+    interpreter = trainer.train(training_data, **kwargs)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/model.py", line 196, in train
+    **context)
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert_intent_classifier.py", line 183, in train
+    self.estimator.train(input_fn=train_input_fn, max_steps=num_train_steps, hooks=[hook])
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 354, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1207, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1241, in _train_model_default
+    saving_listeners)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1471, in _train_with_estimator_spec
+    _, loss = mon_sess.run([estimator_spec.train_op, estimator_spec.loss])
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 671, in run
+    run_metadata=run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1156, in run
+    run_metadata=run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1255, in run
+    raise six.reraise(*original_exc_info)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/six.py", line 693, in reraise
+    raise value
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1240, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1312, in run
+    run_metadata=run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/training/monitored_session.py", line 1076, in run
+    return self._sess.run(*args, **kwargs)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[32,16,128,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[node bert/encoder/layer_14/attention/self/transpose (defined at /home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py:658)  = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](bert/encoder/layer_14/attention/self/Reshape, gradients/bert/encoder/layer_0/attention/self/transpose_grad/InvertPermutation)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op 'bert/encoder/layer_14/attention/self/transpose', defined at:
+  File "/usr/lib/python3.5/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/train.py", line 184, in <module>
+    num_threads=cmdline_args.num_threads)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/train.py", line 154, in do_train
+    interpreter = trainer.train(training_data, **kwargs)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/rasa_nlu/model.py", line 196, in train
+    **context)
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert_intent_classifier.py", line 183, in train
+    self.estimator.train(input_fn=train_input_fn, max_steps=num_train_steps, hooks=[hook])
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 354, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1207, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1237, in _train_model_default
+    features, labels, model_fn_lib.ModeKeys.TRAIN, self.config)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/estimator/estimator.py", line 1195, in _call_model_fn
+    model_fn_results = self._model_fn(features=features, **kwargs)
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/run_classifier.py", line 258, in model_fn
+    bert_config,
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/run_classifier.py", line 347, in create_model
+    use_one_hot_embeddings=use_one_hot_embeddings,
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py", line 224, in __init__
+    do_return_all_layers=True,
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py", line 882, in transformer_model
+    to_seq_length=seq_length,
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py", line 720, in attention_layer
+    query_layer, batch_size, num_attention_heads, from_seq_length, size_per_head
+  File "/home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py", line 658, in transpose_for_scores
+    output_tensor = tf.transpose(output_tensor, [0, 2, 1, 3])
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/ops/array_ops.py", line 1420, in transpose
+    ret = transpose_fn(a, perm, name=name)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/ops/gen_array_ops.py", line 8927, in transpose
+    "Transpose", x=x, perm=perm, name=name)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/t_metcalfe/.local/lib/python3.5/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[32,16,128,64] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[node bert/encoder/layer_14/attention/self/transpose (defined at /home/t_metcalfe/innatis/innatis/classifiers/bert/modeling.py:658)  = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _device="/job:localhost/replica:0/task:0/device:CPU:0"](bert/encoder/layer_14/attention/self/Reshape, gradients/bert/encoder/layer_0/attention/self/transpose_grad/InvertPermutation)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Makefile:61: recipe for target 'train-innatis-full' failed
+make: *** [train-innatis-full] Error 1
