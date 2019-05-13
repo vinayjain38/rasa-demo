@@ -21,8 +21,10 @@ pipeline:
   use_last: true
   iou_threshold: 0.66
   bidirectional: true
+  similarity_type: 'inner'
+  loss_type: 'softmax'
 #  share_embedding: true
-  epochs: 101
+  epochs: 200
 #  batch_size: 256
 #  C_emb: 0
 #  use_max_sim_neg: false
