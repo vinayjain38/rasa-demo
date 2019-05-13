@@ -1,2 +1,0 @@
-python3 -m rasa_core_sdk.endpoint --actions demo.actions
-Makefile:16: recipe for target 'run-actions' failed
