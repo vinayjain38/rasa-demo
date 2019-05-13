@@ -10,7 +10,7 @@ pipeline:
 #  token_pattern: (?u)\b\w+\b
 - name: intent_classifier_tensorflow_embedding
   hidden_layers_sizes_a: [256, 256]
-  hidden_layers_sizes_b: [256, 256]
+  hidden_layers_sizes_b: []
 #  embed_dim: 40
 #  fused_lstm: true
 #  gpu_lstm: true
