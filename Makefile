@@ -39,8 +39,8 @@ evaluate-core:
 train-innatis:
 	python3 -m rasa_nlu.train -c innatis-config.yml --fixed_model_name innatis --data train.md -o models --project nlu --verbose
 
-eval-inn:
-	python3 -m rasa_nlu.evaluate -m models/nlu/innatis -d test.md --report innatis_report --errors innatis_errors.json
+eval-innatis:
+	rasa test nlu -m models/nlu/nlu_innatis.tar.gz -u test.md --report innatis_report --errors innatis_errors.json
 
 eval-spacy:
 	python3 -m rasa_nlu.evaluate -m models/nlu/spacy -d test.md --report spacy_report.json --errors spacy_errors.json
