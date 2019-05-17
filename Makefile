@@ -37,7 +37,7 @@ evaluate-core:
 	python -m rasa_core.evaluate --core models/dialogue -s data/core/ --fail_on_prediction_errors
 
 evaluate-nlu:
-	python3 -m rasa_nlu.test --data data/bert/train.md --model models/nlu/current
+	python3 -m rasa_nlu.test --data data/bert/test.md --model models/nlu_20190513-182802
 
 evaluate-nlu-1:
 	python3 -m rasa_nlu.evaluate --data data/valid_personachat_other_original_nlu.md --model models/nlu/current

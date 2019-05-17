@@ -3,33 +3,37 @@ pipeline:
   intent_split_symbol: '_'
   add_class_label: true
 - name: intent_featurizer_count_vectors
-  sequence: true
+  analyzer: 'char_wb'
+  min_ngram: 2
+  max_ngram: 6
+#  OOV_token: oov
+#  sequence: true
 #  shuffle_sequence: true
 #  use_shared_vocab: true
   sparse: true
 #  token_pattern: (?u)\b\w+\b
 - name: intent_classifier_tensorflow_embedding
-  hidden_layers_sizes_a: [256, 256]
+  hidden_layers_sizes_a: [256, 128, 64]
   hidden_layers_sizes_b: []
 #  embed_dim: 40
 #  fused_lstm: true
 #  gpu_lstm: true
-  transformer: true
+#  transformer: true
 #  pos_encoding: 'emb'
 #  pos_max_timescale: 40
 #  num_heads: 2
   use_last: true
-  iou_threshold: 0.66
+  iou_threshold: 1.0
   bidirectional: true
   similarity_type: 'inner'
   loss_type: 'softmax'
 #  share_embedding: true
-  epochs: 200
+  epochs: 50
 #  batch_size: 256
 #  C_emb: 0
 #  use_max_sim_neg: false
   intent_tokenization_flag: true
   evaluate_on_num_examples: 64
-  evaluate_every_num_epochs: 1
+  evaluate_every_num_epochs: 10
 
 language: en
