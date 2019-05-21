@@ -3,9 +3,9 @@ pipeline:
   intent_split_symbol: '_'
   add_class_label: true
 - name: intent_featurizer_count_vectors
-  analyzer: 'char_wb'
-  min_ngram: 2
-  max_ngram: 6
+#  analyzer: 'char_wb'
+#  min_ngram: 2
+#  max_ngram: 6
 #  OOV_token: oov
 #  sequence: true
 #  shuffle_sequence: true
@@ -13,8 +13,8 @@ pipeline:
   sparse: true
 #  token_pattern: (?u)\b\w+\b
 - name: intent_classifier_tensorflow_embedding
-  hidden_layers_sizes_a: [256, 128, 64]
-  hidden_layers_sizes_b: []
+  hidden_layers_sizes_a: [256, 128]
+  hidden_layers_sizes_b: [256, 128]
 #  embed_dim: 40
 #  fused_lstm: true
 #  gpu_lstm: true
