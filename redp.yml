@@ -1,0 +1,12 @@
+policies:
+  - name: EmbeddingPolicy
+    transformer: true
+    epochs: 500
+    attn_shift_range: 5
+    num_neg: 20
+    similarity_type: 'inner'
+    scale_loss_by_action_counts: true
+#    C2: 0.0
+    evaluate_every_num_epochs: 10
+    evaluate_on_num_examples: 200
+  - name: FormPolicy

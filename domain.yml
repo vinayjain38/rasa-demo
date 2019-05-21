@@ -602,7 +602,6 @@ actions:
   - utter_bye
   - utter_awesome
   - utter_great
-  - utter_thank_usecase
   - utter_can_do
   - utter_canthelp
   - utter_ask_continue_newsletter
@@ -618,7 +617,6 @@ actions:
   - utter_cant_answer_tech_question
   - utter_no_email
   - utter_have_you_used_rasa_before
-  - utter_are_you_new_to_chatbots
   - utter_encourage_building_bot
   - utter_anything_else
   - utter_chatbot_tutorial
@@ -704,13 +702,11 @@ actions:
   - utter_getstarted_new
   - utter_thanks_for_feedback
   - utter_restart_with_button
-  - utter_ask_for_feedback_message
   - utter_not_sure
   - utter_no_community_event
   - utter_no_event_for_location_but_next
   - utter_next_event_for_location
   - utter_next_event
-  - utter_describe_step4
   - utter_reasons_to_contribute
   - utter_possibilities_to_contribute
   - utter_recommend_forum
