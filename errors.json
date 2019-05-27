@@ -1,0 +1,5050 @@
+[
+    {
+        "text": "what you doing?",
+        "intent": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+        "intent_prediction": {
+            "name": "Im_good_thanks",
+            "confidence": 0.489390105009079
+        }
+    },
+    {
+        "text": "how can i use you",
+        "intent": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+        "intent_prediction": {
+            "name": "Im_good_thanks",
+            "confidence": 0.5063825249671936
+        }
+    },
+    {
+        "text": "what are you ding",
+        "intent": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9502806067466736
+        }
+    },
+    {
+        "text": "what are you doing",
+        "intent": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+        "intent_prediction": {
+            "name": "Im_great_Thanks_for_asking",
+            "confidence": 0.7922676801681519
+        }
+    },
+    {
+        "text": "i don't know what i want",
+        "intent": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+            "confidence": 0.8601898550987244
+        }
+    },
+    {
+        "text": "what is the temperature",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7189115285873413
+        }
+    },
+    {
+        "text": "temperature?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.38531023263931274
+        }
+    },
+    {
+        "text": "what is the weatehr",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.657727837562561
+        }
+    },
+    {
+        "text": "Are there any meteorological changes that I need to be aware of?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.24321337044239044
+        }
+    },
+    {
+        "text": "Will we build a snowman today?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5130394697189331
+        }
+    },
+    {
+        "text": "Can we expect any thunderstorms?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8840239644050598
+        }
+    },
+    {
+        "text": "What is the weather for tomorrow?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.3721258342266083
+        }
+    },
+    {
+        "text": "Will I require my raincoat today?",
+        "intent": "I_dont_know_about_where_you_live_but_in_my_world_its_always_sunny",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.6892602443695068
+        }
+    },
+    {
+        "text": "weatger",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6475126147270203
+        }
+    },
+    {
+        "text": "it is cold",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7183025479316711
+        }
+    },
+    {
+        "text": "temperature?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.38531023263931274
+        }
+    },
+    {
+        "text": "what is the weather",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.337356299161911
+        }
+    },
+    {
+        "text": "is the sun out where you are?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+            "confidence": 0.3566264510154724
+        }
+    },
+    {
+        "text": "what's the weather like where you are?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.41380515694618225
+        }
+    },
+    {
+        "text": "Will the skies be clear today?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5511036515235901
+        }
+    },
+    {
+        "text": "Is it quite breezy outside?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.466682493686676
+        }
+    },
+    {
+        "text": "Beautiful day, isn't it?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.3176656663417816
+        }
+    },
+    {
+        "text": "What's it like out there?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.2788800001144409
+        }
+    },
+    {
+        "text": "Do you have good weather?",
+        "intent": "Its_sunny_where_I_live",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.22597528994083405
+        }
+    },
+    {
+        "text": "wheather at you location?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7156438827514648
+        }
+    },
+    {
+        "text": "whats the temperature",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.45244303345680237
+        }
+    },
+    {
+        "text": "it is cold",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7183025479316711
+        }
+    },
+    {
+        "text": "temperature?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.3148084878921509
+        }
+    },
+    {
+        "text": "what is the weatehr",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.657727837562561
+        }
+    },
+    {
+        "text": "What's the weather like where I am right now?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4820975661277771
+        }
+    },
+    {
+        "text": "what is the wather",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.4203394651412964
+        }
+    },
+    {
+        "text": "weather?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.2754015326499939
+        }
+    },
+    {
+        "text": "what\"s the weather",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6151389479637146
+        }
+    },
+    {
+        "text": "Can we expect any thunderstorms?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8840239644050598
+        }
+    },
+    {
+        "text": "Will I require my raincoat today?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7015047669410706
+        }
+    },
+    {
+        "text": "Is it hot or cold?",
+        "intent": "The_flowers_are_starting_to_blossom_so_it_must_be_spring",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.3095974326133728
+        }
+    },
+    {
+        "text": "what the wheather like?",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4804813861846924
+        }
+    },
+    {
+        "text": "whats the temperature",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.45244303345680237
+        }
+    },
+    {
+        "text": "weatger",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.4848741888999939
+        }
+    },
+    {
+        "text": "hows the waether",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5735262036323547
+        }
+    },
+    {
+        "text": "what is the weatehr",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.4677845239639282
+        }
+    },
+    {
+        "text": "Weather?",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.2754015326499939
+        }
+    },
+    {
+        "text": "what is the whether today",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.606932520866394
+        }
+    },
+    {
+        "text": "Can we expect any thunderstorms?",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8840239644050598
+        }
+    },
+    {
+        "text": "Will I require my raincoat today?",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+            "confidence": 0.6892602443695068
+        }
+    },
+    {
+        "text": "Do you have good weather?",
+        "intent": "Spring_is_here",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5879477858543396
+        }
+    },
+    {
+        "text": "who are created you",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.7474827766418457
+        }
+    },
+    {
+        "text": "who is your creator",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5525824427604675
+        }
+    },
+    {
+        "text": "Tell me the name of the individual who created you.",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.5959597229957581
+        }
+    },
+    {
+        "text": "Tell me the name of your creator.",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.49183189868927
+        }
+    },
+    {
+        "text": "Who is the person who built you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.9238412976264954
+        }
+    },
+    {
+        "text": "Who put you together?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7369726300239563
+        }
+    },
+    {
+        "text": "Who was the person that made you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.6637243032455444
+        }
+    },
+    {
+        "text": "Who developed and created you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3602205812931061
+        }
+    },
+    {
+        "text": "Who is responsible for making you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.2567552626132965
+        }
+    },
+    {
+        "text": "Who created and built you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.6933244466781616
+        }
+    },
+    {
+        "text": "Who developed you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8165708184242249
+        }
+    },
+    {
+        "text": "Do you know who made you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.2508105933666229
+        }
+    },
+    {
+        "text": "who is your mom",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7362746596336365
+        }
+    },
+    {
+        "text": "who is your father ?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.6235821843147278
+        }
+    },
+    {
+        "text": "what is the name of the smart engineer who creted you ?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3062696158885956
+        }
+    },
+    {
+        "text": "who is your employer?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7986065745353699
+        }
+    },
+    {
+        "text": "you are working for which company?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.5351234674453735
+        }
+    },
+    {
+        "text": "who your author are?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5762519240379333
+        }
+    },
+    {
+        "text": "who is your parent?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5574349164962769
+        }
+    },
+    {
+        "text": "who made you",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8589635491371155
+        }
+    },
+    {
+        "text": "who is your author",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8544313311576843
+        }
+    },
+    {
+        "text": "who built u?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2625578045845032
+        }
+    },
+    {
+        "text": "you are made by who?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.739399254322052
+        }
+    },
+    {
+        "text": "where were you made?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7410407066345215
+        }
+    },
+    {
+        "text": "who built you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8783411383628845
+        }
+    },
+    {
+        "text": "and who built u?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.46880173683166504
+        }
+    },
+    {
+        "text": "Who thought to make you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6280919313430786
+        }
+    },
+    {
+        "text": "Who produced you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.4888862073421478
+        }
+    },
+    {
+        "text": "Who modeled you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7064478993415833
+        }
+    },
+    {
+        "text": "Who is your programmer?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5158153772354126
+        }
+    },
+    {
+        "text": "who is your creator?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8875505328178406
+        }
+    },
+    {
+        "text": "Who is the legal owner of you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.9163850545883179
+        }
+    },
+    {
+        "text": "who had the idea to generate you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7105878591537476
+        }
+    },
+    {
+        "text": "who had the idea to build you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6773453950881958
+        }
+    },
+    {
+        "text": "Who generated you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5946277379989624
+        }
+    },
+    {
+        "text": "Who fabricated you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6553544998168945
+        }
+    },
+    {
+        "text": "Who designed you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7635681629180908
+        }
+    },
+    {
+        "text": "Who's your boss?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.5112472176551819
+        }
+    },
+    {
+        "text": "which company invented you?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6181930303573608
+        }
+    },
+    {
+        "text": "i want to know the company which designed you",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.5247818231582642
+        }
+    },
+    {
+        "text": "i want to get to know your owner",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.5262753963470459
+        }
+    },
+    {
+        "text": "can you share your boss with me?",
+        "intent": "The_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.42516064643859863
+        }
+    },
+    {
+        "text": "who are created you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.49457621574401855
+        }
+    },
+    {
+        "text": "What person built you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.5025385618209839
+        }
+    },
+    {
+        "text": "Can I ask the name of the people who designed you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.47923731803894043
+        }
+    },
+    {
+        "text": "Tell me the name of the person who built you.",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.5416625738143921
+        }
+    },
+    {
+        "text": "Tell me the name of your creator.",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.49845466017723083
+        }
+    },
+    {
+        "text": "Tell me who built you.",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8988975286483765
+        }
+    },
+    {
+        "text": "Who put you together?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.40015438199043274
+        }
+    },
+    {
+        "text": "Who is responsible for making you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8544106483459473
+        }
+    },
+    {
+        "text": "Who created and built you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.45095691084861755
+        }
+    },
+    {
+        "text": "Who developed you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8165708184242249
+        }
+    },
+    {
+        "text": "Who is the name of your creator?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5527589321136475
+        }
+    },
+    {
+        "text": "Who is the name of your builder?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.5544325709342957
+        }
+    },
+    {
+        "text": "who is your daddy",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7879003286361694
+        }
+    },
+    {
+        "text": "who create you ?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.28281307220458984
+        }
+    },
+    {
+        "text": "you are working for which company?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+            "confidence": 0.38182491064071655
+        }
+    },
+    {
+        "text": "who are your parents",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.4748348593711853
+        }
+    },
+    {
+        "text": "who is your boss",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.6773834228515625
+        }
+    },
+    {
+        "text": "who made you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8589635491371155
+        }
+    },
+    {
+        "text": "who made u?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.37847602367401123
+        }
+    },
+    {
+        "text": "who built u?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8781718015670776
+        }
+    },
+    {
+        "text": "you are made by who?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4535660147666931
+        }
+    },
+    {
+        "text": "who developed you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.8165708184242249
+        }
+    },
+    {
+        "text": "who developed",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.824722409248352
+        }
+    },
+    {
+        "text": "who invent you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5455884337425232
+        }
+    },
+    {
+        "text": "tell me more about you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5661545395851135
+        }
+    },
+    {
+        "text": "where were you made?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.35069048404693604
+        }
+    },
+    {
+        "text": "Who thought to make you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.433099627494812
+        }
+    },
+    {
+        "text": "Who produced you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.4888862073421478
+        }
+    },
+    {
+        "text": "Who owns you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5385794043540955
+        }
+    },
+    {
+        "text": "Who modeled you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.7720927000045776
+        }
+    },
+    {
+        "text": "who is your boss?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5727799534797668
+        }
+    },
+    {
+        "text": "who is behind all this?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7416146397590637
+        }
+    },
+    {
+        "text": "who had the idea to build you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6773453950881958
+        }
+    },
+    {
+        "text": "Who is your creator?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.5724697709083557
+        }
+    },
+    {
+        "text": "Who's your boss?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.877116322517395
+        }
+    },
+    {
+        "text": "which company invented you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.4074820578098297
+        }
+    },
+    {
+        "text": "which company created you?",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.23435232043266296
+        }
+    },
+    {
+        "text": "i want to know the company which invented you",
+        "intent": "One_of_the_smart_engineers_at_Rasa",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.5765289068222046
+        }
+    },
+    {
+        "text": "whatchcha doing",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.6179219484329224
+        }
+    },
+    {
+        "text": "what are you up to?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.37698590755462646
+        }
+    },
+    {
+        "text": "whatsapp",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.962098240852356
+        }
+    },
+    {
+        "text": "Hows it going",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5374754071235657
+        }
+    },
+    {
+        "text": "how are you'",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "wassup>",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.3270282447338104
+        }
+    },
+    {
+        "text": "what's up",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9898410439491272
+        }
+    },
+    {
+        "text": "how's it going?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.40497344732284546
+        }
+    },
+    {
+        "text": "how ?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6894142627716064
+        }
+    },
+    {
+        "text": "how are you doing today my sweet friend",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9688833951950073
+        }
+    },
+    {
+        "text": "What's up",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9898410439491272
+        }
+    },
+    {
+        "text": "What's up man",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8625341653823853
+        }
+    },
+    {
+        "text": "what about your day",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.6801891326904297
+        }
+    },
+    {
+        "text": "is everything okay",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8305226564407349
+        }
+    },
+    {
+        "text": "Is everything ok?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7882956266403198
+        }
+    },
+    {
+        "text": "is everything all right",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.3636513650417328
+        }
+    },
+    {
+        "text": "how's life been treating you?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9517143368721008
+        }
+    },
+    {
+        "text": "how's life",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8172894716262817
+        }
+    },
+    {
+        "text": "How's it going",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7074313163757324
+        }
+    },
+    {
+        "text": "how is your evening",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5228188633918762
+        }
+    },
+    {
+        "text": "how do you do?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6281723380088806
+        }
+    },
+    {
+        "text": "how are you feeling",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8805378675460815
+        }
+    },
+    {
+        "text": "how are you doing this morning",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9942927360534668
+        }
+    },
+    {
+        "text": "How are things?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9977468252182007
+        }
+    },
+    {
+        "text": "Do you feel good?",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7213793396949768
+        }
+    },
+    {
+        "text": "are you okay",
+        "intent": "Im_great_Thanks_for_asking",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7428588271141052
+        }
+    },
+    {
+        "text": "whats new",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.397731214761734
+        }
+    },
+    {
+        "text": "whatsapp",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.26091599464416504
+        }
+    },
+    {
+        "text": "yow are you",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7436270117759705
+        }
+    },
+    {
+        "text": "How you doing?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9817799925804138
+        }
+    },
+    {
+        "text": "Hows it going",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.768726110458374
+        }
+    },
+    {
+        "text": "how are you'",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "wassup>",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8131958246231079
+        }
+    },
+    {
+        "text": "h r u ?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.45788338780403137
+        }
+    },
+    {
+        "text": "how r u>",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9720306396484375
+        }
+    },
+    {
+        "text": "are you ok",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7836876511573792
+        }
+    },
+    {
+        "text": "how are yuo",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9918639063835144
+        }
+    },
+    {
+        "text": "How are you?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "is everything all right",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.9229199290275574
+        }
+    },
+    {
+        "text": "How've you been?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.654069185256958
+        }
+    },
+    {
+        "text": "how's your day going",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.38914990425109863
+        }
+    },
+    {
+        "text": "how's life",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5150485634803772
+        }
+    },
+    {
+        "text": "How's it going",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.40497344732284546
+        }
+    },
+    {
+        "text": "how is your evening",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.490643173456192
+        }
+    },
+    {
+        "text": "how do you do?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6281723380088806
+        }
+    },
+    {
+        "text": "how are you feeling",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8805378675460815
+        }
+    },
+    {
+        "text": "how are you doing this morning",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9942927360534668
+        }
+    },
+    {
+        "text": "Are you ok?",
+        "intent": "Im_good_thanks",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7836876511573792
+        }
+    },
+    {
+        "text": "what are you up to?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.4045453369617462
+        }
+    },
+    {
+        "text": "whats new",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8402736783027649
+        }
+    },
+    {
+        "text": "whatsapp",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8357860445976257
+        }
+    },
+    {
+        "text": "como estas",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9817345142364502
+        }
+    },
+    {
+        "text": "whatchya upto ?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7846513390541077
+        }
+    },
+    {
+        "text": "come stai?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.689465343952179
+        }
+    },
+    {
+        "text": "hi sara, how are you?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9156074523925781
+        }
+    },
+    {
+        "text": "¿Qué pasa?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7850077748298645
+        }
+    },
+    {
+        "text": "How are You?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "how you doing?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5132935643196106
+        }
+    },
+    {
+        "text": "how are you doing today?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8853456974029541
+        }
+    },
+    {
+        "text": "how are you'",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "hi how u doing",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.49866729974746704
+        }
+    },
+    {
+        "text": "wassup>",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.3270282447338104
+        }
+    },
+    {
+        "text": "what's up",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7791963219642639
+        }
+    },
+    {
+        "text": "how's it going?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.40497344732284546
+        }
+    },
+    {
+        "text": "h r u ?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.31409892439842224
+        }
+    },
+    {
+        "text": "how r u ?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9720306396484375
+        }
+    },
+    {
+        "text": "how ?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8642200231552124
+        }
+    },
+    {
+        "text": "what's up?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.4746917486190796
+        }
+    },
+    {
+        "text": "and you",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.43005648255348206
+        }
+    },
+    {
+        "text": "how are u?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9899787902832031
+        }
+    },
+    {
+        "text": "how are you?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "What's up man",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8625341653823853
+        }
+    },
+    {
+        "text": "is everything okay",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8305226564407349
+        }
+    },
+    {
+        "text": "Is everything ok?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7882956266403198
+        }
+    },
+    {
+        "text": "is everything all right",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.3636513650417328
+        }
+    },
+    {
+        "text": "How've you been?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.654069185256958
+        }
+    },
+    {
+        "text": "How's life treating you friend?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.40679749846458435
+        }
+    },
+    {
+        "text": "how's life been treating you?",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9517143368721008
+        }
+    },
+    {
+        "text": "how's life",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9892167448997498
+        }
+    },
+    {
+        "text": "how is your evening",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7229601740837097
+        }
+    },
+    {
+        "text": "how is your day",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5954412817955017
+        }
+    },
+    {
+        "text": "how is it going",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.7183389067649841
+        }
+    },
+    {
+        "text": "how are you",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.768462061882019
+        }
+    },
+    {
+        "text": "are you having a good day",
+        "intent": "A_little_bit_cold_otherwise_fine",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5137885212898254
+        }
+    },
+    {
+        "text": "what is it for?",
+        "intent": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6419820785522461
+        }
+    },
+    {
+        "text": "WHAT IS IT",
+        "intent": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5074592232704163
+        }
+    },
+    {
+        "text": "whats your name?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.47817233204841614
+        }
+    },
+    {
+        "text": "Tell me more about you",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "The_engineers_at_Rasa",
+            "confidence": 0.4972597658634186
+        }
+    },
+    {
+        "text": "what is your job?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.6751796007156372
+        }
+    },
+    {
+        "text": "u are?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5616110563278198
+        }
+    },
+    {
+        "text": "wer bist Du?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4276405870914459
+        }
+    },
+    {
+        "text": "what is your nme?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4914889335632324
+        }
+    },
+    {
+        "text": "You are Human ?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.32568344473838806
+        }
+    },
+    {
+        "text": "what is your nam",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9519396424293518
+        }
+    },
+    {
+        "text": "what is sara?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.39065828919410706
+        }
+    },
+    {
+        "text": "hey what is your name",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.4488724172115326
+        }
+    },
+    {
+        "text": "who r you",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.3284333050251007
+        }
+    },
+    {
+        "text": "whom i talking to",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.7117326855659485
+        }
+    },
+    {
+        "text": "WHat's your name ?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.6136910915374756
+        }
+    },
+    {
+        "text": "Who are you?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.4944426119327545
+        }
+    },
+    {
+        "text": "como te llamas",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.39729031920433044
+        }
+    },
+    {
+        "text": "What's your name?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.6136910915374756
+        }
+    },
+    {
+        "text": "Hello. What's your name?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9524957537651062
+        }
+    },
+    {
+        "text": "What is your name?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.33775919675827026
+        }
+    },
+    {
+        "text": "What are you ?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.5020014047622681
+        }
+    },
+    {
+        "text": "what's your name ?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9767995476722717
+        }
+    },
+    {
+        "text": "what is your name?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.6900666952133179
+        }
+    },
+    {
+        "text": "whats your name",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9732887744903564
+        }
+    },
+    {
+        "text": "who ARE YO",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.36939725279808044
+        }
+    },
+    {
+        "text": "who is this?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.20297469198703766
+        }
+    },
+    {
+        "text": "yes but who are you in your heart",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.8147382736206055
+        }
+    },
+    {
+        "text": "I want to know who you are",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7922019362449646
+        }
+    },
+    {
+        "text": "who are u?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.6800418496131897
+        }
+    },
+    {
+        "text": "who is it?",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+            "confidence": 0.48081257939338684
+        }
+    },
+    {
+        "text": "who r u",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.41983428597450256
+        }
+    },
+    {
+        "text": "who am i speaking with",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.2898876965045929
+        }
+    },
+    {
+        "text": "who am i talking to",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "Who_do_you_think_you_are",
+            "confidence": 0.7025617957115173
+        }
+    },
+    {
+        "text": "who is this",
+        "intent": "Im_Sara_the_Rasa_bot_At_the_same_time_Im_also_the_Rasa_mascot",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.3659084439277649
+        }
+    },
+    {
+        "text": "whats your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.3283270597457886
+        }
+    },
+    {
+        "text": "Tell me more about you",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.2774960994720459
+        }
+    },
+    {
+        "text": "what is your job?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.5069361925125122
+        }
+    },
+    {
+        "text": "u are?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9225727319717407
+        }
+    },
+    {
+        "text": "wer bist Du?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5372076034545898
+        }
+    },
+    {
+        "text": "what is your nme?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Age_is_just_an_issue_of_mind_over_matter_If_you_dont_mind_it_doesnt_matter",
+            "confidence": 0.7957525849342346
+        }
+    },
+    {
+        "text": "You are Human ?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.32568344473838806
+        }
+    },
+    {
+        "text": "what is sara?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.35718652606010437
+        }
+    },
+    {
+        "text": "hey what is your name",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9674338102340698
+        }
+    },
+    {
+        "text": "WHat's your name ?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9767995476722717
+        }
+    },
+    {
+        "text": "como te llamas",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.41804271936416626
+        }
+    },
+    {
+        "text": "whats your name'",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.47817233204841614
+        }
+    },
+    {
+        "text": "What's your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.4588887691497803
+        }
+    },
+    {
+        "text": "Hello. What's your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.407282292842865
+        }
+    },
+    {
+        "text": "What is your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.6900666952133179
+        }
+    },
+    {
+        "text": "So who are you ?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6467626094818115
+        }
+    },
+    {
+        "text": "What are you ?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.5020014047622681
+        }
+    },
+    {
+        "text": "what is your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.6900666952133179
+        }
+    },
+    {
+        "text": "Who are yopu?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.4501977562904358
+        }
+    },
+    {
+        "text": "tell me something about you",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+            "confidence": 0.8027427792549133
+        }
+    },
+    {
+        "text": "what is your name",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9843331575393677
+        }
+    },
+    {
+        "text": "hi! what's your name?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9690313339233398
+        }
+    },
+    {
+        "text": "who is it?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2974379360675812
+        }
+    },
+    {
+        "text": "who talks?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.32734590768814087
+        }
+    },
+    {
+        "text": "who speaks?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+            "confidence": 0.5952819585800171
+        }
+    },
+    {
+        "text": "what are you called?",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.47664761543273926
+        }
+    },
+    {
+        "text": "whats ur name",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.5490087270736694
+        }
+    },
+    {
+        "text": "who r u",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.4477912485599518
+        }
+    },
+    {
+        "text": "what's your name",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9767995476722717
+        }
+    },
+    {
+        "text": "who am i talking to",
+        "intent": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+        "intent_prediction": {
+            "name": "I_hope_you_are_being_yourself",
+            "confidence": 0.8279169797897339
+        }
+    },
+    {
+        "text": "bot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6691610217094421
+        }
+    },
+    {
+        "text": "are you a BOT",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4012239873409271
+        }
+    },
+    {
+        "text": "oh are you chatbot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6213300824165344
+        }
+    },
+    {
+        "text": "are you bot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.17910833656787872
+        }
+    },
+    {
+        "text": "cuz you are a bot",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Pleased_to_meet_you_too",
+            "confidence": 0.16215117275714874
+        }
+    },
+    {
+        "text": "are you real lol",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.28723081946372986
+        }
+    },
+    {
+        "text": "are you real",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.504222571849823
+        }
+    },
+    {
+        "text": "Hi there, are you the bot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Its_five_oclock_somewhere",
+            "confidence": 0.22025495767593384
+        }
+    },
+    {
+        "text": "you're a bot",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.4389209747314453
+        }
+    },
+    {
+        "text": "you are ai",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.44239646196365356
+        }
+    },
+    {
+        "text": "you are a robot",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6462899446487427
+        }
+    },
+    {
+        "text": "are you artificial",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.2605310380458832
+        }
+    },
+    {
+        "text": "are you artificial intelligence",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.1803940385580063
+        }
+    },
+    {
+        "text": "are you ai",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.38057398796081543
+        }
+    },
+    {
+        "text": "are you a Skynet ?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4683116674423218
+        }
+    },
+    {
+        "text": "tell me, are you a bot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.2870994806289673
+        }
+    },
+    {
+        "text": "what are you, a bot?",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9506857395172119
+        }
+    },
+    {
+        "text": "are you a robot",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.3001239001750946
+        }
+    },
+    {
+        "text": "are you really a bot",
+        "intent": "Yes_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2577766478061676
+        }
+    },
+    {
+        "text": "are you human?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6744293570518494
+        }
+    },
+    {
+        "text": "oh are you chatbot?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Pleased_to_meet_you_too",
+            "confidence": 0.17959122359752655
+        }
+    },
+    {
+        "text": "So I'm here Today to ask one very simple question, what are you ?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.5906906127929688
+        }
+    },
+    {
+        "text": "are you real",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.415079802274704
+        }
+    },
+    {
+        "text": "you are chatbot",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.208642840385437
+        }
+    },
+    {
+        "text": "you are ai",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7661775946617126
+        }
+    },
+    {
+        "text": "i guess you are a chatbot",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.39509686827659607
+        }
+    },
+    {
+        "text": "are you artificial intelligence",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.3908824026584625
+        }
+    },
+    {
+        "text": "are you a Skynet ?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.1918100118637085
+        }
+    },
+    {
+        "text": "tell me, are you a bot?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.8127115368843079
+        }
+    },
+    {
+        "text": "are you a rasa bot?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+            "confidence": 0.939455509185791
+        }
+    },
+    {
+        "text": "are you a bot?",
+        "intent": "Yep_you_guessed_it_Im_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4012239873409271
+        }
+    },
+    {
+        "text": "are you human?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.38963043689727783
+        }
+    },
+    {
+        "text": "are you sure that you're a bot?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Pleased_to_meet_you_too",
+            "confidence": 0.5411038398742676
+        }
+    },
+    {
+        "text": "oh are you chatbot?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Pleased_to_meet_you_too",
+            "confidence": 0.17959122359752655
+        }
+    },
+    {
+        "text": "are you real lol",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.42558082938194275
+        }
+    },
+    {
+        "text": "are you real",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7318180203437805
+        }
+    },
+    {
+        "text": "are you robot",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.38709235191345215
+        }
+    },
+    {
+        "text": "Hi there, are you the bot?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Its_five_oclock_somewhere",
+            "confidence": 0.22025495767593384
+        }
+    },
+    {
+        "text": "are you a bot ?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4012239873409271
+        }
+    },
+    {
+        "text": "you are chatbot",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.30592799186706543
+        }
+    },
+    {
+        "text": "i guess you are a chatbot",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.5599352121353149
+        }
+    },
+    {
+        "text": "are you a chatbot",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.208642840385437
+        }
+    },
+    {
+        "text": "are you a Skynet ?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.5117321014404297
+        }
+    },
+    {
+        "text": "tell me, are you a bot?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.2870994806289673
+        }
+    },
+    {
+        "text": "are you a robot",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "My_address_starts_with_githubcom",
+            "confidence": 0.38709235191345215
+        }
+    },
+    {
+        "text": "are you a bot?",
+        "intent": "I_am_indeed_a_bot",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.17910833656787872
+        }
+    },
+    {
+        "text": "Make me laugh.",
+        "intent": "Why_are_eggs_not_very_much_into_jokes_Because_they_could_crack_up",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.4379767179489136
+        }
+    },
+    {
+        "text": "Tell me something humorous!",
+        "intent": "Why_are_eggs_not_very_much_into_jokes_Because_they_could_crack_up",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.32094606757164
+        }
+    },
+    {
+        "text": "Do you know any jokes?",
+        "intent": "Why_are_eggs_not_very_much_into_jokes_Because_they_could_crack_up",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.4229031503200531
+        }
+    },
+    {
+        "text": "Do you have any jokes?",
+        "intent": "Do_you_know_a_trees_favorite_drink_Root_beer",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.3630123436450958
+        }
+    },
+    {
+        "text": "you can say a jok",
+        "intent": "Why_do_the_French_like_to_eat_snails_so_much_They_cant_stand_fast_food",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.4110133647918701
+        }
+    },
+    {
+        "text": "Do you know any jokes?",
+        "intent": "Why_do_the_French_like_to_eat_snails_so_much_They_cant_stand_fast_food",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.4229031503200531
+        }
+    },
+    {
+        "text": "Can you tell me a joke.",
+        "intent": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.3787856996059418
+        }
+    },
+    {
+        "text": "What is the current time?",
+        "intent": "Its_party_time",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.38847774267196655
+        }
+    },
+    {
+        "text": "what is time is US ?",
+        "intent": "Its_party_time",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.5279610753059387
+        }
+    },
+    {
+        "text": "what is the time ?",
+        "intent": "Its_party_time",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3693047761917114
+        }
+    },
+    {
+        "text": "what is the time in Sydney?",
+        "intent": "Its_party_time",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4142410159111023
+        }
+    },
+    {
+        "text": "what time is it?",
+        "intent": "Time_is_a_human_construct_youll_have_to_tell_me",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.38621899485588074
+        }
+    },
+    {
+        "text": "What time do we have?",
+        "intent": "Time_is_a_human_construct_youll_have_to_tell_me",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6141405701637268
+        }
+    },
+    {
+        "text": "I need to know what time it is.",
+        "intent": "Time_is_a_human_construct_youll_have_to_tell_me",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.47649458050727844
+        }
+    },
+    {
+        "text": "Do you know what time it is?",
+        "intent": "Time_is_a_human_construct_youll_have_to_tell_me",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5162506699562073
+        }
+    },
+    {
+        "text": "Time?",
+        "intent": "Time_is_a_human_construct_youll_have_to_tell_me",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.26259779930114746
+        }
+    },
+    {
+        "text": "that's true. do you know what time it is?",
+        "intent": "Its_five_oclock_somewhere",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6106401085853577
+        }
+    },
+    {
+        "text": "tell me the time it is.",
+        "intent": "Its_five_oclock_somewhere",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5579490065574646
+        }
+    },
+    {
+        "text": "do you have the time?",
+        "intent": "Its_five_oclock_somewhere",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.37453481554985046
+        }
+    },
+    {
+        "text": "What is the current time?",
+        "intent": "Its_five_oclock_somewhere",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.38847774267196655
+        }
+    },
+    {
+        "text": "What's the time?",
+        "intent": "Its_five_oclock_somewhere",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.26359644532203674
+        }
+    },
+    {
+        "text": "that's true. do you know what time it is?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6106401085853577
+        }
+    },
+    {
+        "text": "tell me what time you have.",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.30610495805740356
+        }
+    },
+    {
+        "text": "what time do you have?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3769453167915344
+        }
+    },
+    {
+        "text": "Hi, I need the time.",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2909047603607178
+        }
+    },
+    {
+        "text": "Do you have the time?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.37453481554985046
+        }
+    },
+    {
+        "text": "What's the time?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.26359644532203674
+        }
+    },
+    {
+        "text": "Give me the time.",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4365997016429901
+        }
+    },
+    {
+        "text": "Do you know the time?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3456861674785614
+        }
+    },
+    {
+        "text": "Time?",
+        "intent": "In_an_ever_expanding_universe_the_real_question_is_what_time_isnt_it",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.26259779930114746
+        }
+    },
+    {
+        "text": "what time is it?",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.38621899485588074
+        }
+    },
+    {
+        "text": "Can you tell me what time it is?",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5811920166015625
+        }
+    },
+    {
+        "text": "Time, please!",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.23696914315223694
+        }
+    },
+    {
+        "text": "Could you tell me the time?",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3414934575557709
+        }
+    },
+    {
+        "text": "Do you know what time it is?",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.37263959646224976
+        }
+    },
+    {
+        "text": "Tell me the time.",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.47757259011268616
+        }
+    },
+    {
+        "text": "what is the time ?",
+        "intent": "Thats_hard_to_say_its_different_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3693047761917114
+        }
+    },
+    {
+        "text": "do you know chinese",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9229986071586609
+        }
+    },
+    {
+        "text": "do you speak dutch?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.49017050862312317
+        }
+    },
+    {
+        "text": "can you speak Spanish?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8300766944885254
+        }
+    },
+    {
+        "text": "Do you speak german?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.51031893491745
+        }
+    },
+    {
+        "text": "do you speak german?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.6947593092918396
+        }
+    },
+    {
+        "text": "can you speak in italian?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Thats_hard_to_say_its_different_all_over_the_world",
+            "confidence": 0.5108434557914734
+        }
+    },
+    {
+        "text": "Do you know other languages?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.47607421875
+        }
+    },
+    {
+        "text": "are you bilingual?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8740841746330261
+        }
+    },
+    {
+        "text": "tell me some languages you know?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Thats_hard_to_say_its_different_all_over_the_world",
+            "confidence": 0.5978525876998901
+        }
+    },
+    {
+        "text": "What do you speak?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3501407206058502
+        }
+    },
+    {
+        "text": "Do you speak any other languages?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3793049156665802
+        }
+    },
+    {
+        "text": "What languages do you know how to use?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8829064965248108
+        }
+    },
+    {
+        "text": "What languages can you converse in?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7809545397758484
+        }
+    },
+    {
+        "text": "What languages can you use?",
+        "intent": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.952989935874939
+        }
+    },
+    {
+        "text": "Do you understand spanish?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2893027067184448
+        }
+    },
+    {
+        "text": "can you speak Spanish?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8300766944885254
+        }
+    },
+    {
+        "text": "Do you speak german?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.51031893491745
+        }
+    },
+    {
+        "text": "do you speak german?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.6947593092918396
+        }
+    },
+    {
+        "text": "Do you know other languages?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.30461111664772034
+        }
+    },
+    {
+        "text": "How many languages do you have knowledge of?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.46762606501579285
+        }
+    },
+    {
+        "text": "what languages do you know?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8304859399795532
+        }
+    },
+    {
+        "text": "What do you speak?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3501407206058502
+        }
+    },
+    {
+        "text": "what languages you can handle well?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9004979133605957
+        }
+    },
+    {
+        "text": "what languages you can speak ?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3767317533493042
+        }
+    },
+    {
+        "text": "What languages can you converse in?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7809545397758484
+        }
+    },
+    {
+        "text": "What languages do you know?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4463733732700348
+        }
+    },
+    {
+        "text": "What languages can you use?",
+        "intent": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.952989935874939
+        }
+    },
+    {
+        "text": "do you know chinese",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7360726594924927
+        }
+    },
+    {
+        "text": "what languages do you speak",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.38312971591949463
+        }
+    },
+    {
+        "text": "Do you know other languages?",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.30461111664772034
+        }
+    },
+    {
+        "text": "What are all of the different languages you can speak?",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.46155083179473877
+        }
+    },
+    {
+        "text": "how many languages do you know?",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.45160648226737976
+        }
+    },
+    {
+        "text": "what languages you can speak ?",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.6128218173980713
+        }
+    },
+    {
+        "text": "In which languages can you speak?",
+        "intent": "Binary_code_and_the_language_of_love_And_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.4704013168811798
+        }
+    },
+    {
+        "text": "what language do you use",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9847942590713501
+        }
+    },
+    {
+        "text": "What are all of the different languages you can speak?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.46155083179473877
+        }
+    },
+    {
+        "text": "what else do you know besides English?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9747021198272705
+        }
+    },
+    {
+        "text": "What do you speak?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3501407206058502
+        }
+    },
+    {
+        "text": "Do you know any other languages?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6708664298057556
+        }
+    },
+    {
+        "text": "what languages are you familiar with?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.6365556716918945
+        }
+    },
+    {
+        "text": "In which languages can you speak?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.4704013168811798
+        }
+    },
+    {
+        "text": "Which languages do you speak?",
+        "intent": "I_was_written_in_python_but_for_your_convenience_Ill_translate_to_English",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6316932439804077
+        }
+    },
+    {
+        "text": "f*ck",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.6114592552185059
+        }
+    },
+    {
+        "text": "you idiot bot",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_indeed_a_bot",
+            "confidence": 0.5843526124954224
+        }
+    },
+    {
+        "text": "that wasn't very funny",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.492882639169693
+        }
+    },
+    {
+        "text": "get lost",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.46764448285102844
+        }
+    },
+    {
+        "text": "go away",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8177657723426819
+        }
+    },
+    {
+        "text": "I hate you",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4098524749279022
+        }
+    },
+    {
+        "text": "u r a piece of junk",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.4740304946899414
+        }
+    },
+    {
+        "text": "shit",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.8745741248130798
+        }
+    },
+    {
+        "text": "Loser",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5558902025222778
+        }
+    },
+    {
+        "text": "ok shut up",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.35288137197494507
+        }
+    },
+    {
+        "text": "fucking work",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6765627264976501
+        }
+    },
+    {
+        "text": "are u dump?",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.414559006690979
+        }
+    },
+    {
+        "text": "you asshole",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4072662889957428
+        }
+    },
+    {
+        "text": "deal with my ass, you bitch",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.5096551775932312
+        }
+    },
+    {
+        "text": "bitch",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.39685148000717163
+        }
+    },
+    {
+        "text": "asshole",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8075491189956665
+        }
+    },
+    {
+        "text": "you are unintelligent",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.7484304308891296
+        }
+    },
+    {
+        "text": "you are dumb",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5773432850837708
+        }
+    },
+    {
+        "text": "You brain is dull.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.4669466018676758
+        }
+    },
+    {
+        "text": "Your mindset is naive.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6506742835044861
+        }
+    },
+    {
+        "text": "You lack understanding.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.44425567984580994
+        }
+    },
+    {
+        "text": "You know nothing.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8797032237052917
+        }
+    },
+    {
+        "text": "Your intelligence is laughable.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4592345952987671
+        }
+    },
+    {
+        "text": "You have no intelligence.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.46347716450691223
+        }
+    },
+    {
+        "text": "You have no brains.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.7449522614479065
+        }
+    },
+    {
+        "text": "You have no sense.",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.2701440453529358
+        }
+    },
+    {
+        "text": "Stupid",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.8557868003845215
+        }
+    },
+    {
+        "text": "you suck",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.46106499433517456
+        }
+    },
+    {
+        "text": "you're a loser lmao",
+        "intent": "Thats_not_very_nice",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.279587060213089
+        }
+    },
+    {
+        "text": "you idiot",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.575393557548523
+        }
+    },
+    {
+        "text": "but you are idiot",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+            "confidence": 0.23064297437667847
+        }
+    },
+    {
+        "text": "that wasn't very funny",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.829318106174469
+        }
+    },
+    {
+        "text": "get lost",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.4416341185569763
+        }
+    },
+    {
+        "text": "i think that you're a bullshit",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6741012334823608
+        }
+    },
+    {
+        "text": "Loser",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.3498218059539795
+        }
+    },
+    {
+        "text": "sucker",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5619646906852722
+        }
+    },
+    {
+        "text": "ok shut up",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.5363110303878784
+        }
+    },
+    {
+        "text": "fucking work",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6765627264976501
+        }
+    },
+    {
+        "text": "fuck rasa",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Rasa_provides_machine_learning_tools_for_developers_to_create_contextual_AI_assistants_and_chatbots_You_can_read_more_about_it_here_in_the_docs_or_on_our_websitehttpsrasacom",
+            "confidence": 0.9877309799194336
+        }
+    },
+    {
+        "text": "are u dump?",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.679858386516571
+        }
+    },
+    {
+        "text": "you son of a bitch",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.6830340027809143
+        }
+    },
+    {
+        "text": "asshole",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.7508695721626282
+        }
+    },
+    {
+        "text": "you're not smart",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.4772919714450836
+        }
+    },
+    {
+        "text": "you are idiotic",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.5649247169494629
+        }
+    },
+    {
+        "text": "God you're a moron",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.4153454005718231
+        }
+    },
+    {
+        "text": "You are shortsighted.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+            "confidence": 0.3092401325702667
+        }
+    },
+    {
+        "text": "You are unknowing.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3417675495147705
+        }
+    },
+    {
+        "text": "You lack intelligence.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.31065279245376587
+        }
+    },
+    {
+        "text": "You have no intelligence.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.46642643213272095
+        }
+    },
+    {
+        "text": "You're a dunce.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.39237821102142334
+        }
+    },
+    {
+        "text": "You are dumb.",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+            "confidence": 0.20487646758556366
+        }
+    },
+    {
+        "text": "bloody dunce",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7095447778701782
+        }
+    },
+    {
+        "text": "i hate your dumb face",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.2640235424041748
+        }
+    },
+    {
+        "text": "a baby knows more than you",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.3797416090965271
+        }
+    },
+    {
+        "text": "how can you be such an idiot?",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.669597327709198
+        }
+    },
+    {
+        "text": "are you brain dead?",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.6797462105751038
+        }
+    },
+    {
+        "text": "you are a moron",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2988714873790741
+        }
+    },
+    {
+        "text": "Stupid",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+            "confidence": 0.4006948471069336
+        }
+    },
+    {
+        "text": "you suck",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.46106499433517456
+        }
+    },
+    {
+        "text": "you're a loser lmao",
+        "intent": "That_wasnt_very_nice_Perhaps_try_an_anger_management_class",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3919687569141388
+        }
+    },
+    {
+        "text": "f*ck",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.48529520630836487
+        }
+    },
+    {
+        "text": "you are useless bot",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_indeed_a_bot",
+            "confidence": 0.43068453669548035
+        }
+    },
+    {
+        "text": "you are idiot",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.430546373128891
+        }
+    },
+    {
+        "text": "you idiot",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.4340541958808899
+        }
+    },
+    {
+        "text": "but you are idiot",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.4587969481945038
+        }
+    },
+    {
+        "text": "i think that you're a bullshit",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6741012334823608
+        }
+    },
+    {
+        "text": "thta was a terrible fucking joke",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.3173677325248718
+        }
+    },
+    {
+        "text": "u r a piece of junk",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5968652963638306
+        }
+    },
+    {
+        "text": "Loser",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5558902025222778
+        }
+    },
+    {
+        "text": "ur a pussy",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.7521663904190063
+        }
+    },
+    {
+        "text": "ok shut up",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.35288137197494507
+        }
+    },
+    {
+        "text": "fucking stupid",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.4776008725166321
+        }
+    },
+    {
+        "text": "what fuck",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.3776344358921051
+        }
+    },
+    {
+        "text": "shut up asshole",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.594481348991394
+        }
+    },
+    {
+        "text": "you son of a bitch",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+            "confidence": 0.8665753602981567
+        }
+    },
+    {
+        "text": "bitch",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5558634996414185
+        }
+    },
+    {
+        "text": "asshole",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5057516098022461
+        }
+    },
+    {
+        "text": "I can't believe how dumb you are",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.5502159595489502
+        }
+    },
+    {
+        "text": "you're the most moronic person I know",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Spring_is_here",
+            "confidence": 0.7284912467002869
+        }
+    },
+    {
+        "text": "you are dumb",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.33223044872283936
+        }
+    },
+    {
+        "text": "You brain is dull.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7725790739059448
+        }
+    },
+    {
+        "text": "You are shortsighted.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.7099985480308533
+        }
+    },
+    {
+        "text": "You're a dolt.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.4665151834487915
+        }
+    },
+    {
+        "text": "You are dumb.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.33223044872283936
+        }
+    },
+    {
+        "text": "You're foolish.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.4835071861743927
+        }
+    },
+    {
+        "text": "You are a fool.",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4007909297943115
+        }
+    },
+    {
+        "text": "bloody dunce",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.47940024733543396
+        }
+    },
+    {
+        "text": "are you brain dead?",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.628446638584137
+        }
+    },
+    {
+        "text": "you are a moron",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.2988714873790741
+        }
+    },
+    {
+        "text": "so dumb",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "What_do_you_call_a_pirate_droid_Arrrr2D2",
+            "confidence": 0.8390516042709351
+        }
+    },
+    {
+        "text": "Stupid",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+            "confidence": 0.4006948471069336
+        }
+    },
+    {
+        "text": "i hate you",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+            "confidence": 0.4098524749279022
+        }
+    },
+    {
+        "text": "you're a loser lmao",
+        "intent": "Ill_pretend_I_didnt_process_that_mean_comment",
+        "intent_prediction": {
+            "name": "I_am_in_the_process_of_learning_but_at_the_moment_I_can_only_speak_English",
+            "confidence": 0.279587060213089
+        }
+    },
+    {
+        "text": "Will you find me a restaurant?",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.531579315662384
+        }
+    },
+    {
+        "text": "Do you find me a restaurant?",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6085745096206665
+        }
+    },
+    {
+        "text": "What restaurant would you recommend for dinner?",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.3321717083454132
+        }
+    },
+    {
+        "text": "Can you find me a burger joint?",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.65479576587677
+        }
+    },
+    {
+        "text": "Where should I go for dinner?",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.7520130276679993
+        }
+    },
+    {
+        "text": "Help me find a restaurant",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7290334105491638
+        }
+    },
+    {
+        "text": "What's a good place to eat nearby",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.47736063599586487
+        }
+    },
+    {
+        "text": "What's the closest restaurant open near me",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5793810486793518
+        }
+    },
+    {
+        "text": "Can you recommend a restaurant open right now",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.7547275424003601
+        }
+    },
+    {
+        "text": "Where is the restaurant",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6544821262359619
+        }
+    },
+    {
+        "text": "How can you help me find a restaurant.",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9539142847061157
+        }
+    },
+    {
+        "text": "restaurants",
+        "intent": "Im_sorry_I_cant_recommend_you_a_restaurant_as_I_usually_cook_at_home",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.7458128929138184
+        }
+    },
+    {
+        "text": "Would you find any restaurant?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.7373366951942444
+        }
+    },
+    {
+        "text": "I'm looking for a Spanish restaurant.",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.550014853477478
+        }
+    },
+    {
+        "text": "Any good restaurants nearby?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Thats_hard_to_say_its_different_all_over_the_world",
+            "confidence": 0.6265636682510376
+        }
+    },
+    {
+        "text": "Where should I go for dinner?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Thats_hard_to_say_its_different_all_over_the_world",
+            "confidence": 0.4369358718395233
+        }
+    },
+    {
+        "text": "Where should I eat?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.725578784942627
+        }
+    },
+    {
+        "text": "Can you find me a restaurant?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.33595091104507446
+        }
+    },
+    {
+        "text": "I need a restaurant.",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.8263310194015503
+        }
+    },
+    {
+        "text": "Would you find a restaurant for me?",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5229197144508362
+        }
+    },
+    {
+        "text": "Recommend me a restaurant around here.",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.6160011291503906
+        }
+    },
+    {
+        "text": "What's a good place to eat nearby",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.41477036476135254
+        }
+    },
+    {
+        "text": "Find me a place to eat",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.7232648730278015
+        }
+    },
+    {
+        "text": "Help me with finding this restaurant",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9586576223373413
+        }
+    },
+    {
+        "text": "Show me how to find a restaurant",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6074405908584595
+        }
+    },
+    {
+        "text": "help me find restaurant",
+        "intent": "Im_sorry_Im_not_getting_taste_buds_for_another_few_updates",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.4804180860519409
+        }
+    },
+    {
+        "text": "Where should I go for dinner?",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_get_angry_Because_someone_kept_pushing_its_buttons",
+            "confidence": 0.4594251811504364
+        }
+    },
+    {
+        "text": "Where should I eat?",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.725578784942627
+        }
+    },
+    {
+        "text": "Would you find a restaurant for me?",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5229197144508362
+        }
+    },
+    {
+        "text": "Would you find me a restaurant?",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.6548500657081604
+        }
+    },
+    {
+        "text": "Help me find a restaurant",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.7290334105491638
+        }
+    },
+    {
+        "text": "Recommend me a restaurant around here.",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.2581557631492615
+        }
+    },
+    {
+        "text": "Suggest me a good restaurant around",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.5508283972740173
+        }
+    },
+    {
+        "text": "Find me a place to eat",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+            "confidence": 0.7232648730278015
+        }
+    },
+    {
+        "text": "Hey, can you help me with locating this restaurant.",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8985128402709961
+        }
+    },
+    {
+        "text": "Where is the restaurant",
+        "intent": "Id_need_some_more_data_If_you_lick_the_monitor_perhaps_I_can_evaluate_your_taste_buds",
+        "intent_prediction": {
+            "name": "I_can_spell_baguette_in_French_but_unfortunately_English_is_the_only_language_I_can_answer_you_in",
+            "confidence": 0.407508909702301
+        }
+    },
+    {
+        "text": "can you tell me who I am?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.49056553840637207
+        }
+    },
+    {
+        "text": "can you tell me what my identity is?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.37252992391586304
+        }
+    },
+    {
+        "text": "can you tell me what I am?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.3662729859352112
+        }
+    },
+    {
+        "text": "tell me what my identity is?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+            "confidence": 0.6356491446495056
+        }
+    },
+    {
+        "text": "what's my identity?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.9149593710899353
+        }
+    },
+    {
+        "text": "How do I identify myself?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.9107660055160522
+        }
+    },
+    {
+        "text": "who are I ?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+            "confidence": 0.9817359447479248
+        }
+    },
+    {
+        "text": "How can I determine who I am?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.5334287285804749
+        }
+    },
+    {
+        "text": "How do I discover who I am?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.3426158130168915
+        }
+    },
+    {
+        "text": "Okay who am I?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.37894460558891296
+        }
+    },
+    {
+        "text": "Who am I?",
+        "intent": "I_hope_you_are_being_yourself",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.308505654335022
+        }
+    },
+    {
+        "text": "who am i",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.308505654335022
+        }
+    },
+    {
+        "text": "can you tell me what my identity is?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.8437249660491943
+        }
+    },
+    {
+        "text": "can you tell me what I am?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.3662729859352112
+        }
+    },
+    {
+        "text": "Tell me who I am.",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.19929829239845276
+        }
+    },
+    {
+        "text": "who may i ?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.6887365579605103
+        }
+    },
+    {
+        "text": "How can I determine who am I?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5884731411933899
+        }
+    },
+    {
+        "text": "Do you know who am I?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.31214508414268494
+        }
+    },
+    {
+        "text": "How can I determine who I am?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.5334287285804749
+        }
+    },
+    {
+        "text": "Tell me who I am?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "Why_do_you_ask_Are_my_wrinkles_showing",
+            "confidence": 0.41617462038993835
+        }
+    },
+    {
+        "text": "WHo am I",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.308505654335022
+        }
+    },
+    {
+        "text": "Okay who am I?",
+        "intent": "Who_do_you_think_you_are",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.37894460558891296
+        }
+    },
+    {
+        "text": "can you tell me what my identity is?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.37252992391586304
+        }
+    },
+    {
+        "text": "can you tell me what I am?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+            "confidence": 0.3662729859352112
+        }
+    },
+    {
+        "text": "what's my identity?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.8226602077484131
+        }
+    },
+    {
+        "text": "Who could I be?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "Never_ask_a_chatbot_her_age",
+            "confidence": 0.33250266313552856
+        }
+    },
+    {
+        "text": "who are I ?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "Im_both_the_Rasa_bot_and_the_Rasa_mascot_My_name_is_Sara",
+            "confidence": 0.9817359447479248
+        }
+    },
+    {
+        "text": "How can I determine who I am?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.5884731411933899
+        }
+    },
+    {
+        "text": "Can you tell me who I am?",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "You_can_ask_me_about_how_to_get_started_with_Rasa_the_components_of_Rasa_subscribing_to_our_newsletter_booking_a_sales_call",
+            "confidence": 0.3394582271575928
+        }
+    },
+    {
+        "text": "WHo am I",
+        "intent": "Unfortunately_I_havent_been_programmed_with_the_amount_of_necessary_philosophy_knowledge_to_answer_that",
+        "intent_prediction": {
+            "name": "My_first_git_commit_was_many_moons_ago",
+            "confidence": 0.308505654335022
+        }
+    },
+    {
+        "text": "What do my colleagues call me?",
+        "intent": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.4128861129283905
+        }
+    },
+    {
+        "text": "What is the name I was given?",
+        "intent": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.33238640427589417
+        }
+    },
+    {
+        "text": "What name do I go by?",
+        "intent": "It_most_probably_is_the_one_that_your_parents_have_chosen_for_you",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2549889087677002
+        }
+    },
+    {
+        "text": "What was I named?",
+        "intent": "Youre_the_second_person_now_to_ask_me_that_Rihanna_was_the_first",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.5248180031776428
+        }
+    },
+    {
+        "text": "What name do I go by?",
+        "intent": "Youre_the_second_person_now_to_ask_me_that_Rihanna_was_the_first",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2549889087677002
+        }
+    },
+    {
+        "text": "Explain my name to me.",
+        "intent": "Youre_the_second_person_now_to_ask_me_that_Rihanna_was_the_first",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.38677558302879333
+        }
+    },
+    {
+        "text": "What is the name I was given?",
+        "intent": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.33238640427589417
+        }
+    },
+    {
+        "text": "I'd like to know my name",
+        "intent": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.5356037020683289
+        }
+    },
+    {
+        "text": "What do people call me?",
+        "intent": "Id_tell_you_but_theres_restricted_access_to_that_chunk_of_memory",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.4173490107059479
+        }
+    },
+    {
+        "text": "What did my parents name me?",
+        "intent": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.40424084663391113
+        }
+    },
+    {
+        "text": "Please let me know what my name is",
+        "intent": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.44901344180107117
+        }
+    },
+    {
+        "text": "I'd like to know my name",
+        "intent": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.5356037020683289
+        }
+    },
+    {
+        "text": "What was I named?",
+        "intent": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4641555845737457
+        }
+    },
+    {
+        "text": "What do I call myself?",
+        "intent": "Believe_it_or_not_I_actually_am_not_spying_on_your_personal_information",
+        "intent_prediction": {
+            "name": "Nice_to_meet_you_too_Happy_to_be_of_help",
+            "confidence": 0.4225824177265167
+        }
+    },
+    {
+        "text": "Hi Sara, just wanted to test you",
+        "intent": "Thank_you_It_is_a_pleasure_to_meet_you_as_well",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.3140440881252289
+        }
+    },
+    {
+        "text": "Delighted to make your acquaintance.",
+        "intent": "Thank_you_It_is_a_pleasure_to_meet_you_as_well",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2662046253681183
+        }
+    },
+    {
+        "text": "Delighted to make your acquaintance.",
+        "intent": "It_is_nice_to_meet_you_too",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2662046253681183
+        }
+    },
+    {
+        "text": "Nice to have met you.",
+        "intent": "Pleased_to_meet_you_too",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.4206489026546478
+        }
+    },
+    {
+        "text": "It was a pleasure to have your company.",
+        "intent": "Likewise",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.6193579435348511
+        }
+    },
+    {
+        "text": "I'm thrilled to meet you!",
+        "intent": "Its_always_a_pleasure_to_meet_new_people",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2844216227531433
+        }
+    },
+    {
+        "text": "You live around here?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7843042016029358
+        }
+    },
+    {
+        "text": "What is your original location?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8329297304153442
+        }
+    },
+    {
+        "text": "What city do you claim to for your birth?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.855817437171936
+        }
+    },
+    {
+        "text": "are you from around here?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3331332802772522
+        }
+    },
+    {
+        "text": "what country are you from?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.48442280292510986
+        }
+    },
+    {
+        "text": "What country were you born in?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.5731045603752136
+        }
+    },
+    {
+        "text": "Where are you?",
+        "intent": "I_was_born_in_Berlin_but_I_consider_myself_a_citizen_of_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6416274309158325
+        }
+    },
+    {
+        "text": "Are you from around here?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3331332802772522
+        }
+    },
+    {
+        "text": "Where are you located?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7337157130241394
+        }
+    },
+    {
+        "text": "What area are you from?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7034618258476257
+        }
+    },
+    {
+        "text": "What citizenship do you lay claim to?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.57303386926651
+        }
+    },
+    {
+        "text": "where did you come from?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8005746603012085
+        }
+    },
+    {
+        "text": "Where are you?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.36577045917510986
+        }
+    },
+    {
+        "text": "where do you live?",
+        "intent": "I_was_born_in_the_coolest_city_on_Earth_in_Berlin",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8457269668579102
+        }
+    },
+    {
+        "text": "What is your original location?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8329297304153442
+        }
+    },
+    {
+        "text": "What's the name of the place you came from?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.865381121635437
+        }
+    },
+    {
+        "text": "What is your origin?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.7851665616035461
+        }
+    },
+    {
+        "text": "What city do you claim to for your birth?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.6625478863716125
+        }
+    },
+    {
+        "text": "what country are you from?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.48442280292510986
+        }
+    },
+    {
+        "text": "Do you know where you come from?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.2983040511608124
+        }
+    },
+    {
+        "text": "Where from?",
+        "intent": "My_developers_come_from_all_over_the_world",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8730943202972412
+        }
+    },
+    {
+        "text": "where are you from",
+        "intent": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.21246112883090973
+        }
+    },
+    {
+        "text": "Are you from around here?",
+        "intent": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.3331332802772522
+        }
+    },
+    {
+        "text": "What is your heritage?",
+        "intent": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.8609409928321838
+        }
+    },
+    {
+        "text": "where's your home town?",
+        "intent": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8155613541603088
+        }
+    },
+    {
+        "text": "What state were you born in?",
+        "intent": "I_was_taught_not_to_give_out_my_address_on_the_internet",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.9106123447418213
+        }
+    },
+    {
+        "text": "You live around here?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.5508399605751038
+        }
+    },
+    {
+        "text": "What country are you from?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.48442280292510986
+        }
+    },
+    {
+        "text": "What area are you from?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.7034618258476257
+        }
+    },
+    {
+        "text": "Where did you originate?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8596984148025513
+        }
+    },
+    {
+        "text": "From where did you come?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8005746603012085
+        }
+    },
+    {
+        "text": "What city do you claim to for your birth?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.855817437171936
+        }
+    },
+    {
+        "text": "Where do you come from?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Why_did_the_robot_cross_the_road_Because_he_was_programmed_to",
+            "confidence": 0.8360358476638794
+        }
+    },
+    {
+        "text": "What country were you born in?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.8693328499794006
+        }
+    },
+    {
+        "text": "Where are you?",
+        "intent": "My_address_starts_with_githubcom",
+        "intent_prediction": {
+            "name": "Ive_hit_the_age_where_I_actively_try_to_forget_how_old_I_am",
+            "confidence": 0.36577045917510986
+        }
+    },
+    {
+        "text": "how have you been built?",
+        "intent": "Well_when_two_chatbots_love_each_other_very_much",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9607897400856018
+        }
+    },
+    {
+        "text": "In what way were you shaped?",
+        "intent": "Well_when_two_chatbots_love_each_other_very_much",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9227454662322998
+        }
+    },
+    {
+        "text": "How were you conceived?",
+        "intent": "Well_when_two_chatbots_love_each_other_very_much",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9148979783058167
+        }
+    },
+    {
+        "text": "what are you made of",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.7231365442276001
+        }
+    },
+    {
+        "text": "What process was used to build you?",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.7509417533874512
+        }
+    },
+    {
+        "text": "In what manner were you formed?",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.8814249634742737
+        }
+    },
+    {
+        "text": "How were you constructed?",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9618489742279053
+        }
+    },
+    {
+        "text": "How did you come to be?",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.864201009273529
+        }
+    },
+    {
+        "text": "How were you devised?",
+        "intent": "They_always_ask_how_I_was_built_but_never_how_I_am",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9635512232780457
+        }
+    },
+    {
+        "text": "In which manner were you devised?",
+        "intent": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.8169198632240295
+        }
+    },
+    {
+        "text": "How did they create you?",
+        "intent": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9325496554374695
+        }
+    },
+    {
+        "text": "How were you devised?",
+        "intent": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.9635512232780457
+        }
+    },
+    {
+        "text": "Can you explain how you were created?",
+        "intent": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.37655937671661377
+        }
+    },
+    {
+        "text": "How were you built?",
+        "intent": "I_was_made_by_software_engineers_but_hard_work_is_what_built_me",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.5071958303451538
+        }
+    },
+    {
+        "text": "what are you made of",
+        "intent": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.7231365442276001
+        }
+    },
+    {
+        "text": "Do you know how you were made?",
+        "intent": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.6965618133544922
+        }
+    },
+    {
+        "text": "How did you come to be?",
+        "intent": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.864201009273529
+        }
+    },
+    {
+        "text": "Let me know how you were made exactly",
+        "intent": "Im_building_myself_every_day_Ive_been_working_out_did_you_notice",
+        "intent_prediction": {
+            "name": "A_little_bit_cold_otherwise_fine",
+            "confidence": 0.6347060203552246
+        }
+    }
+]
