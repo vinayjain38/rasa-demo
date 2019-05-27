@@ -1,7 +1,9 @@
 policies:
   - name: EmbeddingPolicy
+    max_history: 6
     transformer: true
-    epochs: 500
+    epochs: 200
+    batch_size: [32, 64]
     attn_shift_range: 5
     num_neg: 20
     similarity_type: 'inner'
