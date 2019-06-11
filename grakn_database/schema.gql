@@ -1,0 +1,44 @@
+define
+
+# entities
+
+product sub entity,
+  key name,
+  has version,
+  has documentation-link,
+  has installation-command,
+  has type;
+
+lookup sub entity,
+  has lookup-key,
+  has lookup-value;
+
+mention-lookup sub lookup;
+entity-type-lookup sub lookup;
+attribute-lookup sub lookup;
+entity-key-lookup sub lookup;
+
+# relationships
+
+# attribute
+
+lookup-key sub attribute,
+  datatype string;
+
+lookup-value sub attribute,
+  datatype string;
+
+name sub attribute,
+  datatype string;
+
+version sub attribute,
+  datatype string;
+
+documentation-link sub attribute,
+  datatype string;
+
+installation-command sub attribute,
+  datatype string;
+
+type sub attribute,
+  datatype string;

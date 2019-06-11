@@ -1,0 +1,4 @@
+name,version,documentation-link,installation-command,type
+Rasa,1.0,https://rasa.com/docs/rasa/,pip install rasa,open-source
+Rasa X,0.19,https://rasa.com/docs/rasa-x/,pip install rasa-x --extra-index-url https://pypi.rasa.com/simple,free
+Rasa X EE,0.19,https://rasa.com/docs/rasa-x/,,commercial

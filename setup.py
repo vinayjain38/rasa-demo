@@ -3,7 +3,7 @@ import io
 import os
 
 install_requires = [
-    "rasa==1.0.9",
+    "rasa~=1.0.9",
     "mailchimp3~=3.0.2",
     "oauth2client~=4.1.2",
     "gspread~=3.0.0",
@@ -11,6 +11,7 @@ install_requires = [
     "requests~=2.21.0",
     "geopy~=1.18.1",
     "pandas~=0.24.1",
+    "grakn~=1.4.2",
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
