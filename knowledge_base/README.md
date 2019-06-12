@@ -1,4 +1,6 @@
-Our knowledge base implementation uses the graph database [grakn](http://grakn.ai/).
+# Knowledge Base
+
+We are using the graph database [grakn](http://grakn.ai/) for our knowledge base.
 
 To start the grakn server run `grakn server start`, to stop it run `grakn server stop`.
 In order to create the keyspace `rasa_demo` with the schema defined in `schema.gql`, you need to execute

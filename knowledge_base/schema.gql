@@ -1,0 +1,103 @@
+define
+
+# entities
+
+product sub entity,
+  key _id,
+  has name,
+  has version,
+  has installation-command,
+  has type,
+  has minimal-python-version,
+  has recommended-python-version,
+  has source-code,
+  plays _product;
+
+company sub entity,
+  key _id,
+  has name,
+  has short-name,
+  has headquarter,
+  has forum-link,
+  has blog-link,
+  has website,
+  plays _company;
+
+documentation sub entity,
+  key _id,
+  has name,
+  has link
+  plays _documentation;
+
+rasa-documentation sub documentation;
+rasa-x-documentation sub documentation;
+rasa-x-ee-documentation sub documentation;
+
+lookup sub entity,
+  has lookup-key,
+  has lookup-value;
+
+mention-lookup sub lookup;
+entity-type-lookup sub lookup;
+attribute-lookup sub lookup;
+entity-key-lookup sub lookup;
+
+# relationships
+
+owns sub relationship,
+  relates _company,
+  relates _product;
+
+includes sub relationship,
+  relates _product,
+  relates _documentation;
+
+# attribute
+
+lookup-key sub attribute,
+  datatype string;
+
+lookup-value sub attribute,
+  datatype string;
+
+name sub attribute,
+  datatype string;
+
+version sub attribute,
+  datatype double;
+
+installation-command sub attribute,
+  datatype string;
+
+type sub attribute,
+  datatype string;
+
+link sub attribute,
+  datatype string;
+
+headquarter sub attribute,
+  datatype string;
+
+forum-link sub attribute,
+  datatype string;
+
+blog-link sub attribute,
+  datatype string;
+
+website sub attribute,
+  datatype string;
+
+minimal-python-version sub attribute,
+  datatype double;
+
+recommended-python-version sub attribute,
+  datatype double;
+
+_id sub attribute,
+  datatype long;
+
+source-code sub attribute,
+  datatype string;
+
+short-name sub attribute,
+  datatype string;

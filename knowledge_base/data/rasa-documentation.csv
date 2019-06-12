@@ -1,0 +1,7 @@
+_id,name,link
+1,index,http://rasa.com/docs/rasa
+2,channels,http://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/
+3,custom-connector,http://rasa.com/docs/rasa/user-guide/connectors/custom-connectors/
+4,getting-started,http://rasa.com/docs/getting-started/
+5,languages,http://rasa.com/docs/rasa/nlu/language-support/
+6,slots,http://rasa.com/docs/rasa/core/slots/
