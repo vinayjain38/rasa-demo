@@ -12,6 +12,7 @@ from rasa_sdk.events import SlotSet, UserUtteranceReverted, ConversationPaused
 from demo.api import MailChimpAPI
 from demo import config
 from demo.gdrive_service import GDriveService
+from demo.grakn_graph import GraknGraph
 
 logger = logging.getLogger(__name__)
 
@@ -646,3 +647,117 @@ class ActionNextStep(Action):
             dispatcher.utter_template("utter_no_more_steps", tracker)
 
         return []
+
+
+class ActionQueryEntities(Action):
+    def name(self):
+        return "action_query_entities"
+
+    def run(self, dispatcher, tracker, domain):
+        graph = GraknGraph()
+        entity_type = tracker.get_slot("entity_type")
+
+        entity_type = graph.lookup("entity-type-lookup", entity_type)
+
+        if entity_type is None:
+            dispatcher.utter_message("Not sure what you want.")
+            return []
+
+        try:
+            entities = graph.get_entities(entity_type)
+        except Exception:
+            entities = []
+
+        dispatcher.utter_message("Found the following {}:".format(entity_type))
+        slots = [SlotSet("entity_type", entity_type)]
+        for i, e in enumerate(entities):
+            entity_key = graph.lookup("entity-key-lookup", entity_type)
+            dispatcher.utter_message(f"{i + 1}: {e[entity_key]}")
+            slots.append(
+                SlotSet("entities", list(map(lambda x: f"{x[entity_key]}", entities)))
+            )
+
+        return slots
+
+
+class ActionRequestInfo(Action):
+    def name(self):
+        return "action_request_info"
+
+    @staticmethod
+    def get_attribute(tracker):
+        graph = GraknGraph()
+        attribute = tracker.get_slot("attribute")
+
+        return graph.lookup("attribute-lookup", attribute)
+
+    @staticmethod
+    def get_name(tracker, entity_type):
+        name = tracker.get_slot(entity_type)
+
+        if name is None:
+            name = resolve_mention(tracker)
+
+        return name
+
+    def run(self, dispatcher, tracker, domain):
+        entity_type = tracker.get_slot("entity_type")
+
+        if entity_type is None:
+            return [SlotSet(entity_type, None)]
+
+        name = self.get_name(tracker, entity_type)
+        attribute = self.get_attribute(tracker)
+
+        if name is None or attribute is None:
+            return [SlotSet(entity_type, None)]
+
+        graph = GraknGraph()
+
+        value = graph.get_attribute_of(entity_type, name, attribute)
+
+        if value is not None and len(value) == 1:
+            dispatcher.utter_message(
+                f"{name} has the value '{value[0]}' for attribute '{attribute}'."
+            )
+
+        return [SlotSet(entity_type, None)]
+
+
+class ActionResolveEntity(Action):
+    def name(self):
+        return "action_resolve_entity"
+
+    def run(self, dispatcher, tracker, domain):
+        entity_type = tracker.get_slot("entity_type")
+        entities = tracker.get_slot("entities")
+
+        # Check if NER recognized entity directly
+        # (e.g. full name was mentioned and recognized as 'person')
+        value = tracker.get_slot(entity_type)
+        if value is not None and value in entities:
+            return [SlotSet(entity_type, value)]
+
+        # Check if entity was mentioned as 'first', 'second', etc.
+        value = resolve_mention(tracker)
+        if value is not None:
+            return [SlotSet(entity_type, value)]
+
+        dispatcher.utter_message("Sorry, I didn't get that.")
+
+        return [SlotSet(entity_type, None)]
+
+
+def resolve_mention(tracker):
+    graph = GraknGraph()
+
+    mention = tracker.get_slot("mention")
+    entities = tracker.get_slot("entities")
+
+    if mention is not None and entities is not None:
+        idx = int(graph.lookup("mention-lookup", mention))
+
+        if type(idx) is int and idx < len(entities):
+            return entities[idx]
+
+    return None
