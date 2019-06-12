@@ -11,6 +11,7 @@ product sub entity,
   has minimal-python-version,
   has recommended-python-version,
   has source-code,
+  has documentation-link,
   plays _product;
 
 company sub entity,
@@ -100,4 +101,7 @@ source-code sub attribute,
   datatype string;
 
 short-name sub attribute,
+  datatype string;
+
+documentation-link sub attribute,
   datatype string;

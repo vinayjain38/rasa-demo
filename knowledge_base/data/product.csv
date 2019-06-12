@@ -1,4 +1,4 @@
-_id,name,version,installation-command,type,minimal-python-version,recommended-python-version,source-code
-1,Rasa,1.0,pip install rasa,open-source,3.5,3.6,https://github.com/RasaHQ/rasa
-2,Rasa X,0.19,pip install rasa-x --extra-index-url https://pypi.rasa.com/simple,free,3.5,3.6,
-3,Rasa X EE,0.19,,commercial,3.5,3.6,
+_id,name,version,installation-command,type,minimal-python-version,recommended-python-version,source-code,documentation-link
+1,Rasa,1.0,pip install rasa,open-source,3.5,3.6,https://github.com/RasaHQ/rasa,http://rasa.com/docs/rasa
+2,Rasa X,0.19,pip install rasa-x --extra-index-url https://pypi.rasa.com/simple,free,3.5,3.6,,http://rasa.com/docs/rasa-x
+3,Rasa X EE,0.19,,commercial,3.5,3.6,,http://rasa.com/docs/rasa-x

@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 class GraknGraph:
-    def __init__(self, uri="localhost:48555", keyspace="banking"):
+    def __init__(self, uri="localhost:48555", keyspace="rasa_demo"):
         self.client = grakn.Grakn(uri=uri)
         self.keyspace = keyspace
 

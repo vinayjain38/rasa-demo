@@ -1,6 +1,15 @@
 lookup-key,lookup-value
-docu,documentation-link
-documentation,documentation-link
 install,installation-command
 open-source,type
 free,type
+type,type
+install,installation-command
+installation,installation-command
+installing,installation-command
+python version,recommended-python-version
+python,recommended-python-version
+version of python,recommended-python-version
+source code,source-code
+source-code,source-code
+docu,documentation-link
+documentation,documentation-link

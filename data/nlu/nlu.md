@@ -1,54 +1,306 @@
+## lookup:location
+- San Francisco
+- Montreal
+- New York
+- Washington
+- Berlin
+- Zurich
+- Hamburg
+- Frankfurt
+- Munich
+- Madrid
+- Cologne
+- Düsseldorf
+- Barcelona
+- Vienna
+- Warsaw
+- Paris
+- Rome
+- London
+- Prague
+- Sidney
+- Delhi
+- Mumbai
+- Tokyo
+- Rio de Janeiro
+- Beijing
+- Guangzhou
+- Shanghai
+- Chongqing
+- Hong Kong
+- China
+- India
+- US
+- USA
+- Germany
+- United States
+- UK
+- England
+- Brazil
+- France
+- Poland
+- Italy
+- Spain
+- Europe
+- Canada
+- Ukraine
+
+## synonym:USA
+- US
+- U.S.
+- USA
+- usa
+- United States
+
+## synonym:United Kingdom
+- UK
+- U.K.
+
+## synonym:intent classification
+- intents
+- intent
+
+## synonym:entity recognition
+- entity extraction
+
+## synonym:conda
+- anaconda
+
+## synonym:rasa
+- rasa nlu
+- rasa core
+- nlu
+- core
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey
+- hey hey
+- hello there
+- hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- good morning
+- hii
+- hello sweet boy
+- yoo
+- hey there
+- hiihihi
+- hello sweatheart
+- hellooo
+- helloooo
+- heyo
+- ayyyy whaddup
+- hello?
+- Hallo
+- heya
+- hey bot
+- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+- I said, helllllloooooO!!!!
+- Heya
+- Whats up my bot
+- hiii
+- heyho
+- hey, let's talk
+- hey let's talk
+- jojojo
+- hey dude
+- hello it is me again
+- what up
+- hi there
+- hi
+- jop
+- hi friend
+- hi there it's me
+- good evening
+- good morning
+- good afternoon
+
+## intent:bye
+- goodbye
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- bye
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- k byyye #slay
+- tlak to you later
+- ciao
+- Bye bye
+- then bye
+- tschüssikowski
+- bye!
+
+## intent:deny
+- no
+- definitely not
+- never
+- absolutely not
+- i don't think so
+- i'm afraid not
+- no sir
+- no ma'am
+- no way
+- no sorry
+- No, not really.
+- nah not for me
+- nah
+- no and no again
+- no go
+- no thanks
+- decline
+- deny
+- i decline
+- never mind
+- nevermind
+- I'm not giving you my email address
+- no I haven't decided yet if I want to sign up
+- I don't want to give it to you
+- I'm not going to give it to you
+- no i don't accept
+- no!!!!
+- no you did it wrong
+- no i can't
+- i'm not sure
+- NEIN
+- nein
+- not really
+- i guess it means - no
+- i don't want to
+- i don't want either of those
+- nah thanks
+- neither of these
+
+## intent:affirm
+- yes
+- of course
+- sure
+- yeah
+- ok
+- cool
+- go for it
+- yep
+- yep, will do thank you
+- I'm sure I will!
+- oh awesome!
+- Yes
+- accept
+- I accept
+- i accept
+- ok i accept
+- I changed my mind. I want to accept it
+- ok cool
+- alright
+- i will!
+- ok, I behave now
+- yop
+- oki doki
+- yes please
+- yes please!
+- jo
+- yep if i have to
+- amayzing
+- confirm
+- nice
+- coolio
+- definitely yes without a doubt
+- yas
+- yup
+- perfect
+- sure thing
+- absolutely
+- Oh, ok
+- Sure
+- hm, i'd like that
+- ja
+- sure!
+- yes i accept
+- Sweet
+- amazing!
+- how nice!
+- cool!
+- yay
+- yes accept please
+- great
+- oh cool
+- yes
+- fine
+
+## intent:thank
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- thanks
+- thanks!
+- Cool. Thanks
+- thanks
+- thanks this is great news
+- thank you
+- great thanks
+- Thanks!
+- cool thanks
+- thanks for forum link, I'll check it out
+- thanks!
+
 ## intent:ask_faq_tutorials
 - are there some tutorials i could look at
 - do you have tutorials
-- i need a tutorial on how to use rasa
-- rasa tutorial
+- i need a tutorial on how to use [rasa](product)
+- [rasa](product) tutorial
 - can you show me a tutorial
 - i would like to follow a tutorial
 - do you have a tutorial i can follow
 - i am looking for a tutorial
-- i want a tutorial on rasa
-- i need a rasa tutorial
+- i want a tutorial on [rasa](product)
+- i need a [rasa](product) tutorial
 - please show me a tutorial
-
-## intent:ask_faq_python_version
-- which python version should i install
-- what version of python
-- which python do you support?
-- what python version do i install
-- what is python version required?
-- python version
-- what version does python needs
-- Which version of Python to install?
-- which version of python do i need
-- Which python version should I install to run Rasa example?
-
-## intent:ask_faq_channels
-- No, I mean how it is possible to use Skype as channel?
-- what channels do you support?
-- what chat channels does rasa uses
-- Channels
-- channels supported by Rasa
-- what are the channels Rasa NLU supports
-- which UI channel is used by Rasa ?
-- which messaging channels does rasa support?
-- which particular messaging channels are supported by rasa?
-- what are the messaging channels supported by rasa?
-- which messaging channels are supported by rasa?
-- rasa supports which messaging channels?
-- which messaging channels can I use with rasa?
-- which messaging channels can be used with rasa?
-- which messaging channels are compatible with rasa?
-- what are the messaging channels that can be used with rasa?
-- rasa can use which different messaging channels?
-- WHAT MESSAGING PORTALS DOES RASA SUPPORT?
-- DOES RASA SUPPORT MESSENGER?
-- DOES RASA SUPPORT THE WHATS APP?
-- DOES RASA SUPPORT SMS?
-- Do you know which messaging channels rasa supports?
-- Can you tell which messaging channels does rasa support?
-- Rasa supports some messaging channels, what are those?
-- What channels of communication does rasa support?
 
 ## intent:ask_faq_differencecorenlu
 - What makes [core](product) and [nlu](product) different?
@@ -86,67 +338,6 @@
 - rasa [core](product) vs rasa [nlu](product)
 - what's the difference between [core](product) and [nlu](product)?
 
-## intent:ask_faq_languages
-- does Rasa support other languages like spanish?
-- what language does rasa support?
-- which language do you support?
-- which languages supports rasa
-- can I use rasa also for another laguage?
-- [german](language)?
-- languages supported
-- what about languages supported in rasa?
-- can rasa speak [portuguese](language)?
-- How can I change the language
-- language
-- which languages do you support
-- Hello, rasa supports [spanish](language)?
-- What language you support?
-- What language u support?
-- your NLU understand [spanish](language)?
-- which languages are supported?
-- is it available in [Spanish](language)?
-- How many languages you can support?
-- Can I use Rasa with Thai language
-- What languages can you use?
-- how many natural language that rasa supported?
-- what language supported by rasa?
-- what language supported by rasa ?
-- need to use [portuguese](language)
-- which language can I use with rasa?
-- my bot can be in [italian](language)?
-- chatbot language ?
-- I want Vietnamese language processing
-- I want to add Romanian language support
-- languages
-- support for serbian language
-- Does rasa support different languages
-
-## intent:ask_faq_opensource
-- Is Rasa open source
-- is rasa considered open source software?
-- is rasa open source?
-- is the software rasa open source?
-- is rasa an open source software?
-- would you consider rasa open source software?
-- could I call rasa open source software?
-- would rasa fall into the category of open source software?
-- would rasa be open source software?
-- would you call rasa open source software?
-- would people consider rasa an open source software?
-- Is rasa open source?
-- Is the rasa software open source?
-- The rasa software, is that open source?
-- Could you tell me whether rasa is open source or not?
-- How do I find out if rasa is open source?
-- Is Rasa a software formatted as open source?
-- would an example of open source software be rasa?
-- is rasa a type of open source software?
-- is rasa software that is classified as open source?
-- does rasa fall into the open source software category?
-- does rasa use open source software?
-- is rasa like an open source software
-- is this open source license
-
 ## intent:ask_faq_platform
 - can someone help me with infos about the rasa platform
 - I want information about the platform
@@ -167,6 +358,81 @@
 - Tell me about your platform
 - what is rasa platform?
 - tell me what is platform
+
+## intent:ask_faq_community_size
+- How large is the Rasa community
+- how big is your community?
+- how many forum members do you have
+- do you have a large community
+- how many people are using Rasa
+
+## intent:ask_faq_what_is_forum
+- what is the forum
+- why should I join the forum
+- whats in the forum
+- what is the Rasa forum
+
+## intent:ask_faq_channels
+- No, I mean how it is possible to use Skype as channel?
+- what channels do you support?
+- what chat channels does [rasa](product) uses
+- Channels
+- channels supported by [rasa](product)
+- what are the channels rasa [NLU](product) supports
+- which UI channel is used by [Rasa](product) ?
+- which messaging channels does [rasa](product) support?
+- which particular messaging channels are supported by [rasa](product)?
+- what are the messaging channels supported by [rasa](product)?
+- which messaging channels are supported by [rasa](product)?
+- [rasa](product) supports which messaging channels?
+- which messaging channels can I use with [rasa](product)?
+- which messaging channels can be used with [rasa](product)?
+- which messaging channels are compatible with [rasa](product)?
+- what are the messaging channels that can be used with [rasa](product)?
+- [rasa](product) can use which different messaging channels?
+- WHAT MESSAGING PORTALS DOES [RASA](product) SUPPORT?
+- DOES [RASA](product) SUPPORT MESSENGER?
+- DOES [RASA](product) SUPPORT THE WHATS APP?
+- DOES [RASA](product) SUPPORT SMS?
+- Do you know which messaging channels [rasa](product) supports?
+- Can you tell which messaging channels does [rasa](product) support?
+- [Rasa](product) supports some messaging channels, what are those?
+- What channels of communication does [rasa](product) support?
+
+## intent:ask_faq_languages
+- does [Rasa](product) support other languages like spanish?
+- what language does [rasa](product) support?
+- which language do you support?
+- which languages supports [rasa](product)
+- can I use [rasa](product) also for another laguage?
+- [german](language)?
+- languages supported
+- what about languages supported in [rasa](product)?
+- can [rasa](product) speak [portuguese](language)?
+- How can I change the language
+- language
+- which languages do you support
+- Hello, [rasa](product) supports [spanish](language)?
+- What language you support?
+- What language u support?
+- your NLU understand [spanish](language)?
+- which languages are supported?
+- is it available in [Spanish](language)?
+- How many languages you can support?
+- Can I use [Rasa](product) with Thai language
+- What languages can you use?
+- how many natural language that [rasa](product) supported?
+- what language supported by [rasa](product)?
+- what language supported by [rasa](product) ?
+- need to use [portuguese](language)
+- which language can I use with [rasa](product)?
+- my bot can be in [italian](language)?
+- chatbot language ?
+- I want Vietnamese language processing
+- I want to add Romanian language support
+- languages
+- support for serbian language
+- Does [rasa](product) support different languages
 
 ## intent:ask_faq_slots
 - how do slots work
@@ -210,7 +476,6 @@
 - which are the slots?
 - how are the slots?
 - which slots are there?
-
 
 ## intent:ask_faq_voice
 - can I form a voice bot with rasa?
@@ -258,18 +523,58 @@
 - can i build a voice bot
 - can i build a voice bot with rasa?
 
-## intent:ask_faq_community_size
-- How large is the Rasa community
-- how big is your community?
-- how many forum members do you have
-- do you have a large community
-- how many people are using Rasa
+## intent:how_to_get_started
+- how do I get started with Rasa
+- how do I use rasa
+- what is the difference between rasa [nlu](product) and rasa [core](product)
+- how to start with rasa
+- how to start with it
+- how to build a bot?
+- how can I build a chatbot
+- what can I do with Rasa?
+- where to start the development of rasa
+- WHAT IS RASA
+- WHAT IS IT
+- so, how do I use rasa?
+- can i just test features without having to deal with your predefined conversation
+- can you guide me know to create knowledge base chatbot
+- how can I learn rasa
+- i want to use rasa to build my chatbot
+- how do i get rasa [core](product)
+- how do I train rasa [nlu](product)
+- how do i learn rasa [core](product)
+- what is rasa [core](product)
+- what is [nlu](product)
+- I want to learn about rasa [core](product)
+- i want to use [nlu](product)
+- [core](product)
+- [nlu](product)
+- rasa [stack](product:core)
+- how to learn rasa [stack](product:core)
+- I want to learn about rasa [nlu](product:nlu)
+- i want to learn about rasa [core](product:core)
+- how to get started with [nlu](product)
+- give me some information on [nlu](product)
+- tell me how to get started with [core](product)
+- how about [nlu](product)
+- tell me about [core](product) please
+- what is this [nlu](product) thing?
 
-## intent:ask_faq_what_is_forum
-- what is the forum
-- why should I join the forum
-- whats in the forum
-- what is the Rasa forum
+## intent:pipeline_recommendation
+- what pipeline should I start with?
+- what is the right pipeline to choose?
+- what I a good pipeline to start with?
+- what pipeline should i use?
+- what pipeline is better for what i want?
+- what pipeline should I start with?
+- should I better start with the tensorflow pipeline or spacy?
+- spacy or tensorflow, what is better to start?
+- I don’t know which pipeline to use
+- what pipeline is better?
+- which pipeline is better?
+- recommend pipeline
+- pipeline recommendation
+- give me a recommendation
 
 ## intent:ask_howbuilt
 - How were you built?
@@ -556,7 +861,6 @@
 - What do people call me?
 - What exactly is my name?
 
-
 ## intent:ask_wherefrom
 - where do you live
 - where are you from?
@@ -757,38 +1061,28 @@
 - how's the weather in berlin
 
 ## intent:ask_whatisrasa
-- How does Rasa work?
-- Can you tell me more about rasa?
-- What does Rasa build?
-- What do you do at Rasa?
-- What is Rasa?
-- What does Rasa make?
-- Can you tell me what Rasa does?
-- Give me more information about Rasa
-- what does rasa do?
-- I want to learn what rasa does
-- What does rasa do exactly?
-- tell me more about rasa
+- How does [Rasa](company) work?
+- Can you tell me more about [Rasa](company)?
+- What does [Rasa](company) build?
+- What do you do at [Rasa](company)?
+- What does [Rasa](company) make?
+- Can you tell me what [Rasa](company) does?
+- Give me more information about [Rasa](company)
+- what does [Rasa](company) do?
+- I want to learn what [Rasa](company) does
+- What does [Rasa](company) do exactly?
+- tell me more about [Rasa](company)
 - tell me more about your company
-- tell me more about rasa
-- I want to learn what rasa is
-- what can i do with rasa
-- what do you guys do at rasa
-- what does rasa do
-- what is rasa
-- I want to know what rasa actually does that isn't clear to me yet
-- i havent understood yet what rasa actually is
-- can you pls explain what rasa does
-- explain me what rasa does
-- explain me what rasa is
-- i dont get what rasa is
-- what is rasa actually
-- what is rasa?
-- i want to learn something about rasa
-- i want to know what rasa does
-- what is rasa core?
-- what can i build with rasa core?
-- What is rasa doing exactly?
+- I want to learn what [Rasa](product) is
+- what can i do with [Rasa](company)
+- what do you guys do at [Rasa](company)
+- what does [Rasa](company) do
+- I want to know what [Rasa](company) actually does that isn't clear to me yet
+- i havent understood yet what [Rasa](company) actually is
+- can you pls explain what [Rasa](company) does
+- explain me what [Rasa](company) does
+- i want to know what [Rasa](company) does
+- What is [Rasa](company) doing exactly?
 - What do you do as a company?
 
 ## intent:ask_whatspossible
@@ -853,31 +1147,6 @@
 - are you a bot?
 - who is this?
 - hi! what's your name?
-
-## intent:bye
-- goodbye
-- goodnight
-- good bye
-- good night
-- see ya
-- toodle-oo
-- bye bye
-- gotta go
-- farewell
-- catch you later
-- bye for now
-- bye
-- bye was nice talking to you
-- bye udo
-- bye bye bot
-- bye bot
-- k byyye #slay
-- tlak to you later
-- ciao
-- Bye bye
-- then bye
-- tschüssikowski
-- bye!
 
 ## intent:canthelp
 - ok then you cant help me
@@ -1022,46 +1291,6 @@
 - talk to sales team
 - I want to talk to your sales team
 - Can I have a call?
-
-## intent:deny
-- no
-- definitely not
-- never
-- absolutely not
-- i don't think so
-- i'm afraid not
-- no sir
-- no ma'am
-- no way
-- no sorry
-- No, not really.
-- nah not for me
-- nah
-- no and no again
-- no go
-- no thanks
-- decline
-- deny
-- i decline
-- never mind
-- nevermind
-- I'm not giving you my email address
-- no I haven't decided yet if I want to sign up
-- I don't want to give it to you
-- I'm not going to give it to you
-- no i don't accept
-- no!!!!
-- no you did it wrong
-- no i can't
-- i'm not sure
-- NEIN
-- nein
-- not really
-- i guess it means - no
-- i don't want to
-- i don't want either of those
-- nah thanks
-- neither of these
 
 ## intent:enter_data
 - 100k
@@ -1747,75 +1976,6 @@
 - please [conda](package_manager)
 - [pip](package_manager) please
 
-## intent:greet
-- Hi
-- Hey
-- Hi bot
-- Hey bot
-- Hello
-- Good morning
-- hi again
-- hi folks
-- hi Mister
-- hi pal!
-- hi there
-- greetings
-- hello everybody
-- hello is anybody there
-- hello robot
-- hallo
-- heeey
-- hi hi
-- hey
-- hey hey
-- hello there
-- hi
-- hello
-- yo
-- hola
-- hi?
-- hey bot!
-- hello friend
-- good morning
-- hii
-- hello sweet boy
-- yoo
-- hey there
-- hiihihi
-- hello sweatheart
-- hellooo
-- helloooo
-- heyo
-- ayyyy whaddup
-- hello?
-- Hallo
-- heya
-- hey bot
-- howdy
-- Hellllooooooo
-- whats up
-- Hei
-- Well hello there ;)
-- I said, helllllloooooO!!!!
-- Heya
-- Whats up my bot
-- hiii
-- heyho
-- hey, let's talk
-- hey let's talk
-- jojojo
-- hey dude
-- hello it is me again
-- what up
-- hi there
-- hi
-- jop
-- hi friend
-- hi there it's me
-- good evening
-- good morning
-- good afternoon
-
 ## intent:human_handoff
 - I want to talk to a human
 - let me speak with a real person please
@@ -1855,61 +2015,6 @@
 - i want to speak to a manager
 - I want to talk to the founders
 - i want to talk to a human
-
-## intent:affirm
-- yes
-- of course
-- sure
-- yeah
-- ok
-- cool
-- go for it
-- yep
-- yep, will do thank you
-- I'm sure I will!
-- oh awesome!
-- Yes
-- accept
-- I accept
-- i accept
-- ok i accept
-- I changed my mind. I want to accept it
-- ok cool
-- alright
-- i will!
-- ok, I behave now
-- yop
-- oki doki
-- yes please
-- yes please!
-- jo
-- yep if i have to
-- amayzing
-- confirm
-- nice
-- coolio
-- definitely yes without a doubt
-- yas
-- yup
-- perfect
-- sure thing
-- absolutely
-- Oh, ok
-- Sure
-- hm, i'd like that
-- ja
-- sure!
-- yes i accept
-- Sweet
-- amazing!
-- how nice!
-- cool!
-- yay
-- yes accept please
-- great
-- oh cool
-- yes
-- fine
 
 ## intent:out_of_scope
 - I want pizza
@@ -2135,70 +2240,68 @@
 - i want on that dope newsletter
 - Subscribe
 
-## intent:thank
-- Thanks
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
-- thanks
-- thanks!
-- Cool. Thanks
-- thanks
-- thanks this is great news
-- thank you
-- great thanks
-- Thanks!
-- cool thanks
-- thanks for forum link, I'll check it out
-- thanks!
+## intent:ask_which_events
+- Which community events do you have
+- Where can I meet Rasas
+- Do you have a user group
+- is there a meetup
+- is there a Rasa meetup
+- i want to meet Rasa
 
-## intent:how_to_get_started
-- how do I get started with Rasa
-- how do I use rasa
-- what is the difference between rasa [nlu](product) and rasa [core](product)
-- how to start with rasa
-- how to start with it
-- how to build a bot?
-- how can I build a chatbot
-- what can I do with Rasa?
-- where to start the development of rasa
-- WHAT IS RASA
-- WHAT IS IT
-- so, how do I use rasa?
-- can i just test features without having to deal with your predefined conversation
-- can you guide me know to create knowledge base chatbot
-- how can I learn rasa
-- i want to use rasa to build my chatbot
-- how do i get rasa [core](product)
-- how do I train rasa [nlu](product)
-- how do i learn rasa [core](product)
-- what is rasa [core](product)
-- what is [nlu](product)
-- I want to learn about rasa [core](product)
-- i want to use [nlu](product)
-- [core](product)
-- [nlu](product)
-- rasa [stack](product:core)
-- how to learn rasa [stack](product:core)
-- I want to learn about rasa [nlu](product:nlu)
-- i want to learn about rasa [core](product:core)
-- how to get started with [nlu](product)
-- give me some information on [nlu](product)
-- tell me how to get started with [core](product)
-- how about [nlu](product)
-- tell me about [core](product) please
-- what is this [nlu](product) thing?
+## intent:ask_when_next_event
+- When is the next community event?
+- when is the next event in [Berlin](location)
+- is there a event in [Montreal](location)
+- is there a Rasa event in [San Francisco](location)
+- what's the next rasa event
+- whats the next community event
+- when is the next usergroup
+- do you have an event in [Berlin](location)
+
+## intent:ask_question_in_forum
+- Hey, i want to ask a question in the forum
+- i want to get help in the forum
+- where can I find the forum
+- I have a problem
+- I need help with a problem
+- Can you help me to solve a problem?
+
+## intent:ask_why_contribute
+- why should I contribute to Rasa
+- why should I contribute
+- why should I help to improve Rasa
+- why contribute to Rasa
+
+## intent:ask_how_contribute
+- how contribute to Rasa?
+- how can I contribute to Rasa
+- how help Rasa
+- how to improve Rasa
+- how can I improve Rasa
+- I want to help to improve Rasa
+- I want to make Rasa better
+- how can I support the community
+- what can I do
+
+## intent:next_step
+- Take me to the next step
+- Next step
+- I want to go to the next step
+- Please take me to the next step
+- Next step please
+
+## intent:explain
+- tell me more
+- could you please explain that
+- could you tell me more
+- give me more information please
+- could you please give me some more information
+- i want more information
+- what is the difference
+- can you tell me the difference
+- why
+- why is that
+- why do you need it
 
 ## intent:technical_question
 - what is duckling
@@ -2255,6 +2358,19 @@
 - is rasa better than [dialog flow](product:dialogflow)
 - what is the difference between [bot framework](product) and rasa
 
+## intent:nlu_generation_tool_recommendation
+- which tools can I use to create nlu data
+- how can I get nlu data
+- where can i get data for the nlu
+- recommend me some nlu tools
+- how to work with nlu data
+- i need more nlu data
+- are there tools to create nlu data
+- i require more nlu data
+- need more data for nlu
+- i have to less nlu data
+- are there simpler ways to create nlu data
+
 ## intent:nlu_info
 - can you explain to me how [entity recognition](nlu_part) works?
 - how does [entity recognition](nlu_part) work?
@@ -2292,213 +2408,143 @@
 - is [duckling](nlu_part) part of rasa?
 - [intents](nlu_part)
 
-## synonym:intent classification
-- intents
-- intent
-
-## synonym:entity recognition
-- entity extraction
-
-## intent:pipeline_recommendation
-- what pipeline should I start with?
-- what is the right pipeline to choose?
-- what I a good pipeline to start with?
-- what pipeline should i use?
-- what pipeline is better for what i want?
-- what pipeline should I start with?
-- should I better start with the tensorflow pipeline or spacy?
-- spacy or tensorflow, what is better to start?
-- I don’t know which pipeline to use
-- what pipeline is better?
-- which pipeline is better?
-- recommend pipeline
-- pipeline recommendation
-- give me a recommendation
-
-## intent:nlu_generation_tool_recommendation
-- which tools can I use to create nlu data
-- how can I get nlu data
-- where can i get data for the nlu
-- recommend me some nlu tools
-- how to work with nlu data
-- i need more nlu data
-- are there tools to create nlu data
-- i require more nlu data
-- need more data for nlu
-- i have to less nlu data
-- are there simpler ways to create nlu data
-
 ## intent:install_rasa
-- I want to install Rasa Stack
-- How to install Rasa?
-- Where to get Rasa Stack?
-- How to install Rasa Core?
-- install Rasa NLU
-- how do I install rasa in windows
-- how do I run rasa on windows
-- install Rasa on Linux
-- install Rasa on Mac
-- Can you help me to install Rasa?
-- Just install Rasa Stack
-- How to install Rasa Stack
-- I'd like to install Rasa Core
-- I'd like to install Rasa NLU
-- Help me install Rasa
-- I want to do a Rasa Stack installation
-- I'm going to install Rasa Stack
-- Please help me install Rasa Stack
-- Please install Rasa Stack
-- I think I want to install Rasa Stack
-- How do I install Rasa Stack?
-- I want info on installing Rasa
-- I'd like to perform an installation of Rasa Stack
-- Let me install Rasa Stack.
-- I need Rasa Stack
-- Help me get Rasa Core.
-- Could I have Rasa Stack?
-- Could you install Rasa Stack for me?
-- Could you help me get Rasa stack?
-- I require Rasa Stack?
-- Please, I need Rasa Core.
-- Can you get me Rasa Core?
-- I need assistance in getting Rasa Stack.
-- I want to use Rasa Stack
-- I'm getting Rasa Stack
-- I have decided on Rasa Stack
-- I'm installing Rasa Stack
-- Rasa Stack is what I will be installing
-- I have chosen Rasa Stack
-- I need Rasa Stack.
-- I need to install Rasa Core.
-- I need to install Rasa NLU.
-- Do you mind helping me install Rasa?
-- Its urgent for me to install Rasa.
-- Please assist me with installing Rasa Stack.
-- I need to get Rasa Stack up and running.
-- Yes, I do need Rasa Stack.
-- Thank you in advance for suggesting I install Rasa NLU.
-- Installing Rasa Stack will be extremely helpful to me.
+- I want to install [Rasa](product)
+- How to install [Rasa](product)?
+- Where to get [Rasa](product)?
+- How to install [Rasa Core](product)?
+- install [Rasa NLU](product)
+- how do I install [Rasa](product) in windows
+- how do I run [Rasa](product) on windows
+- install [Rasa](product) on Linux
+- install [Rasa](product) on Mac
+- Can you help me to install [Rasa](product)?
+- Just install [Rasa](product)
+- How to install [Rasa](product)
+- I'd like to install [Rasa Core](product)
+- I'd like to install [Rasa NLU](product)
+- Help me install [Rasa X](product)
+- I want to do a [Rasa X](product) installation
+- I'm going to install [Rasa X](product)
+- Please help me install [Rasa](product)
+- Please install [Rasa](product)
+- I think I want to install [Rasa](product)
+- How do I install [Rasa X](product)?
+- I want info on installing [Rasa](product)
+- I'd like to perform an installation of [Rasa](product)
+- Let me install [Rasa](product).
+- I need [Rasa](product)
+- Help me get [Rasa Core](product).
+- Could I have [Rasa](product)?
+- Could you install [Rasa](product) for me?
+- Could you help me get [Rasa](product)?
+- I require [Rasa](product)?
+- Please, I need [Rasa Core](product).
+- Can you get me [Rasa Core](product)?
+- I need assistance in getting [Rasa X](product).
+- I want to use [Rasa](product)
+- I'm getting [Rasa](product)
+- I have decided on [Rasa](product)
+- I'm installing [Rasa](product)
+- [Rasa](product) is what I will be installing
+- I have chosen [Rasa](product)
+- I need [Rasa](product).
+- I need to install [Rasa Core](product).
+- I need to install [Rasa NLU](product).
+- Do you mind helping me install [Rasa X](product)?
+- Its urgent for me to install [Rasa](product).
+- Please assist me with installing [Rasa](product).
+- I need to get [Rasa](product) up and running.
+- Yes, I do need [Rasa](product).
+- Thank you in advance for suggesting I install [Rasa NLU](product).
+- Installing [Rasa X](product) will be extremely helpful to me.
 
-## synonym:conda
-- anaconda
+## intent:what_products
+- what kind of [products](entity_type) do you have?
+- what [products](entity_type) do you have?
+- what [products](entity_type) do you offer?
+- what [products](entity_type) are you selling?
+- can you list the [products](entity_type) you have?
+- can you list the [products](entity_type) you offer?
+- list all [products](entity_type)
 
-## intent:ask_which_events
-- Which community events do you have
-- Where can I meet Rasas
-- Do you have a user group
-- is there a meetup
-- is there a Rasa meetup
-- i want to meet Rasa
-
-## intent:ask_when_next_event
-- When is the next community event?
-- when is the next event in [Berlin](location)
-- is there a event in [Montreal](location)
-- is there a Rasa event in [San Francisco](location)
-- what's the next rasa event
-- whats the next community event
-- when is the next usergroup
-- do you have an event in [Berlin](location)
-
-## lookup:location
-- San Francisco
-- Montreal
-- New York
-- Washington
-- Berlin
-- Zurich
-- Hamburg
-- Frankfurt
-- Munich
-- Madrid
-- Cologne
-- Düsseldorf
-- Barcelona
-- Vienna
-- Warsaw
-- Paris
-- Rome
-- London
-- Prague
-- Sidney
-- Delhi
-- Mumbai
-- Tokyo
-- Rio de Janeiro
-- Beijing
-- Guangzhou
-- Shanghai
-- Chongqing
-- Hong Kong
-- China
-- India
-- US
-- USA
-- Germany
-- United States
-- UK
-- England
-- Brazil
-- France
-- Poland
-- Italy
-- Spain
-- Europe
-- Canada
-- Ukraine
-
-## synonym:USA
-- US
-- U.S.
-- USA
-- usa
-- United States
-
-## synonym:United Kingdom
-- UK
-- U.K.
-
-## intent:ask_question_in_forum
-- Hey, i want to ask a question in the forum
-- i want to get help in the forum
-- where can I find the forum
-- I have a problem
-- I need help with a problem
-- Can you help me to solve a problem?
-
-## intent:ask_why_contribute
-- why should I contribute to Rasa
-- why should I contribute
-- why should I help to improve Rasa
-- why contribute to Rasa
-
-## intent:ask_how_contribute
-- how contribute to Rasa?
-- how can I contribute to Rasa
-- how help Rasa
-- how to improve Rasa
-- how can I improve Rasa
-- I want to help to improve Rasa
-- I want to make Rasa better
-- how can I support the community
-- what can I do
-
-## intent:next_step
-- Take me to the next step
-- Next step
-- I want to go to the next step
-- Please take me to the next step
-- Next step please
-
-## intent:explain
-- tell me more
-- could you please explain that
-- could you tell me more
-- give me more information please
-- could you please give me some more information
-- i want more information
-- what is the difference
-- can you tell me the difference
-- why
-- why is that
-- why do you need it
+## intent:ask_product_details
+- is [Rasa X](product) [open-source](attribute)?
+- is [Rasa](product) [free](attribute)?
+- is the [first](mention) one [open-source](attribute)?
+- is [rasa](product) considered [open source](attribute) software?
+- is [rasa](product) [open source](attribute)?
+- is the software [rasa](product) [open source](attribute)
+- is [rasa](product) an [open source](attribute) software?
+- would you consider [rasa](product) [open source](attribute) software?
+- could I call [rasa](product) [open source](attribute) software?
+- would [rasa](product) fall into the category of [open source](attribute) software?
+- would [rasa](product) be [open source](attribute) software?
+- would you call [rasa](product) [open source](attribute) software?
+- would people consider [rasa](product) an [open source](attribute) software?
+- Is [rasa](product) [open source](attribute)?
+- Is the [rasa](product) software [open source](attribute)?
+- The [rasa](product) software, is that [open source](attribute)?
+- Could you tell me whether [rasa](product) is [open source](attribute) or not?
+- How do I find out if [rasa](product) is [open source](attribute)?
+- Is [Rasa](product) a software formatted as [open source](attribute)?
+- would an example of [open source](attribute) software be [rasa](product)?
+- is [rasa](product) a type of [open source](attribute) software?
+- is [rasa](product) software that is classified as [open source](attribute)?
+- does [rasa](product) fall into the [open source](attribute) software category?
+- does [rasa](product) use [open source](attribute) software?
+- is [rasa](product) like an [open source](attribute) software
+- is this [open source](attribute) license
+- how to [install](attribute) the [last](mention) one?
+- I want to [install](attribute) [Rasa](product)
+- How to [install](attribute) [Rasa](product)?
+- Where to get [Rasa](product)?
+- How to [install](attribute) [Rasa](product)?
+- [install](attribute) [Rasa NLU](product)
+- how do I [install](attribute) [rasa](product) in windows
+- how do I run [rasa](product) on windows
+- [install](attribute) [Rasa](product) on Linux
+- [install](attribute) [Rasa](product) on Mac
+- Can you help me to [install](attribute) [Rasa](product)?
+- Just [install](attribute) [Rasa](product)
+- How to [install](attribute) [Rasa Stack](product)
+- I'd like to [install](attribute) [Rasa Core](product)
+- I'd like to [install](attribute) [Rasa NLU](product)
+- Help me [install](attribute) [Rasa X](product)
+- I want to do a [Rasa X](product) [installation](attribute)
+- I'm going to [install](attribute) [Rasa](product)
+- Please help me [install](attribute) [Rasa](product)
+- Please [install](attribute) [Rasa](product)
+- I think I want to [install](attribute) [Rasa](product)
+- How do I [install](attribute) [Rasa](product)?
+- I want info on [installing](attribute) [Rasa](product)
+- I'd like to perform an [installation](attribute) of [Rasa X](product)
+- Let me [install](attribute) [Rasa X](product).
+- Could you [install](attribute) [Rasa](product) for me?
+- I'm [installing](attribute) [Rasa](product)
+- Rasa Stack is what I will be [installing](attribute)
+- I need to [install](attribute) [Rasa Core](product).
+- I need to [install](attribute) [Rasa NLU](product).
+- Do you mind helping me [install](attribute) [rasa](product)?
+- Its urgent for me to [install](attribute) [Rasa](product).
+- Please assist me with [installing](attribute) [Rasa X](product)
+- [Installing](attribute) [rasa x](product) will be extremely helpful to me.
+- which [python version](attribute) do I need for [Rasa](product)
+- what [version of python](attribute) does [Rasa](product) require
+- which [python](attribute) does [Rasa](product) support?
+- what [python version](attribute) do i need to install for [Rasa X](product)
+- what [python version](attribute) is required for [Rasa X](product)?
+- [python version](attribute) for [rasa](product)
+- Which [python version](attribute) should I install to run [rasa](product)?
+- where can I find the [documentation](attribute) from the [last](mention) one?
+- can you point me to the [documentation](attribute) of [Rasa X enterprise](procduct)?
+- where is the [documentation](attribute) of [rasa](product)
+- where can I find the [documentation](attribute) of [Rasa X](product)?
+- is there any [documentation](attribute) about [rasa x ee](product)
+- do you have any [documentation](attribute) about [rasa x](product)?
+- does [Rasa](product) has any [documentation](attribute)
+- [documentation](attribute) of [rasa x](product)
+- where is the [source code](attribute) of [rasa](product)?
+- where can I find the [source code](attribute) of [rasa](product)
+- [source code](attribute) of [rasa](product)
+- is the [source code](attribute) of [rasa](product) public?

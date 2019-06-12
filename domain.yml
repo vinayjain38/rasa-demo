@@ -16,6 +16,10 @@ entities:
   - user_type
   - package_manager
   - location
+  - attribute
+  - entity_type
+  - entities
+  - mention
 
 intents:
   - enter_data: {use_entities: false}
@@ -69,21 +73,21 @@ intents:
   - get_started_step4
   - ask_faq_platform
   - ask_faq_tutorials
-  - ask_faq_languages
   - ask_faq_tutorialcore
   - ask_faq_tutorialnlu
-  - ask_faq_opensource
   - ask_faq_voice
   - ask_faq_slots
   - ask_faq_channels
+  - ask_faq_languages
   - ask_faq_differencecorenlu
-  - ask_faq_python_version
   - react_negative
   - react_positive
   - ask_faq_community_size
   - ask_faq_what_is_forum
   - next_step
   - explain
+  - what_products
+  - ask_product_details
 
 slots:
   budget:
@@ -118,6 +122,9 @@ slots:
       - core
       - nlu
       - stack
+      - Rasa
+      - Rasa X
+      - Rasa X EE
   unknown_product:
     type: unfeaturized
   nlu_part:
@@ -152,6 +159,14 @@ slots:
     type: text
   step:
     type: unfeaturized
+  mention:
+    type: text
+  attribute:
+    type: text
+  entity_type:
+    type: text
+  entities:
+    type: list
 
 
 templates:
@@ -602,7 +617,6 @@ actions:
   - utter_bye
   - utter_awesome
   - utter_great
-  - utter_thank_usecase
   - utter_can_do
   - utter_canthelp
   - utter_ask_continue_newsletter
@@ -618,7 +632,6 @@ actions:
   - utter_cant_answer_tech_question
   - utter_no_email
   - utter_have_you_used_rasa_before
-  - utter_are_you_new_to_chatbots
   - utter_encourage_building_bot
   - utter_anything_else
   - utter_chatbot_tutorial
@@ -704,13 +717,11 @@ actions:
   - utter_getstarted_new
   - utter_thanks_for_feedback
   - utter_restart_with_button
-  - utter_ask_for_feedback_message
   - utter_not_sure
   - utter_no_community_event
   - utter_no_event_for_location_but_next
   - utter_next_event_for_location
   - utter_next_event
-  - utter_describe_step4
   - utter_reasons_to_contribute
   - utter_possibilities_to_contribute
   - utter_recommend_forum
@@ -746,6 +757,9 @@ actions:
   - action_get_community_events
   - action_next_step
   - action_explain_sales_form
+  - action_query_entities
+  - action_request_info
+  - action_resolve_entity
 
 forms:
   - subscribe_newsletter_form

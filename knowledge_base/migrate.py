@@ -39,6 +39,9 @@ def product_template(product):
     graql_insert_query += (
         ", has recommended-python-version " + product["recommended-python-version"]
     )
+    graql_insert_query += (
+        ', has documentation-link "' + product["documentation-link"] + '"'
+    )
     graql_insert_query += ', has source-code "' + product["source-code"] + '"'
     graql_insert_query += ";"
     return graql_insert_query
