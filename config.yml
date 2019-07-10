@@ -1,12 +1,47 @@
 language: en
 pipeline:
-- name: WhitespaceTokenizer
+- name: tokenizer_whitespace
+  intent_split_symbol: '_'
 - name: CRFEntityExtractor
-- name: CountVectorsFeaturizer
-  OOV_token: oov
-  token_pattern: (?u)\b\w+\b
+- name: intent_featurizer_count_vectors
+  sparse: true
+  use_shared_vocab: true
 - name: EmbeddingIntentClassifier
-  epochs: 50
+  epochs: 40
+  evaluate_every_num_epochs: 5
+  evaluate_on_num_examples: 256
+  hidden_layers_sizes_a:
+    - 128
+    - 64
+  hidden_layers_sizes_b:
+    - 128
+    - 64
+  droprate: 0.2
+#  batch_size: 5
+#  num_neg: 5
+  share_embedding: true
+  embed_dim: 20
+  similarity_type: cosine
+  loss_type: margin
+  intent_tokenization_flag: true
+  iou_threshold: 0.66
+- name: ResponseSelector
+  epochs: 40
+  evaluate_every_num_epochs: 5
+  evaluate_on_num_examples: 256
+  hidden_layers_sizes_a:
+    - 128
+    - 64
+  hidden_layers_sizes_b:
+    - 128
+    - 64
+  droprate: 0.2
+  share_embedding: true
+  embed_dim: 20
+  similarity_type: cosine
+  loss_type: margin
+  intent_tokenization_flag: true
+  iou_threshold: 0.66
 - name: DucklingHTTPExtractor
   url: http://localhost:8000
   dimensions:

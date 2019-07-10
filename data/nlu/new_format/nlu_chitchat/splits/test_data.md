@@ -1,0 +1,1287 @@
+## intent:affirm
+- yas
+- coolio
+- ok i accept
+- I accept
+- cool
+- go for it
+- fine
+- yes accept please
+- yay
+- sure!
+- I changed my mind. I want to accept it
+
+## intent:ask_faq_channels
+- what are the channels Rasa NLU supports
+- DOES RASA SUPPORT MESSENGER?
+- which UI channel is used by Rasa ?
+- which messaging channels does rasa support?
+- what chat channels does rasa uses
+
+## intent:ask_faq_community_size
+- do you have a large community
+
+## intent:ask_faq_differencecorenlu
+- What makes [core](product) and [nlu](product) different?
+- what is the difference between [core](product) and [nlu](product)
+- what differences are there between [core](product) and [nlu](product)?
+- What sets [nlu](product) apart from [core](product)?
+- What are some ways that [nlu](product) is different from [core](product)?
+- what makes [core](product) and [nlu](product) unique from each other?
+- What makes [core](product) distinct to [nlu](product)?
+
+## intent:ask_faq_languages
+- What languages can you use?
+- Can I use Rasa with Thai language
+- I want Vietnamese language processing
+- language
+- which languages are supported?
+- which languages supports rasa
+- What language you support?
+
+## intent:ask_faq_opensource
+- Is the rasa software open source?
+- would an example of open source software be rasa?
+- is this open source license
+- would you call rasa open source software?
+- does rasa use open source software?
+
+## intent:ask_faq_platform
+- what is rasa platform
+- we built a bot with rasa but now we're interested in the platform
+- i want to learn more about Rasa Platform
+- Tell me about your platform
+
+## intent:ask_faq_python_version
+- what version of python
+- what version does python needs
+
+## intent:ask_faq_slots
+- tell me about slots
+- slots
+- tell me the slots?
+- what slots are there?
+- where slots getting values
+- I need to know about slot filling
+- help mi with slots
+- help mi with slots
+- Not sure what slots are?
+
+## intent:ask_faq_tutorials
+- i want a tutorial on rasa
+- rasa tutorial
+- can you show me a tutorial
+
+## intent:ask_faq_voice
+- When can I build a voice bot using rasa?
+- Can one make a voice bot with rasa?
+- Is rasa any good for building a voice bot?
+- How to build a voice bot?
+- What to do if I want to build a voice bot using rasa?
+- How can I build my voice bot using rasa?
+- rasa can't be used to build a voice bot, can it?
+- Can you build a voice bot using rasa?
+- How to use rasa to build a voice bot.
+
+## intent:ask_faq_what_is_forum
+- why should I join the forum
+
+## intent:ask_how_contribute
+- how contribute to Rasa?
+- what can I do
+
+## intent:ask_question_in_forum
+- Can you help me to solve a problem?
+- I need help with a problem
+
+## intent:ask_when_next_event
+- do you have an event in [Berlin](location)
+- is there a event in [Montreal](location)
+
+## intent:ask_which_events
+- i want to meet Rasa
+- is there a Rasa meetup
+
+## intent:ask_why_contribute
+- why should I contribute
+
+## intent:bye
+- bye udo
+- bye bye bot
+- then bye
+- bye for now
+- toodle-oo
+
+## intent:canthelp
+- i guess you can't help me then
+- and that's it?
+- you cannot help me with what I want
+- stop go back
+
+## intent:chitchat
+- you are fucking stupid guy！
+- who made u
+- It's great to get to know you!
+- how old will you be this year?
+- whats your name?
+- How long have you occupied the earth?
+- What is the exact time?
+- what is your age?
+- how is the weather?
+- How old were you on your last birthday?
+- I'm pleased to meet you!
+- What time is it right now?
+- Time?
+- how you doing?
+- are you alright
+- Can you recommend a restaurant open right now
+- i'm looking for a Chinese restaurant
+- What does everyone call me?
+- Are you the bot?
+- what can you answer
+- can you tell me my name?
+- What is your birthdate?
+- Glad to finally meet you!
+- Could you please share a joke with me.
+- how's the weather in berlin
+- Is everything ok?
+- Could you find me a restaurant?
+- Do you speak any other languages?
+- when were you born?
+- what you can do?
+- where are your parents from?
+- Hi Sara, just wanted to test you
+- make me laugh with a bad joke
+- how are xou
+- I am hungry, find me some place to go
+- how's the weather in berlin
+- what languages are you good at speaking?
+- what languages you know?
+- what age are you
+- Give me the time.
+- Tell me something that you think will make me laugh.
+- I'm glad to meet you!
+- Who is the person responsible for building you?
+- asshole
+- say a joke that's funny
+- what is the time?
+- where are you from
+- who are u?
+- How old will you be on your next birthday?
+- How did you come into being?
+- May i know my name?
+- What is your origin?
+- are you artificial
+- Whats your age?
+- It was a pleasure to have your company.
+- Great, is there anything else you can do, bot?
+- What was I named?
+- Can you give me the time?
+- What is my name?
+- como estas
+- how old will you be this year?
+- Please tell me a joke.
+- are you real
+- Where were you at before you were here?
+- What is the weather in newyork?
+- do you know the current time?
+- Let's hear a joke from you.
+- You are unknowing.
+- In what way were you formed?
+- How did they make you?
+- are u dump?
+- Where are you?
+- What is your origin?
+- How many different languages are you fluent in?
+- Let's hear a joke from you.
+- in what year were you born?
+- In what way were you created?
+- Who's your builder?
+- What might the time be?
+- What else do people call me?
+- Around where are you from?
+- From where did you come?
+- are you bot
+- Do you know how you were built?
+- who made u?
+- You originated through what means?
+- I hate you
+- hows the waether
+- what is the weather
+- who is your mom
+- give me a good joke
+- what"s the weather
+- how are you doing this morning
+- whats ur name
+- Glad to meet you
+- tell me your age?
+- Glad to meet you!
+- tell me the time it is.
+- It's a pleasure to make your acquaintance!
+- Tell me something funny.
+- What area are you from?
+- Give me a funny joke.
+- you are so ignorant
+- how are you feeling
+- In what manner were you built?
+- where do you live?
+- i guess you are a chatbot
+- Where do you consider home?
+- I'm fine and you
+- Can you say how you were constructed?
+- Tell me something humorous!
+- como te llamas
+- Can you find me a burger joint?
+- I hate you
+- In what manner were you formed?
+- You originated through what means?
+- hi how are you?
+- You are shortsighted.
+- How old are you?
+- How did you come to be?
+- how old are you?
+- What city were you born in?
+- who are you and what do you want from me
+- what's good
+- give me your age?
+- I'm happy that we have met!
+- Can you tell the time?
+- Can you tell me who am I?
+- what's the time
+- how are you feeling
+- what is the weather
+- What city were you born in?
+- tell me some languages you know?
+- What country were you born in?
+- How long have you occupied the earth?
+- Let's hear a joke from you.
+- Ar you a bot ?
+- who had the idea to generate you?
+- tell me more about your company
+- Where were you at before you were here?
+- what time is it?
+- Can you tell me my name?
+- what are you ding
+- Where did you grow up?
+- Can you tell a joke?
+- Where were you at before you were here?
+- what language do you use
+- Fuck Off
+- nice to meet you
+- you're an idiot
+- hi how u doing
+- I have a name, what is it?
+- What's the time right now?
+- weatger
+- how can i use you
+- what's the weather like where you are?
+- how's the weather ?
+- Tell me something humorous!
+- who made you
+- Time?
+- Can you communicate in any other languages?
+- what language do you use
+- what's the weather like?
+- how many languages do you know?
+- which company created you?
+- do you know how old you are?
+- What city are you in?
+- how are u
+- What's the weather like where I am right now?
+- sara you look like a burnt sparrow
+- how old were you on your last birthday?
+- how are you doing this morning
+- Do you seek me a restaurant?
+- How are You?
+- howareyou
+- Do you feel good?
+- What's new?
+- What is your heritage?
+- what's up
+- yeah go on explaining what rasa is
+- Great seeing you
+- You originated through what means?
+- Hi, nice to meet you!
+- What is my name?
+- Thank you for this meeting. It was great to see you.
+- What's the time right now?
+- how old were you on your last birthday?
+- what is your exact age?
+- What is your root?
+- please tell me the company who created you
+- What restaurant would you recommend for dinner?
+- ça va ?
+- Who was the person who put you together?
+- you are a robot
+- What can I ask you?
+- Great to meet you.
+- I need to know what time it is.
+- Is it quite breezy outside?
+- Which languages do you speak?
+- So where are you from
+- weather
+- how old?
+- how are you doing today my sweet friend
+- what's your name bot
+- How you doing?
+- can you share your boss with me?
+- you are so ignorant
+- what number represents your age?
+- who is your daddy
+- In which languages are you fluent?
+- How long have you occupied the earth?
+- Do you have friends the same age as you, if so, how old are they?
+- where did you grow up?
+- Where from?
+- It's great to make your acquaintance!
+- Tell me the time.
+- Would you tell me a joke
+- what is the whether today
+- are you a BOT
+- can you tell me who I am?
+- what can I do here
+- I am glad I met you.
+- what are the options?
+- who is your creator
+- Lovely to meet you.
+- Know any jokes?
+- Thank you for this meeting. It was great to see you.
+- howareyou
+- What is the weather in newyork?
+- what languages you prefer more speaking at?
+- what's your name
+- It was a pleasure to have your company.
+- fuck you!
+- what"s the weather
+- who is this
+- What is your birthdate?
+- do you know the current time?
+- what number represents your age?
+- Show me how to find a restaurant
+- do you know chinese
+- It's great to get to know you!
+- What are the languages you can speak?
+- yep but you are idiot
+- It's a pleasure to meet you!
+- Where from?
+- Could you tell me what time is it?
+- Please tell me a joke.
+- Who's your builder?
+- what's your name ?
+- explain me what rasa does
+- how aold are you
+- Do you have any jokes?
+- Do I have a name?
+- Do you know any jokes?
+- you are chatbot
+- what is your age?
+- How are you?
+- Will you tell me a joke.
+- but you are idiot
+- how aold are you
+- It was a pleasure to have your company.
+- Could you tell me the time, please?
+- Who am I?
+- Will the skies be clear today?
+- what about your day
+- what languages do you speak
+- Where are your origins?
+- who is your boss?
+- What does rasa do exactly?
+- FUCK
+- are you robot
+- What do you do
+- who built u?
+- what does rasa do?
+- How's it hanging?
+- Who was the one that built you?
+- how can you be such an idiot?
+- Tell me how you were made?
+- do you know chinese
+- how's weather
+- is everything okay
+- ¿Qué pasa?
+- Do you have good weather?
+- Good to see you!
+- who is this bot
+- how many ages?
+- Tell me the time.
+- Tell me your day, month and year of birth.
+- How is the weather?
+- Who made you?
+- Do I have a name?
+- Do you have the time?
+- who created you
+- Can you find me a restaurant?
+- Around where are you from?
+- how you doing?
+- What's the weather like?
+- Who was the person that created you?
+- who are you
+- Glad to meet you
+- where did you spend your youth?
+- Who is the person that invented you?
+- weather?
+- Delighted to make your acquaintance.
+- what's the weather like
+- fuck you machine learning bot
+- fuck you
+- what is your nme?
+- u are?
+- what age are you
+- What's new?
+- What name should I recognize for myself?
+- It's nice to finally meet you.
+- Do you know the time?
+- what can i build with rasa core?
+- tell me the time it is.
+- Tell me your day, month and year of birth.
+- In which languages are you fluent?
+- How are you today?
+- what's the weather today?
+- Can you tell me the time?
+- who built u?
+- who is your boss
+- Fuck u
+- What is the weather in newyork?
+- fuck u
+- Great seeing you
+- what age are you
+- Is it humid out there today?
+- Say my name.
+- Who was the person who made you?
+- you are idiot
+- Is there any restaurant?
+- what can I do with Rasa?
+- Will you tell me a joke.
+- What is the name of your builder?
+- How exactly were you made?
+- what can I ask ?
+- What did my parents name me?
+- It is indeed a pleasure to be able to meet you.
+- hi how are you?
+- Entertain me with a joke.
+- who are u?
+- can you tell me exactly how old you are?
+- and you are how many years old?
+- Recommend me a restaurant around here.
+- Is everything ok?
+- How old will you be on your next birthday?
+- Who are yopu?
+- How many years have you been alive?
+- How long have you been alive?
+- Where do you live?
+- You're an idiot.
+- Hi Sara, just wanted to test you
+- where are your parents from?
+- shit bot
+- where did you come from?
+- tell me what time you have.
+- you're not smart
+- what else do you know besides English?
+- Can you say how you were constructed?
+- Where do you consider home?
+- how are u?
+- What can you do
+- how are you doing?
+- you can say a jok
+- How were you made into who you are?
+- how are you????
+- Who was the person who made you?
+- Find a restaurant for me?
+- can you tell me my name?
+- and who built u?
+- Pleased to meet you!
+- are you rasa bot?
+- God you're a moron
+- You were conceived in what location?
+- cuz you are a bot
+- whatchcha doing
+- I'd like to know how you were put together?
+- Show me the closest open restaurant
+- Who developed and created you?
+- you are fucking stupid
+- What's the current time?
+- Where are you?
+- What's rasa?
+- idiot
+- how is your evening
+- what languages you can handle well?
+- What languages do you know how to use?
+- I'm thrilled to meet you!
+- who may i ?
+- Can you tell a joke?
+- How did they create you?
+- What is my first name?
+- ça va ?
+- you can say a jok
+- What is my first name?
+- Say something funny.
+- Is it hot or cold?
+- Hi Sara, just wanted to test you
+- nice to meet you
+- Can you tell me a joke.
+- say a funny joke
+- you are idiot
+- the weather today
+- can i be shown a gluten free restaurant
+- how's the weather ?
+- so fucking dumb
+- Tell me how you were made?
+- It's nice to finally meet you.
+- I'm thrilled to meet you!
+- Do you speak any other languages?
+- Who created and built you?
+- What else do people call me?
+- How did they make you?
+- How many years have you lived?
+- are you sure that you're a bot?
+- what age were you when you celebrated your last birthday?
+- What area are you from?
+- What will be your age on your next birthday?
+- that's true. do you know what time it is?
+- you are working for which company?
+- Do you know who made you?
+- Could you please show me what you can/
+- Great to meet you!
+- How long have you been around?
+- What city do you claim to for your birth?
+- i guess you are a chatbot
+- Where do you come from?
+- What's the current time?
+- You are a fool.
+- Do you know who am I?
+- How were you materialized?
+- Who developed and created you?
+- i hate your dumb face
+- What's the weather forecast?
+- You originated through what means?
+- you are stupid
+- how is the weather
+- say a joke that's so bad it's funny
+- fuck you sara
+- how many languages are you fluent in?
+- make me laugh with a bad joke
+- Who thought to make you?
+- how's the weather in berlin
+- i'm looking for a Chinese restaurant
+- who created you?
+- Great to meet you!
+- Where did you originate?
+- nah, I'm good - how are you doing?
+- What can I do?
+- Let's hear a joke from you.
+- Do you have the time?
+- Do you know where you come from?
+- get lost
+- Can you give me the time?
+- Tell me something that you think will make me laugh.
+- you are an idiot
+- I am glad I met you.
+- which company brought you into existence?
+- Can you communicate in any other languages?
+- How many languages do you know?
+- Give me more information about Rasa
+- I want to know how you were formed
+- when is your birthday?
+- what fuck
+- is everything all right
+- help me
+- fucking work
+- Do you have any jokes?
+- are u dump?
+- are you sure that you're a bot?
+- Where might you be from?
+- are you sure that you're a bot?
+- IS there any near by restaurant?
+- how are u
+- What is my name?
+- What languages can you use?
+- are you okay
+- Who are you
+- Tell me who I am?
+- talk to me
+- what's the weather like in LA
+- What citizenship do you lay claim to?
+- what languages do you know?
+- Who is the name of your creator?
+- when you were bon
+- in what year were you born?
+- Tell me who I am?
+- when is your birthday?
+- you are an idiot
+- how are yuo
+- are you ok
+- Pleased to make your acquaintance!
+- How old are you?
+- Are you a bot
+- Do you have the time?
+- You are unintelligent.
+- what time do you have?
+- What is the weather for tomorrow?
+- hows the weather today in berlin?
+- What is your heritage?
+- Specify how you were created?
+- how are you doing today my sweet friend
+- What does Rasa make?
+- do you speak german?
+- what else can I do here?
+- what number represents your age?
+- go fuck yourself
+- whats your birth year?
+- tell me, are you a bot?
+- Tell me my name
+- f*ck
+- Do you know other languages?
+- Hi, I need the time.
+- that's true. do you know what time it is?
+- What is the time?
+- How can I determine who am I?
+- tell me some languages you know?
+- In what languages are you fluent enough?
+- Have you seen me a restaurant?
+- Excuse me, what time is it?
+- who r u
+- Looks like a beautiful day hey?
+- Tell me something funny.
+- What is your name?
+- what is the time in Sydney?
+- Thank you for this meeting. It was great to see you.
+- will you see any restaurant for me?
+- Tell me the time.
+- Explain my name to me.
+- What is your birthplace?
+- I'd like to know my name
+- Can you find a restaurant for me?
+- what the wheather like?
+- who are you??
+- Do you feel good?
+- You're a dolt.
+- How did you come into being?
+- what country are you from?
+- What is Rasa?
+- wheather at you location?
+- Where are you?
+- Can you tell me who am I?
+- Weather?
+- what languages you can handle well?
+- What am I called?
+- How old are you?
+- you're not smart
+- Delighted to make your acquaintance.
+- Do I have a name? What is it?
+- how's your day going
+- Do you speak german?
+- you are so ignorant
+- tell me something funny, like a joke
+- that wasn't very funny
+- Can we expect any thunderstorms?
+- what is rasa core?
+- what are you up to?
+- you are dumb
+- you're dumb
+- are you human?
+- It's a pleasure to make your acquaintance!
+- who are you?
+- how is the weather in berlin?
+- what is my name
+- yes but who are you in your heart
+- Tell joke.
+- Can you tell me my name?
+- so dumb
+- what is your birthday?
+- what languages you can be comfortable speaking?
+- tell me something about you
+- you are ai
+- In what languages are you fluent enough?
+- and you
+- Give me some comic relief.
+- give me your age?
+- How were you formed?
+- are you happy
+- you are useless bot
+- in what year were you born?
+- Pleased to make your acquaintance!
+- I'm looking for a Spanish restaurant.
+- When do you celebrate your day of birth?
+- Delighted to make your acquaintance.
+- what is your nam
+- what time do you have?
+- who are y
+- How long have you been around?
+- What is the temperature today?
+- whats the weather like tomorrow?
+- where's your home town?
+- How were you made?
+- how old?
+- Can you say how you were constructed?
+- What can you do for me?
+- i want to know who invented you
+- Hi, can you give me the nearest fast food place?
+- Let's hear a joke from you.
+- It’s a pleasure to meet you
+- How were you made into who you are?
+- I'm pleased to meet you!
+- I need a good joke.
+- Where did you originate?
+- what is your name?
+- Are you from around here?
+- how old are you?
+- what is the weather like where you are?
+- It is indeed a pleasure to be able to meet you.
+- Feels great to see you!
+- how does rasa work
+- Who is the legal owner of you?
+- How are You?
+- what are you, a bot?
+- how is the weather
+- are you multilingual?
+- Excuse me, what time is it?
+- What's the weather like over there?
+- Do you know who I am?
+- what age are you
+- how are you doing today?
+- How many candles were on your last birthday cake?
+- What do people call me?
+- are you real
+- Are you ok?
+- Glad to make your acquaintance.
+- tell me what my identity is?
+- is everything all right
+- say a funny joke
+- what's your name bot
+- what number represents your age?
+- I am glad he introduced us.
+- What is the hour and minute right now?
+- Beautiful day, isn't it?
+- are you a Skynet ?
+- how about your age
+- What is the name I was given?
+- How did you come into being?
+- whats your name?
+- What process was used to create you?
+- how ?
+- Would you tell me what time it is?
+- WHo are you ?
+- what is the time ?
+- how is the weather ?
+- I need to know what time it is.
+- Which languages do you speak?
+- It's a pleasure to meet you!
+- Can we expect any thunderstorms?
+- okay hi how are you?
+- I'm glad to meet you!
+- who is your parent?
+- thta was a terrible fucking joke
+- By what method were you fashioned?
+- what you can do
+- Could you please share a joke with me.
+- Okay who am I?
+- Do you know my name?
+- fuck you machine learning bot
+- Find me a place to eat
+- Nice day out today?
+- Who was the person who put you together?
+- when is your birthday?
+- How long have you been alive?
+- How is weather today
+- How you doing?
+- When do you celebrate your day of birth?
+- I need a new restaurant
+- where do you live
+- f*ck
+- By whom were you built?
+- Is it hot or cold?
+- Where were you born?
+- Can you give me the time?
+- Glad to meet you!
+- how's life been treating you?
+- i want to learn something about rasa
+- where did you spend your youth?
+- Is it quite breezy outside?
+- are you ai
+- Who was the person that created you?
+- What's the time?
+- asshole
+- where are you from
+- what languages do you speak
+- what languages you can handle well?
+- Can you tell a joke?
+- make me laugh with a joke
+- Hi, I need the time.
+- how's life been treating you?
+- Can you tell me the time?
+- What's it like out there?
+- in what year were you born?
+- How many years have you been alive?
+- whatchya upto ?
+- Tell me something that you think will make me laugh.
+- tell me more about your creators
+- can you tell me what I am?
+- excellent - is it hot in Berlin?
+- Are there any meteorological changes that I need to be aware of?
+- Hi Sara, just wanted to test you
+- How long have you been around?
+- What's it like out there?
+- What is rasa doing exactly?
+- what can you tell me
+- How are you men?
+- tell me a joke
+- Tell me your day, month and year of birth.
+- Hi, nice to meet you!
+- how many ages?
+- What location are you from?
+- Beautiful day, isn't it?
+- what is the current time?
+- What is your count of years being alive so far?
+- are you a bot ?
+- WHo are you ?
+- Please tell me a joke.
+- bloody dunce
+- I had a great meeting with you
+- Would you tell me a joke
+- Tell me the name of the individual who created you.
+- How exactly were you devised?
+- Give me some comic relief.
+- Tell me the time.
+- what u can do
+- fuck you sara
+- thta was a terrible fucking joke
+- are you a bot?
+- What area are you from?
+- Show me the closest open restaurant
+- what's your age?
+- tell me the time.
+- How were you devised?
+- Hi, can you give me the nearest fast food place?
+- how old are you
+
+## intent:contact_sales
+- I want to buy the rasa platform
+- i think I want to talk to your sales folks
+- Sales
+- Please schedule a sales call
+- i choose the call with sales
+- we started working with rasa but now we need support
+- have a call
+- get me the sales team
+- please provide information on your enterprise package
+- i want a sales call
+- I want to talk to someone about your pricing system
+- I want to speak with sales
+- can i speak to the sales team
+- contact call with sales
+- ok sales
+- i need to talk to sales
+- i choose the call
+- I would like to have a call with sales team
+- connect to the sales team
+- request sales call
+- let' contact sales now
+- can someone help me with infos about the rasa platform
+- can i talk to a sales representative
+- please connect me to sales
+- But I wanted a sales call
+
+## intent:deny
+- i don't think so
+- no!!!!
+- no i can't
+- NEIN
+- i don't want to
+- nah
+- i decline
+- never mind
+
+## intent:enter_data
+- I work at the [NYT](company)
+- My name is [Tom](name)
+- it’s only in [german](language) but I plan to train it in other languages
+- £50k
+- how much [money](entity)
+- hi@rasa.com
+- I work in [project management](job_function)
+- 20k
+- the assistant speaks [dutch](language)
+- [Udo](name)
+- the assistant is in [italian](language)
+- a chocolate bot
+- the language of the ai assistant is [spanish](language)
+- the assistant speaks [mandarin](language)
+- bot-fan@bots.com
+- the people speak [italian](language)
+- until now it’s only in [portuguese](language)
+- it's the [moabit yoga studio](company)
+- extracting [durations](entity:duration)
+- I wrote it in [dutch](language)
+- adele@gmx.com
+- so far it only speaks [italian](language)
+- it’s available in [german](language)
+- [IBM](company)
+- [CSI](company)
+- chengming@aliyun.com
+- it’s in [mandarin](language)
+- it speaks [dutch](language)
+- the people speak [dutch](language)
+- it's 500000000
+- it’s available in [french](language)
+- [brand manager](job_function)
+- it is in [german](language)
+- santaklaus@googlemail.com
+- I’ve trained it in [portuguese](language)
+- i don't think either of those
+- 240k/year
+- linda@mail.com
+- I'm in [business](job_function)
+- it’s available in [portuguese](language)
+- health care
+- big old bot
+- so far it only speaks [spanish](language)
+- the bot speaks [french](language)
+- I'm an [engineer](job_function)
+- between 100 to 200.000
+- the language of the ai assistant is [mandarin](language)
+- [Vladimir](name)
+- don't have one
+- language = [german](language)
+- all the training data was in [spanish](language)
+- I want to build a bot
+- my name is [saswat](name)
+- until now it’s only in [chinese](language)
+- volodimir@rasa.com
+- spam bot
+- user can talk to my bot in [chinese](language)
+- I'm the [lead engineer](job_function)
+- i'm in [customer success](job_function)
+- the language is [dutch](language)
+- [Jenny](name)
+- my email is markjobs@ibm.com
+- [developer advocate](job_function)
+- my bot is in [german](language)
+- The master of desaster
+- Im a [full stack developer](job_function)
+- [Bosch](company)
+- i sell turtles
+- [Akela](name)
+- [Alex Karev](name)
+- [Linda](name)
+- none i will build it from scraps
+- all the training data was in [english](language)
+- language: [italian](language)
+- so far it only speaks [portuguese](language)
+- it is in [portuguese](language)
+- it’s trained in [mandarin](language)
+- I work for [Bayer](company)
+- the name of the company is oov
+- i want to build a health bot
+- it’s trained only in [french](language)
+- my job function is [developer](job_function)
+- badass bot tester
+- 50,000,000 INR
+- i'm a glibber and glitter salesman
+- it’s trained only in [italian](language)
+- [John Smith](name)
+- I wrote it in [spanish](language)
+- it’s only in [french](language) but I plan to train it in other languages
+- i'm a [develope](job_function)
+- test@test.com
+- akela@philipp.com
+- my bot is in [spanish](language)
+- [BBC](name)
+- lead generation
+- [Juste P](name)
+- it’s trained only in [dutch](language)
+- it speaks [italian](language)
+- language: [dutch](language)
+- it is in [mandarin](language)
+- i want to build a bot
+- I'm a [project manager](job_function)
+- a cool boy
+- junk@junk.com
+- user can communicate with the bot in [chinese](language)
+- i'm a [dev](job_function)
+- the assistant is in [dutch](language)
+- 500 million
+- 50
+- [Rasa](company)
+- one which asks me loads about myself
+- until now it’s only in [spanish](language)
+- I do not know yet
+- the bot speaks [spanish](language)
+- the assistant speaks [french](language)
+- it’s trained in [english](language)
+- [I am a freelancer](company)
+- philipp@superphilipp.philipp
+- it’s available in [english](language)
+- I'm a [machine learning engineer](job_function)
+- 90k
+- [akela propella](name)
+- my function is [to serve butter](job_function)
+- 500k
+- [german](language) is the language of my bot
+- 5 quid
+- the language is [english](language)
+- on that will get me promoted
+- [mandarin](language)
+- unemployed
+- loretta@strawberry-ice.come because I work in the department for strawberry ice
+- one trillion dollar
+- the bot that helps you choose insurance for the car ;)
+- there is no budget
+- The name of the company is [Daimler](company)
+- [mandarin](language) is the language of my bot
+- the people speak [french](language)
+
+## intent:explain
+- what is the difference
+- can you tell me the difference
+- could you please explain that
+
+## intent:greet
+- heyho
+- hi
+- hi there
+- good morning
+- Whats up my bot
+- hello
+- Heya
+- hellooo
+- hola
+- hii
+- hello sweet boy
+- hello?
+- I said, helllllloooooO!!!!
+- hello it is me again
+
+## intent:how_to_get_started
+- how can I build a chatbot
+- how can I learn rasa
+- give me some information on [nlu](product)
+- how to start with rasa
+- [nlu](product)
+- tell me how to get started with [core](product)
+- rasa [stack](product:core)
+
+## intent:human_handoff
+- i would like to speak to a person
+- are there also humans working for your company?
+- id like to talk to a real rasa employee
+- I want to talk to the founders
+- i want to talk to someone else
+- talking to a bot is stupid
+- i dont wanna talk to a bot
+- can you forward me to your team
+
+## intent:install_rasa
+- I require Rasa Stack?
+- Yes, I do need Rasa Stack.
+- Please, I need Rasa Core.
+- install Rasa NLU
+- how do I run rasa on windows
+- Help me get Rasa Core.
+- Where to get Rasa Stack?
+- I think I want to install Rasa Stack
+- I need to install Rasa Core.
+- I'm getting Rasa Stack
+
+## intent:next_step
+- Next step
+
+## intent:nlu_generation_tool_recommendation
+- i need more nlu data
+- need more data for nlu
+- recommend me some nlu tools
+
+## intent:nlu_info
+- [intent classification](nlu_part) - what is that?
+- do you use [duckling](nlu_part)
+- how is [intent classification](nlu_part) managed in rasa?
+- I want to learn about [entity recognition](nlu_part)
+- it would be helpful to learn more about [intent classification](nlu_part)
+- can you explain to me how [entity recognition](nlu_part) works?
+- an explanation of how [intent classification](nlu_part) work would help
+
+## intent:out_of_scope
+- this is a really frustrating experience
+- I want pizza
+- how are akela's cats doing?
+- are the newsletter worth the subscription?
+- who is your favourite robot?
+- did i break you
+- who are they?
+- where do you live?
+- give me food
+- I changed my mind
+- i want pizza!!
+- can you help me with your docs?
+- I already told you! I'm a shitmuncher
+- you suck
+- shit bot
+- lol
+- oh my god, not again!
+- what?
+- can you help me with the docs?
+- i want pizza
+- i will tame a mouse for you
+- who are the engineers at rasa?
+
+## intent:pipeline_recommendation
+- what is the right pipeline to choose?
+- what pipeline should i use?
+- pipeline recommendation
+
+## intent:signup_newsletter
+- how about the newsletter signup
+- i want to receive the newsletter emails
+- i prefer to get the newsletter
+- subscription newsletter
+- Newsletter please.
+- I would like to sign up for the newsletter.
+- subscribe my email alex@mail.mail to the newsletter
+- I wanna sign up for the newsletter.
+- I would love to subscribe to a newsletter!
+- add me to the newsletter
+- sign me up for the rasa newsletter
+- add me to the subscription list
+- can i get emails from you
+- send me the newsletter
+- lets try the newsletter signup
+- i need to be on the newsletter list
+- Subscribe to Rasa newsletter
+- subscribe
+- subscribe to your newsletter
+- how about the newsletter
+- Subscribe
+- i want to receive the newsletter from now on
+- i'd like your newspaper please
+
+## intent:switch
+- [luis.ai](current_api:luis)
+- what is the difference between [bot framework](product) and rasa
+- how does rasa compare to [luis](product)
+- is rasa better than [dialog flow](product:dialogflow)
+- i want to switch from [dialogflow](current_api) to Rasa
+
+## intent:technical_question
+- Is Rasa better than Dialogflow?
+- what components of Rasa are open source
+- i am having trouble setting this up
+- does rasa support voice input
+- where to train intents in rasa?
+- what technologies did u use to create more mature chatbot?
+
+## intent:thank
+- Thanks!
+- Thanks for that
+- Thanks bot
+- Thanks
+- thanks
+- thanks
+
+## synonym:USA
+- US
+- U.S.
+- USA
+- usa
+- United States
+
+## synonym:United Kingdom
+- UK
+- U.K.
+
+## synonym:alex
+- Alex
+
+## synonym:conda
+- anaconda
+
+## synonym:core
+- stack
+
+## synonym:date
+- dates
+
+## synonym:developer
+- Developer
+
+## synonym:dialogflow
+- dialog flow
+- DialogFlow
+
+## synonym:distance
+- distances
+
+## synonym:duration
+- how long
+- durations
+
+## synonym:entity recognition
+- entity extraction
+
+## synonym:intent classification
+- intents
+- intent
+
+## synonym:luis
+- LUIS
+- LUIS.ai
+- luis.ai
+
+## synonym:money
+- amounts
+
+## synonym:name
+- names
+
+## synonym:organisation
+- companies
+
+## synonym:place
+- places
+
+## lookup:location
+- San Francisco
+- Montreal
+- New York
+- Washington
+- Berlin
+- Zurich
+- Hamburg
+- Frankfurt
+- Munich
+- Madrid
+- Cologne
+- Düsseldorf
+- Barcelona
+- Vienna
+- Warsaw
+- Paris
+- Rome
+- London
+- Prague
+- Sidney
+- Delhi
+- Mumbai
+- Tokyo
+- Rio de Janeiro
+- Beijing
+- Guangzhou
+- Shanghai
+- Chongqing
+- Hong Kong
+- China
+- India
+- US
+- USA
+- Germany
+- United States
+- UK
+- England
+- Brazil
+- France
+- Poland
+- Italy
+- Spain
+- Europe
+- Canada
+- Ukraine

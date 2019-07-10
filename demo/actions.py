@@ -190,29 +190,31 @@ class ActionChitchat(Action):
 
     def run(self, dispatcher, tracker, domain):
         intent = tracker.latest_message["intent"].get("name")
+        response = tracker.latest_message["response"].get("name")
 
-        # retrieve the correct chitchat utterance dependent on the intent
-        if intent in [
-            "ask_builder",
-            "ask_weather",
-            "ask_howdoing",
-            "ask_whatspossible",
-            "ask_whatisrasa",
-            "ask_isbot",
-            "ask_howold",
-            "ask_languagesbot",
-            "ask_restaurant",
-            "ask_time",
-            "ask_wherefrom",
-            "ask_whoami",
-            "handleinsult",
-            "nicetomeeyou",
-            "telljoke",
-            "ask_whatismyname",
-            "ask_howbuilt",
-            "ask_whoisit",
-        ]:
-            dispatcher.utter_template("utter_" + intent, tracker)
+        # # retrieve the correct chitchat utterance dependent on the intent
+        # if intent in [
+        #     "ask_builder",
+        #     "ask_weather",
+        #     "ask_howdoing",
+        #     "ask_whatspossible",
+        #     "ask_whatisrasa",
+        #     "ask_isbot",
+        #     "ask_howold",
+        #     "ask_languagesbot",
+        #     "ask_restaurant",
+        #     "ask_time",
+        #     "ask_wherefrom",
+        #     "ask_whoami",
+        #     "handleinsult",
+        #     "nicetomeeyou",
+        #     "telljoke",
+        #     "ask_whatismyname",
+        #     "ask_howbuilt",
+        #     "ask_whoisit",
+        # ]:
+        #     dispatcher.utter_template("utter_" + intent, tracker)
+        dispatcher.utter_message(' '.join(response.split('_')))
         return []
 
 

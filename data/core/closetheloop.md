@@ -47,7 +47,7 @@
 * thank
     - utter_noworries
     - utter_anything_else
-* ask_whatspossible
+* chitchat
     - action_chitchat
 * out_of_scope
     - utter_out_of_scope
@@ -70,20 +70,12 @@
     - utter_out_of_scope
     - utter_possibilities
 
-## story number 6
-* greet
-    - action_greet_user
-* ask_whoisit
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
-
 ## story number 7
 * greet
     - action_greet_user
 * greet
     - action_greet_user
-* ask_whoisit
+* chitchat
     - action_chitchat
 * contact_sales
     - utter_moreinformation
@@ -114,13 +106,9 @@
 ## story number 11, continue
 * greet
     - action_greet_user
-* ask_whatspossible
+* chitchat
     - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
+* chitchat
     - action_chitchat
 * signup_newsletter
     - utter_can_do
@@ -139,13 +127,7 @@
 ## story number 11, don't continue
 * greet
     - action_greet_user
-* ask_whatspossible
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
+* chitchat
     - action_chitchat
 * signup_newsletter
     - utter_can_do
@@ -211,16 +193,6 @@
 * enter_data
     - utter_thumbsup
     - utter_anything_else
-
-## story number 14
-* greet
-    - action_greet_user
-* greet
-    - action_greet_user
-* ask_howdoing
-    - action_chitchat
-* ask_weather
-    - action_chitchat
 
 ## story number 15
 * greet
