@@ -4,7 +4,6 @@ pipeline:
   intent_split_symbol: '_'
 - name: CRFEntityExtractor
 - name: intent_featurizer_count_vectors
-  sparse: true
   use_shared_vocab: true
 - name: EmbeddingIntentClassifier
   epochs: 40
@@ -17,8 +16,8 @@ pipeline:
     - 128
     - 64
   droprate: 0.2
-#  batch_size: 5
-#  num_neg: 5
+  stratified_batch: False
+  batch_size: [64, 128]
   share_embedding: true
   embed_dim: 20
   similarity_type: cosine
@@ -35,7 +34,9 @@ pipeline:
   hidden_layers_sizes_b:
     - 128
     - 64
+  batch_size: [64,128]
   droprate: 0.2
+  stratified_batch: True
   share_embedding: true
   embed_dim: 20
   similarity_type: cosine

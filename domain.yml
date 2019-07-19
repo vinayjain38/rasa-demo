@@ -25,8 +25,7 @@ intents:
   - greet
   - human_handoff
   - deny
-  - chitchat:
-      triggers: action_chitchat
+  - chitchat
   - out_of_scope
   - thank
   - bye
