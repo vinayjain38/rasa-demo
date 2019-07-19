@@ -9,7 +9,6 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
 from rasa_sdk.events import SlotSet, UserUtteranceReverted, ConversationPaused
 
-from demo.api import MailChimpAPI
 from demo import config
 from demo.gdrive_service import GDriveService
 
@@ -53,10 +52,12 @@ class SubscribeNewsletterForm(FormAction):
     ) -> List[Dict]:
         """Once we have an email, attempt to add it to the database"""
 
-        email = tracker.get_slot("email")
-        client = MailChimpAPI(config.mailchimp_api_key)
-        # if the email is already subscribed, this returns False
-        added_to_list = client.subscribe_user(config.mailchimp_list, email)
+        # email = tracker.get_slot("email")
+        # client = MailChimpAPI(config.mailchimp_api_key)
+        # # if the email is already subscribed, this returns False
+        # added_to_list = client.subscribe_user(config.mailchimp_list, email)
+
+        added_to_list = True
 
         # utter submit template
         if added_to_list:
@@ -135,31 +136,8 @@ class SalesForm(FormAction):
     ) -> List[Dict]:
         """Once we have all the information, attempt to add it to the
         Google Drive database"""
-
-        import datetime
-
-        budget = tracker.get_slot("budget")
-        company = tracker.get_slot("company")
-        email = tracker.get_slot("business_email")
-        job_function = tracker.get_slot("job_function")
-        person_name = tracker.get_slot("person_name")
-        use_case = tracker.get_slot("use_case")
-        date = datetime.datetime.now().strftime("%d/%m/%Y")
-
-        sales_info = [company, use_case, budget, date, person_name, job_function, email]
-
-        gdrive = GDriveService()
-        try:
-            gdrive.store_data(sales_info)
-            dispatcher.utter_template("utter_confirm_salesrequest", tracker)
-            return []
-        except Exception as e:
-            logger.error(
-                "Failed to write data to gdocs. Error: {}" "".format(e.message),
-                exc_info=True,
-            )
-            dispatcher.utter_template("utter_salesrequest_failed", tracker)
-            return []
+        dispatcher.utter_template("utter_confirm_salesrequest", tracker)
+        return []
 
 
 class ActionExplainSalesForm(Action):
@@ -542,14 +520,15 @@ class CommunityEventAction(Action):
         return "action_get_community_events"
 
     def _get_events(self) -> List["CommunityEvent"]:
-        if self.events is None or self._are_events_expired():
-            from demo.community_events import get_community_events
+        # if self.events is None or self._are_events_expired():
+        #     from demo.community_events import get_community_events
 
-            logger.debug("Getting events from website.")
-            self.last_event_update = datetime.now()
-            self.events = get_community_events()
+        #     logger.debug("Getting events from website.")
+        #     self.last_event_update = datetime.now()
+        #     self.events = get_community_events()
 
-        return self.events
+        # return self.events
+        return None
 
     def _are_events_expired(self) -> bool:
         # events are expired after 1 hour
