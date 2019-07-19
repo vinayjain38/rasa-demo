@@ -58,6 +58,10 @@ your website.
 
 `config.yml` - the Rasa config file
 
+### Some things to keep in mind while adding/modifying functionality
+- Ensure you add appropriate aliases for your intents in `data/intent_description_mapping.csv`.
+- 
+
 ### Code Style
 
 To ensure a standardized code style we use the formatter [black](https://github.com/ambv/black).

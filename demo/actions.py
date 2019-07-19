@@ -9,9 +9,6 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
 from rasa_sdk.events import SlotSet, UserUtteranceReverted, ConversationPaused
 
-from demo import config
-from demo.gdrive_service import GDriveService
-
 logger = logging.getLogger(__name__)
 
 

@@ -301,6 +301,7 @@
 - no you did it wrong
 - no i can't
 - i'm not sure
+- No
 - NEIN
 - nein
 - not really
