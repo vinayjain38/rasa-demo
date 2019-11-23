@@ -182,40 +182,6 @@ class ActionExplainSalesForm(Action):
         return []
 
 
-class ActionChitchat(Action):
-    """Returns the chitchat utterance dependent on the intent"""
-
-    def name(self):
-        return "action_chitchat"
-
-    def run(self, dispatcher, tracker, domain):
-        intent = tracker.latest_message["intent"].get("name")
-
-        # retrieve the correct chitchat utterance dependent on the intent
-        if intent in [
-            "ask_builder",
-            "ask_weather",
-            "ask_howdoing",
-            "ask_whatspossible",
-            "ask_whatisrasa",
-            "ask_isbot",
-            "ask_howold",
-            "ask_languagesbot",
-            "ask_restaurant",
-            "ask_time",
-            "ask_wherefrom",
-            "ask_whoami",
-            "handleinsult",
-            "nicetomeeyou",
-            "telljoke",
-            "ask_whatismyname",
-            "ask_howbuilt",
-            "ask_whoisit",
-        ]:
-            dispatcher.utter_template("utter_" + intent, tracker)
-        return []
-
-
 class ActionFaqs(Action):
     """Returns the chitchat utterance dependent on the intent"""
 
@@ -229,19 +195,11 @@ class ActionFaqs(Action):
 
         # retrieve the correct chitchat utterance dependent on the intent
         if intent in [
+            "ask_faq_channels",
             "ask_faq_ee",
             "ask_faq_languages",
-            "ask_faq_tutorialcore",
-            "ask_faq_tutorialnlu",
-            "ask_faq_opensource",
-            "ask_faq_voice",
             "ask_faq_slots",
-            "ask_faq_channels",
-            "ask_faq_differencecorenlu",
-            "ask_faq_python_version",
-            "ask_faq_community_size",
-            "ask_faq_what_is_forum",
-            "ask_faq_tutorials",
+            "ask_faq_voice"
         ]:
             dispatcher.utter_template("utter_" + intent, tracker)
         return []

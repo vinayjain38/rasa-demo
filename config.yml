@@ -12,6 +12,7 @@ pipeline:
 - name: EmbeddingIntentClassifier
   epochs: 50
   loss_type: margin
+- name: "ResponseSelector"
 - name: DucklingHTTPExtractor
   url: http://localhost:8000
   dimensions:

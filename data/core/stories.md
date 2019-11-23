@@ -348,12 +348,12 @@
     - action_greet_user
 * ask_whatspossible
     - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * signup_newsletter
     - utter_can_do
     - subscribe_newsletter_form

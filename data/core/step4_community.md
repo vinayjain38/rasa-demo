@@ -61,33 +61,29 @@
 ## Prompt -> Contribute
 * get_started_step4
     - action_greet_user
-* ask_why_contribute
-    - utter_reasons_to_contribute
-* ask_how_contribute
-    - utter_possibilities_to_contribute
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 
 ## Contribute
-* ask_why_contribute
-    - utter_reasons_to_contribute
-* ask_how_contribute
-    - utter_possibilities_to_contribute
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 
 ## Prompt -> How can I contribute
 * get_started_step4
     - action_greet_user
-* ask_how_contribute
-    - utter_possibilities_to_contribute
-
-## How can I contribute
-* ask_how_contribute
-    - utter_possibilities_to_contribute
+* ask
+    - respond_ask
 
 ## Prompt -> Get help in forum
 * get_started_step4
     - action_greet_user
-* ask_question_in_forum
-    - utter_link_to_forum
+* ask
+    - respond_ask
 
-## Get help in the forum
-* ask_question_in_forum
-    - utter_link_to_forum
+## Get help in the forum, How can I contribute
+* ask
+    - respond_ask

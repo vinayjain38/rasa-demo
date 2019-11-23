@@ -47,8 +47,8 @@
 * thank
     - utter_noworries
     - utter_anything_else
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
 * out_of_scope
     - utter_out_of_scope
     - utter_possibilities
@@ -73,18 +73,18 @@
 ## story number 6
 * greet
     - action_greet_user
-* ask_whoisit
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 
 ## story number 7
 * greet
     - action_greet_user
 * greet
     - action_greet_user
-* ask_whoisit
-    - action_chitchat
+* ask
+    - respond_ask
 * contact_sales
     - utter_moreinformation
     - sales_form
@@ -114,14 +114,14 @@
 ## story number 11, continue
 * greet
     - action_greet_user
-* ask_whatspossible
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * signup_newsletter
     - utter_can_do
     - subscribe_newsletter_form
@@ -139,14 +139,14 @@
 ## story number 11, don't continue
 * greet
     - action_greet_user
-* ask_whatspossible
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * signup_newsletter
     - utter_can_do
     - subscribe_newsletter_form
@@ -217,16 +217,16 @@
     - action_greet_user
 * greet
     - action_greet_user
-* ask_howdoing
-    - action_chitchat
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 
 ## story number 15
 * greet
     - action_greet_user
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -239,22 +239,22 @@
 * out_of_scope
     - utter_out_of_scope
     - utter_possibilities
-* ask_whoisit
-    - action_chitchat
-* ask_howdoing
-    - action_chitchat
-* ask_howdoing
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 
 ## story number 18
 * greet
     - action_greet_user
-* ask_weather
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * deny
     - utter_nohelp
 * enter_data
@@ -277,8 +277,8 @@
     - action_greet_user
 * greet
     - action_greet_user
-* ask_whatisrasa
-    - action_chitchat
+* ask
+    - respond_ask
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -333,10 +333,10 @@
 ## Story from conversation with linda on November 15th 2018
 * greet
     - action_greet_user
-* ask_whatisrasa
-    - action_chitchat
-* ask_whatisrasa
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -357,8 +357,8 @@
     - action_greet_user
 * greet
     - action_greet_user
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -382,12 +382,12 @@
 ## Story from conversation with 7830abb04e1c49809d89b0d420443928 on November 19th 2018
 * greet
     - action_greet_user
-* ask_whoisit
-    - action_chitchat
+* ask
+    - respond_ask
 * out_of_scope
     - utter_out_of_scope
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
 * how_to_get_started{"product":"nlu"}
     - utter_getstarted
     - utter_first_bot_with_rasa
@@ -397,8 +397,8 @@
     - action_greet_user
 * greet
     - action_greet_user
-* ask_isbot
-    - action_chitchat
+* ask
+    - respond_ask
 * affirm
     - utter_thumbsup
 
@@ -407,8 +407,8 @@
     - action_greet_user
 * greet
     - action_greet_user
-* ask_howdoing
-    - action_chitchat
+* ask
+    - respond_ask
 * affirm
     - utter_thumbsup
 
@@ -453,8 +453,8 @@
 * enter_data
     - utter_thumbsup
     - utter_anything_else
-* ask_weather
-    - action_chitchat
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -543,8 +543,8 @@
 * get_started_step1
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_whatisrasa
-    - action_chitchat
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -580,10 +580,10 @@
 * get_started_step1
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_howdoing
-    - action_chitchat
-* ask_whoisit
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -592,10 +592,10 @@
 * get_started_step1
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_howdoing
-    - action_chitchat
-* ask_whoisit
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -609,10 +609,10 @@
 * get_started_step1
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_howdoing
-    - action_chitchat
-* ask_whoisit
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -711,8 +711,8 @@
     - utter_explain_rasa_components
     - utter_rasa_components_details
     - utter_ask_explain_nlucorex
-* ask_faq_differencecorenlu
-    - action_faqs
+* ask_faq
+    - respond_ask_faq
     - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
@@ -724,12 +724,12 @@
 * get_started_step1
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_whoami
-    - action_chitchat
-* ask_languagesbot
-    - action_chitchat
-* ask_howold
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * out_of_scope{"number":42}
     - utter_out_of_scope
     - utter_possibilities
@@ -744,10 +744,10 @@
     - slot{"step":"1"}
 * greet
     - action_greet_user
-* ask_howdoing
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * contact_sales
     - utter_moreinformation
     - sales_form
@@ -767,10 +767,10 @@
     - slot{"step":"1"}
 * greet
     - action_greet_user
-* ask_howdoing
-    - action_chitchat
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
+* ask
+    - respond_ask
 * contact_sales
     - utter_moreinformation
     - sales_form
@@ -790,8 +790,8 @@
     - slot{"step":"1"}
 * greet
     - action_greet_user
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -806,9 +806,8 @@
     - utter_explain_rasa_components
     - utter_rasa_components_details
     - utter_ask_explain_nlucorex
-* ask_faq_differencecorenlu{"product":"nlu"}
-    - slot{"product":"nlu"}
-    - action_faqs
+* ask_faq
+    - respond_ask_faq
     - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
@@ -856,8 +855,8 @@
     - utter_anything_else
 * affirm
     - utter_what_help
-* ask_whatspossible
-    - action_chitchat
+* ask
+    - respond_ask
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa

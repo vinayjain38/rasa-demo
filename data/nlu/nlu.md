@@ -1,4 +1,4 @@
-## intent:ask_faq_tutorials
+## intent:ask_faq/  
 - are there some tutorials i could look at
 - do you have tutorials
 - i need a tutorial on how to use rasa
@@ -10,8 +10,11 @@
 - i want a tutorial on rasa
 - i need a rasa tutorial
 - please show me a tutorial
+- do you have videos on youtube
+- are their tutorial videos
+- are their training videos
 
-## intent:ask_faq_python_version
+## intent:ask_faq/python_version
 - which python version should i install
 - what version of python
 - which python do you support?
@@ -50,7 +53,7 @@
 - Rasa supports some messaging channels, what are those?
 - What channels of communication does rasa support?
 
-## intent:ask_faq_differencecorenlu
+## intent:ask_faq/differencecorenlu
 - What makes [core](product) and [nlu](product) different?
 - what is the main difference between [core](product) and [nlu](product)?
 - what is the primary difference between [core](product) and [nlu](product)?
@@ -86,7 +89,7 @@
 - rasa [core](product) vs rasa [nlu](product)
 - what's the difference between [core](product) and [nlu](product)?
 
-## intent:ask_faq_differencerasarasax
+## intent:ask_faq/differencerasarasax
 - whats the diff between [rasa](product) and [rasa x](product)
 - what's the difference between [rasa](product) and [rasa x](product:x)
 - How is [Rasa X](product:x) different from [Rasa](product:rasa)?
@@ -139,7 +142,7 @@
 - support for serbian language
 - Does rasa support different languages
 
-## intent:ask_faq_opensource
+## intent:ask_faq/opensource
 - Is Rasa open source
 - is rasa considered open source software?
 - is rasa open source?
@@ -275,20 +278,20 @@
 - can i build a voice bot
 - can i build a voice bot with rasa?
 
-## intent:ask_faq_community_size
+## intent:ask_faq/community_size
 - How large is the Rasa community
 - how big is your community?
 - how many forum members do you have
 - do you have a large community
 - how many people are using Rasa
 
-## intent:ask_faq_what_is_forum
+## intent:ask_faq/what_is_forum
 - what is the forum
 - why should I join the forum
 - whats in the forum
 - what is the Rasa forum
 
-## intent:ask_howbuilt
+## intent:ask/howbuilt
 - How were you built?
 - How were you made?
 - Tell me how you were made?
@@ -331,7 +334,7 @@
 - How were you set up?
 - By what method were you fashioned?
 
-## intent:ask_howold
+## intent:ask/howold
 - whats your age?
 - how old?
 - what's your age?
@@ -371,7 +374,7 @@
 - How many years have you been alive?
 - How long have you occupied the earth?
 
-## intent:ask_isbot
+## intent:ask/isbot
 - are you a bot?
 - are you a real bot?
 - are you a bot
@@ -410,7 +413,7 @@
 - are you sure that you're a bot?
 - are you a BOT
 
-## intent:ask_languagesbot
+## intent:ask/languagesbot
 - Which languages do you speak?
 - What are the languages you can speak?
 - In which languages can you speak?
@@ -448,7 +451,7 @@
 - what foreign languages do you know?
 - what foreign languages are you fluent in?
 
-## intent:ask_restaurant
+## intent:ask/restaurant
 - restaurants
 - i want a french restaurant
 - i'm looking for a Chinese restaurant
@@ -486,7 +489,7 @@
 - Can you find me a restaurant?
 - Where should I eat?
 
-## intent:ask_time
+## intent:ask/time
 - what is the current time?
 - what is the time in Sydney?
 - whats the time now
@@ -531,7 +534,7 @@
 - What time have we got?
 - What time is it right now?
 
-## intent:ask_whatismyname
+## intent:ask/whatismyname
 - what is my name?
 - May i know my name?
 - What is my name?
@@ -572,7 +575,7 @@
 - What exactly is my name?
 
 
-## intent:ask_wherefrom
+## intent:ask/wherefrom
 - where do you live
 - where are you from?
 - So where are you from
@@ -612,7 +615,7 @@
 - What location are you from?
 - What's the name of the place you came from?
 
-## intent:ask_whoami
+## intent:ask/whoami
 - Who am I?
 - Okay who am I?
 - WHo am I
@@ -640,7 +643,7 @@
 - can you tell me who I am?
 - who am i
 
-## intent:ask_builder
+## intent:ask/builder
 - can you share your boss with me?
 - i want to get to know your owner
 - i want to know the company which designed you
@@ -687,8 +690,11 @@
 - why were you made?
 - how were you made?
 - who created you?
+- who wrote you?
+- who wrote this bot?
+- who is the author of this bot?
 
-## intent:ask_howdoing
+## intent:ask/howdoing
 - Ahoy matey how are you?
 - are you alright
 - are you having a good day
@@ -735,7 +741,7 @@
 - how are u
 - How are you?
 
-## intent:ask_weather
+## intent:ask/weather
 - How is the weather today?
 - What's the weather like?
 - How is the weather?
@@ -771,7 +777,7 @@
 - whats the weather in berlin?
 - how's the weather in berlin
 
-## intent:ask_whatisrasa
+## intent:ask/whatisrasa
 - How does Rasa work?
 - Can you tell me more about rasa?
 - What does Rasa build?
@@ -806,7 +812,7 @@
 - What is rasa doing exactly?
 - What do you do as a company?
 
-## intent:ask_whatspossible
+## intent:ask/whatspossible
 - help
 - help please
 - i don't know what i want
@@ -845,7 +851,7 @@
 - Can you explain me in one sentence what you are doing?
 - what are the options?
 
-## intent:ask_whoisit
+## intent:ask/whoisit
 - who is this
 - who am i talking to
 - what's your name
@@ -2502,7 +2508,7 @@
 - UK
 - U.K.
 
-## intent:ask_question_in_forum
+## intent:ask/question_in_forum
 - Hey, i want to ask a question in the forum
 - i want to get help in the forum
 - where can I find the forum
@@ -2510,13 +2516,13 @@
 - I need help with a problem
 - Can you help me to solve a problem?
 
-## intent:ask_why_contribute
+## intent:ask/why_contribute
 - why should I contribute to Rasa
 - why should I contribute
 - why should I help to improve Rasa
 - why contribute to Rasa
 
-## intent:ask_how_contribute
+## intent:ask/how_contribute
 - how contribute to Rasa?
 - how can I contribute to Rasa
 - how help Rasa
