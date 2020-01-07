@@ -599,7 +599,7 @@
 - which language is rasa programmed in
 - Which programming language is rasa written in?
 
-## intent:ask_faq_languages
+## intent:ask_faq_human_languages_rasa
 - Any languages that rasa supports?
 - Can I use Rasa with [Thai](language) language
 - Can rasa support any language?
@@ -1313,7 +1313,7 @@
 - you are chatbot
 - you're a bot
 
-## intent:ask_languagesbot
+## intent:ask_human_languages_sara
 - Are you familiar with more than one language?
 - Can you communicate in any other languages?
 - Can you speak more than one language?
@@ -1371,6 +1371,8 @@
 - what languages you prefer more speaking at?
 - which languages do you understand?
 - you know [French](language)
+- can I talk to you in [English](language)?
+- can I speak with you in [Dutch](language)?
 
 ## intent:ask_question_in_forum
 - Can we stop at the forum so I can ask a question
@@ -4929,7 +4931,7 @@
 
 ## synonym:entity recognition
 - ner
-- entity extraction 
+- entity extraction
 - Entity recognition
 - NER
 - recognition
