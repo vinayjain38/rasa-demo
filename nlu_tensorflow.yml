@@ -1,17 +1,37 @@
 language: en
 
 pipeline:
+- name: SpacyNLP
 - name: WhitespaceTokenizer
-- name: CRFEntityExtractor
+  intent_tokenization_flag: True
+##- name: CRFEntityExtractor
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
 - name: CountVectorsFeaturizer
   OOV_token: oov
   token_pattern: (?u)\b\w+\b
-- name: EmbeddingIntentClassifier
-  epochs: 50
-- name: DucklingHTTPExtractor
-  url: http://localhost:8000
-  dimensions:
-  - email
-  - number
-  - amount-of-money
-- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 5
+- name: DIETClassifier
+  epochs: 100
+#  batch_size: 64
+#  scale_loss: False
+#  unidirectional_encoder: True
+  use_masked_language_model: True
+  use_sparse_input_dropout: True
+  num_transformer_layers: 2
+#  var_layers: ["cls", "crf", "mask"]
+#  evaluate_on_number_of_examples: 100
+  evaluate_every_number_of_epochs: 10
+#  BILOU_flag: True
+#  droprate: 0.2
+#  batch_strategy: sequence
+#- name: DucklingHTTPExtractor
+#  url: http://localhost:8000
+#  dimensions:
+#  - email
+#  - number
+#  - amount-of-money
+#- name: EntitySynonymMapper
