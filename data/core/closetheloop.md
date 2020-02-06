@@ -2,7 +2,7 @@
 * greet
     - action_greet_user
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
 * signup_newsletter
     - utter_can_do
     - subscribe_newsletter_form
@@ -50,7 +50,7 @@
 * ask_whatspossible
     - action_chitchat
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
 
 ## story number 5
@@ -67,7 +67,7 @@
     - utter_noworries
     - utter_anything_else
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
 
 ## story number 6
@@ -181,7 +181,7 @@
     - subscribe_newsletter_form
     - form{"name": "subscribe_newsletter_form"}
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_ask_continue_newsletter
 * affirm
     - utter_great
@@ -201,7 +201,7 @@
     - subscribe_newsletter_form
     - form{"name": "subscribe_newsletter_form"}
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_ask_continue_newsletter
 * deny
     - utter_thumbsup
@@ -237,7 +237,7 @@
 * deny
     - utter_nohelp
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
 * ask_whoisit
     - action_chitchat
@@ -263,7 +263,7 @@
 * deny
     - utter_nohelp
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
 * enter_data{"number":5}
     - utter_not_sure
@@ -283,8 +283,7 @@
     - utter_getstarted
     - utter_first_bot_with_rasa
 
-
-# story from linda
+## story from linda
 * greet
     - action_greet_user
 * enter_data
@@ -302,7 +301,6 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-
 
 ## Story from conversation with alan on November 16th 2018
 * nlu_info{"nlu_part":"duckling"}
@@ -328,7 +326,6 @@
 * how_to_get_started
     - utter_getstarted
     - utter_first_bot_with_rasa
-
 
 ## Story from conversation with linda on November 15th 2018
 * greet
@@ -367,9 +364,9 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - slot{"product":"core"}
     - utter_explain_core
@@ -378,14 +375,13 @@
     - slot{"product":"core"}
     - utter_direct_to_step2
 
-
 ## Story from conversation with 7830abb04e1c49809d89b0d420443928 on November 19th 2018
 * greet
     - action_greet_user
 * ask_whoisit
     - action_chitchat
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
 * ask_whatspossible
     - action_chitchat
 * how_to_get_started{"product":"nlu"}
@@ -518,12 +514,8 @@
     - slot{"onboarding":false}
     - utter_ask_which_product
 * how_to_get_started{"product":"core"}
-    - slot{"product":"core"}
-    - utter_core_tutorial
+    - utter_explain_core
     - utter_anything_else
-* how_to_get_started{"product":"nlu"}
-    - slot{"product":"nlu"}
-    - utter_ask_for_nlu_specifics
 
 ## Story from conversation with 201bb55841154f858f524a485f8816c3 on November 18th 2018
 
@@ -568,12 +560,13 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * affirm
     - utter_explain_nlu
     - utter_explain_core
+    - utter_explain_x
     - utter_direct_to_step2
 * enter_data
     - utter_not_sure
@@ -642,12 +635,13 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * affirm
     - utter_explain_nlu
     - utter_explain_core
+    - utter_explain_x
     - utter_direct_to_step2
 * enter_data
     - utter_not_sure
@@ -671,9 +665,9 @@
 * affirm
     - utter_ask_migration
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - slot{"product":"core"}
     - utter_explain_core
@@ -690,42 +684,11 @@
 * greet
     - action_greet_user
 * out_of_scope
-    - utter_out_of_scope
+    - respond_out_of_scope
 * affirm
     - utter_thumbsup
 * affirm
     - utter_thumbsup
-
-## Story from conversation with 03727bb9d4cb4f64afdc383818739680 on January 17th 2019
-
-* get_started_step1
-    - action_greet_user
-    - slot{"shown_privacy":true}
-    - slot{"step":"1"}
-* greet
-    - action_greet_user
-* how_to_get_started{"user_type":"new"}
-    - action_set_onboarding
-    - utter_built_bot_before
-* deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
-* how_to_get_started{"product":"stack"}
-    - slot{"product":"stack"}
-    - utter_explain_nlu
-    - utter_explain_core
-    - utter_direct_to_step2
-* get_started_step2
-    - action_greet_user
-    - slot{"step":"2"}
-    - utter_direct_step3
-* get_started_step3
-    - action_greet_user
-    - slot{"step":"3"}
-* install_rasa
-    - utter_ask_python_installed
-
 
 ## Story from conversation with 4cdb0b3c6f6c4b3694fcb311ae72743b on January 21st 2019
 
@@ -741,16 +704,17 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * ask_faq_differencecorenlu
     - action_faqs
-    - utter_explain_nlucore
+    - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
     - utter_also_explain_nlu
-
+* deny
+    - utter_direct_to_step2
 
 ## Story from conversation with 4b7ecc2cab6e42c5b1fedb8ab4056866 on December 29th 2018
 * get_started_step1
@@ -762,11 +726,11 @@
     - action_chitchat
 * ask_howold
     - action_chitchat
-* out_of_scope{"number":42}
-    - utter_out_of_scope
+* out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
-* out_of_scope{"number":42}
-    - utter_out_of_scope
+* out_of_scope
+    - respond_out_of_scope
     - utter_possibilities
 
 ## Story from conversation with af5a6b3c39d04c6db2b682960e63f01c on January 21st 2019
@@ -835,17 +799,16 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * ask_faq_differencecorenlu{"product":"nlu"}
     - slot{"product":"nlu"}
     - action_faqs
-    - utter_explain_nlucore
+    - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
     - utter_also_explain_nlu
-
 
 ## Story from conversation with 4a4e903fc43940db9ccdb9153dfdadcb on January 21st 2019
 * get_started_step1
@@ -853,22 +816,9 @@
     - slot{"shown_privacy":true}
     - slot{"step":"1"}
 * install_rasa
-    - utter_ask_python_installed
-* affirm
-    - utter_ask_pip_or_conda
-* enter_data{"package_manager":"pip"}
-    - slot{"package_manager":"pip"}
-    - action_select_installation_command
+    - utter_installation_command
+    - utter_having_trouble_installing
     - utter_ask_ready_to_build
-* enter_data
-    - action_store_problem_description
-    - slot{"problem_description":"tensorflow 1.10.0 has requirement numpy<=1.14.5,>=1.13.3, but you'll have numpy 1.16.0 which is incompatible."}
-    - utter_direct_to_forum_for_help
-    - utter_direct_to_step4
-* enter_data
-    - utter_not_sure
-    - utter_possibilities
-
 
 ## Story from conversation with 5f3a2ea92d184a9f96df7240e4f7e2d9 on January 21st 2019
 * get_started_step1
@@ -883,20 +833,21 @@
     - slot{"onboarding":true}
     - utter_built_bot_before
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * affirm
     - utter_explain_nlu
     - utter_explain_core
+    - utter_explain_x
     - utter_direct_to_step2
 
 ## Story from conversation with ced8c1eb9a8d485f88a02d931b2879bd on January 16th 2019
-* get_started_step3
+* get_started_step4
     - action_greet_user
     - slot{"shown_privacy":true}
-* rasa_cost
-    - utter_rasa_cost
+* ask_faq_opensource_cost
+    - action_faqs
     - utter_anything_else
 * affirm
     - utter_what_help
@@ -912,10 +863,11 @@
 * affirm
     - utter_ask_migration
 * deny
-    - utter_explain_stack
-    - utter_stack_details
-    - utter_explain_nlucore
+    - utter_explain_rasa_components
+    - utter_rasa_components_details
+    - utter_ask_explain_nlucorex
 * affirm
     - utter_explain_nlu
     - utter_explain_core
+    - utter_explain_x
     - utter_direct_to_step2

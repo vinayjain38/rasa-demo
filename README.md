@@ -2,67 +2,85 @@
 [![Build Status](https://travis-ci.com/RasaHQ/rasa-demo.svg?branch=master)](https://travis-ci.com/RasaHQ/rasa-demo)
 
 ## :surfer: Introduction
-The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa Stack.
+The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
 
-Sara is an alpha version and lives in our docs, helping developers getting started with our open source tools. It supports the following user goals:
+Sara is an alpha version and lives in our docs, 
+helping developers getting started with our open source tools. It supports the following user goals:
 
-- Understanding the Rasa Stack
-- Installing the Rasa Stack
-- Answering some FAQs around the Rasa Stack
+- Understanding the Rasa framework
+- Getting started with Rasa
+- Answering some FAQs around Rasa
+- Directing technical questions to specific documentation
 - Subscribing to the Rasa newsletter
 - Requesting a call with Rasa's sales team
 - Handling basic chitchat
 
-You can talk to Sara [here](https://rasa.com/docs/get_started_step1/) and find planned enhancements for Sara in the
+You can find planned enhancements for Sara in the
 [Project Board](https://github.com/RasaHQ/rasa-demo/projects/1)
 
-## 🤖 How to install and run Sara
+## 👷‍ Installation
 
 To install Sara, please clone the repo and run:
 
 ```
 cd rasa-demo
+pip install -r requirements.txt
 pip install -e .
 ```
 This will install the bot and all of its requirements.
-Note that it was written in Python 3 so might not work with PY2.
+Note that this bot should be used with python 3.6 or 3.7.
 
-To train the core model: `make train-core` (this will take 2h+ and a significant amount of memory to train,
+## 🤖 To run Sara:
+
+Use `rasa train` to train a model (this will take a significant amount of memory to train,
 if you want to train it faster, try the training command with
-`--augmentation 0`)
+`--augmentation 0`).
 
-To train the NLU model: `make train-nlu`
-
-To run Sara with both these models:
-```
-docker run -p 8000:8000 rasa/duckling
-make run-cmdline
+Then, to run, first set up your action server in one terminal window:
+```bash
+rasa run actions --actions demo.actions
 ```
 
 There are some custom actions that require connections to external services,
-specifically `ActionSubscribeNewsletter` and `ActionStoreSalesInfo`. For these
+specifically `SubscribeNewsletterForm` and `SalesForm`. For these
 to run you would need to have your own MailChimp newsletter and a Google sheet
 to connect to.
 
+In another window, run the bot:
+```bash
+docker run -p 8000:8000 rasa/duckling
+rasa shell --debug
+```
+
+Note that `--debug` mode will produce a lot of output meant to help you understand how the bot is working 
+under the hood. To simply talk to the bot, you can remove this flag.
+
 If you would like to run Sara on your website, follow the instructions
-[here](https://github.com/mrbot-ai/rasa-webchat) to place the chat widget on
+[here](https://github.com/botfront/rasa-webchat) to place the chat widget on
 your website.
+
+## To test Sara:
+
+After doing a `rasa train`, run the command:
+
+```bash
+rasa test nlu -u test/test_data.json --model models
+rasa test core --stories test/test_stories.md
+```
 
 ## 👩‍💻 Overview of the files
 
-`data/core/` - contains stories for Rasa Core
+`data/core/` - contains stories 
 
-`data/nlu` - contains example NLU training data
+`data/nlu` - contains NLU training data
 
 `demo` - contains custom action/api code
 
-`domain.yml` - the domain file for Core
+`domain.yml` - the domain file, including bot response templates
 
-`nlu_tensorflow.yml` - the NLU config file
+`config.yml` - training configurations for the NLU pipeline and policy ensemble
 
-`policy.yml` - the Core config file
-
-### Code Style
+## ⚫️ Code Style
 
 To ensure a standardized code style we use the formatter [black](https://github.com/ambv/black).
 

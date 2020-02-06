@@ -3,8 +3,6 @@ import io
 import os
 
 install_requires = [
-    "rasa_nlu[tensorflow]==0.15.0",
-    "rasa_core==0.14.4",
     "mailchimp3~=3.0.2",
     "oauth2client~=4.1.2",
     "gspread~=3.0.0",
@@ -12,6 +10,7 @@ install_requires = [
     "requests~=2.21.0",
     "geopy~=1.18.1",
     "pandas~=0.24.1",
+    "algoliasearch>=2.0,<3.0",
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -27,10 +26,10 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         # supported python versions
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
     ],
-    packages=find_packages(),
+    packages=find_packages(where="demo"),
     version="1.1",
     install_requires=install_requires,
     description="Rasa Demo Bot",

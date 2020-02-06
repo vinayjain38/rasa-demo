@@ -1,38 +1,29 @@
-.PHONY: clean test lint
-
-TEST_PATH=./
-
 help:
-	@echo "    train-nlu"
-	@echo "        Train the natural language understanding using Rasa NLU."
-	@echo "    train-core"
-	@echo "        Train a dialogue model using Rasa core."
-	@echo "    run-cmdline"
-	@echo "        Starts the bot on the command line"
-	@echo "    visualize"
-	@echo "        Saves the story graphs into a file"
+	@echo "make"
+	@echo "    clean"
+	@echo "        Remove Python/build artifacts."
+	@echo "    formatter"
+	@echo "        Apply black formatting to code."
+	@echo "    lint"
+	@echo "        Lint code with flake8, and check if black formatter should be applied."
+	@echo "    types"
+	@echo "        Check for type errors using pytype."
 
-run-actions:
-	python3 -m rasa_core_sdk.endpoint --actions demo.actions
+clean:
+	find . -name '*.pyc' -exec rm -f {} +
+	find . -name '*.pyo' -exec rm -f {} +
+	find . -name '*~' -exec rm -f  {} +
+	rm -rf build/
+	rm -rf .pytype/
+	rm -rf dist/
+	rm -rf docs/_build
 
-train-nlu:
-	python3 -m rasa_nlu.train -c nlu_tensorflow.yml --fixed_model_name current --data data/nlu/ -o models --project nlu --verbose
+formatter:
+	black demo
 
-train-core:
-	python3 -m rasa_core.train -d domain.yml -s data/core -c policy.yml --debug -o models/dialogue
+lint:
+	flake8 demo
+	black --check demo
 
-train-memo:
-	python -m rasa_core.train -d domain.yml -s data/core -c augmentedmemo-only.yml -o models/dialogue --augmentation 0
-
-run-cmdline:
-	make run-actions&
-	python3 -m rasa_core.run -d models/dialogue -u models/nlu/current --debug --endpoints endpoints.yml
-
-visualize:
-	python3 -m rasa_core.visualize -s data/core/ -d domain.yml -o story_graph.png
-
-train-online:
-	python -m rasa_core.train -u models/nlu/current/ --online --core models/dialogue/
-
-evaluate-core:
-	python -m rasa_core.test --core models/dialogue -s data/core/ --fail_on_prediction_errors
+types:
+	pytype --keep-going demo
