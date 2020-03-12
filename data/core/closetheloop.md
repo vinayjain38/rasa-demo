@@ -595,8 +595,8 @@
 * enter_data
     - utter_not_sure
     - utter_possibilities
-* ask_faq_languages
-    - action_faqs
+* ask_faq
+    - respond_faq
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -612,8 +612,8 @@
 * enter_data
     - utter_not_sure
     - utter_possibilities
-* ask_faq_languages
-    - action_faqs
+* ask_faq
+    - respond_faq
 * enter_data
     - utter_not_sure
     - utter_possibilities
@@ -707,8 +707,8 @@
     - utter_explain_rasa_components
     - utter_rasa_components_details
     - utter_ask_explain_nlucorex
-* ask_faq_differencecorenlu
-    - action_faqs
+* ask_faq
+    - respond_faq
     - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
@@ -802,9 +802,9 @@
     - utter_explain_rasa_components
     - utter_rasa_components_details
     - utter_ask_explain_nlucorex
-* ask_faq_differencecorenlu{"product":"nlu"}
+* ask_faq
     - slot{"product":"nlu"}
-    - action_faqs
+    - respond_faq
     - utter_ask_explain_nlucorex
 * how_to_get_started{"product":"core"}
     - utter_explain_core
@@ -846,8 +846,8 @@
 * get_started_step4
     - action_greet_user
     - slot{"shown_privacy":true}
-* ask_faq_opensource_cost
-    - action_faqs
+* ask_faq
+    - respond_faq
     - utter_anything_else
 * affirm
     - utter_what_help

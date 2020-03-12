@@ -21,6 +21,11 @@ pipeline:
 - name: EntitySynonymMapper
 - name: ResponseSelector
   retrieval_intent: out_of_scope
+- name: "ResponseSelector"
+  retrieval_intent: faq
+- name: "ResponseSelector"
+  retrieval_intent: explain
+  
 policies:
 - name: EmbeddingPolicy
   max_history: 10

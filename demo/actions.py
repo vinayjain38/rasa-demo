@@ -235,41 +235,6 @@ class ActionChitchat(Action):
         return []
 
 
-class ActionFaqs(Action):
-    """Returns the chitchat utterance dependent on the intent"""
-
-    def name(self) -> Text:
-        return "action_faqs"
-
-    def run(self, dispatcher, tracker, domain) -> List[EventType]:
-        intent = tracker.latest_message["intent"].get("name")
-
-        logger.debug("Detected FAQ intent: {}".format(intent))
-
-        # retrieve the correct chitchat utterance dependent on the intent
-        if intent in [
-            "ask_faq_ee",
-            "ask_faq_languages",
-            "ask_faq_is_programming_required",
-            "ask_faq_tutorialcore",
-            "ask_faq_tutorialnlu",
-            "ask_faq_opensource_cost",
-            "ask_faq_voice",
-            "ask_faq_slots",
-            "ask_faq_channels",
-            "ask_faq_differencecorenlu",
-            "ask_faq_differencerasarasax",
-            "ask_faq_python_version",
-            "ask_faq_community_size",
-            "ask_faq_what_is_forum",
-            "ask_faq_tutorials",
-            "ask_faq_differencerasarasax",
-            "ask_faq_rasax",
-        ]:
-            dispatcher.utter_message(template=f"utter_{intent}")
-        return []
-
-
 class ActionPause(Action):
     """Pause the conversation"""
 

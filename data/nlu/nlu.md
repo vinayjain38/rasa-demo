@@ -332,7 +332,7 @@
 - you are made by who?
 - you are working for which company?
 
-## intent:ask_faq_rasax
+## intent:faq/rasax
 - what is Rasa X?
 - how does Rasa X work?
 - what is X?
@@ -357,7 +357,7 @@
 - tell me what is rasa x
 - what is rasa x?
 
-## intent:ask_faq_channels
+## intent:faq/channels
 - Can you tell which messaging channels does rasa support?
 - Channels
 - Can I use the rasa code for my own website?
@@ -409,7 +409,7 @@
 - which particular messaging channels are supported by rasa?
 - what chat services do you support
 
-## intent:ask_faq_community_size
+## intent:faq/community_size
 - Did you know the size of rasa community?
 - Do you know how big the Rasa community is?
 - Do you know how many people are in the Rasa community?
@@ -451,7 +451,7 @@
 - how many forum members do you have
 - how many people are using Rasa
 
-## intent:ask_faq_differencecorenlu
+## intent:faq/differencecorenlu
 - DIFFERENCES BETWEEN [CORE](product) AND [NLU](product)
 - Do you know the difference between [core](product) and [nlu](product)?
 - How do [core](product) and [nlu](product) conflict?
@@ -512,7 +512,7 @@
 - whats the diference
 - whats the difference between [core](product) and [nlu](product)
 
-## intent:ask_faq_differencerasarasax
+## intent:faq/differencerasarasax
 - Are [Rasa](product) and [Rasa X](product) the same thing?
 - Can I use [Rasa X](product) without using [Rasa](product)?
 - Can i use [rasa](product) without [rasa x](product)?
@@ -530,7 +530,7 @@
 - whats the diff between [rasa](product) and [rasa x](product)
 - when should i use [rasa](product) and when should i use [rasa x](product)
 
-## intent:ask_faq_ee
+## intent:faq/ee
 - Can you tell me about the enterprise edition?
 - I want information about the enterprise edition
 - Tell me about rasa x ee
@@ -554,7 +554,7 @@
 - rasa enterprise please
 - more info about enterprise
 
-## intent:ask_faq_is_programming_required
+## intent:faq/is_programming_required
 - Does rasa require programming knowledge
 - Do I need programming skills to develop a chatbot in rasa
 - do I need programming experience to use rasa
@@ -605,7 +605,7 @@
 - which language is rasa programmed in
 - Which programming language is rasa written in?
 
-## intent:ask_faq_languages
+## intent:faq/languages
 - Any languages that rasa supports?
 - Can I use Rasa with [Thai](language) language
 - Can rasa support any language?
@@ -700,7 +700,7 @@
 - your [NLU](product) understand [spanish](language)?
 - could I program spanish speaking bots?
 
-## intent:ask_faq_opensource_cost
+## intent:faq/opensource_cost
 - Are you free?
 - Can you tell me whats the price for rasa platform?
 - How much do you cost?
@@ -804,7 +804,7 @@
 - would you consider rasa open source software?
 - How is it opensource
 
-## intent:ask_faq_python_version
+## intent:faq/python_version
 - What Python version should I use?
 - Which python version should I install to run Rasa example?
 - Which version of Python to install?
@@ -820,7 +820,7 @@
 - which python version should i install
 - which version of python do i need
 
-## intent:ask_faq_slots
+## intent:faq/slots
 - Definition of slots please.
 - Does anyone know what slots are?
 - Explain slots to me?
@@ -884,40 +884,7 @@
 - which are the slots?
 - which slots are there?
 
-## intent:ask_faq_tutorialcore
-- are there some core tutorials i could look at
-- can you show me a core tutorial
-- core tutorial
-- do you have a core tutorial i can follow
-- do you have tutorials about core
-- i am looking for a core tutorial
-- i need a core tutorial
-- i need a rasa core tutorial
-- i need a tutorial on how to use rasa core
-- i want a tutorial on core
-- i want a tutorial on rasa core
-- i would like to follow a core tutorial
-- please show me a core tutorial
-- rasa core tutorial
-
-## intent:ask_faq_tutorialnlu
-- are there some nlu tutorials i could look at
-- can you show me a nlu tutorial
-- do you have a nlu tutorial i can follow
-- do you have tutorials about nlu
-- i am looking for a nlu tutorial
-- i need a nlu tutorial
-- i need a rasa nlu tutorial
-- i need a tutorial on how to use rasa nlu
-- i want a tutorial on nlu
-- i want a tutorial on rasa nlu
-- i would like to follow a nlu tutorial
-- nlu tutorial
-- please show me a nlu tutorial
-- rasa nlu tutorial
-- I am looking for tutorial on Rasa NLU
-
-## intent:ask_faq_tutorials
+## intent:faq/tutorials
 - Did you have an tutorial.
 - Great. Are there any tutorials?
 - Im looking for some tutorial
@@ -956,7 +923,54 @@
 - yes, where I can find some hand-on tutorials to use RASA products?
 - I need to study RASA step by step, which is the best site to study?
 
-## intent:ask_faq_voice
+## intent:faq/tutorialscore
+- are there some [core](product) tutorials i could look at
+- can you show me a [core](product) tutorial
+- [core](product) tutorial
+- do you have a [core](product) tutorial i can follow
+- do you have tutorials about [core](product)
+- i am looking for a [core](product) tutorial
+- i need a [core](product) tutorial
+- i need a rasa [core](product) tutorial
+- i need a tutorial on how to use rasa [core](product)
+- i want a tutorial on [core](product)
+- i want a tutorial on rasa [core](product)
+- i would like to follow a [core](product) tutorial
+- please show me a [core](product) tutorial
+- rasa [core](product) tutorial
+
+# intent:faq/tutorialsnlu
+- are there some [nlu](product) tutorials i could look at
+- can you show me a [nlu](product) tutorial
+- do you have a [nlu](product) tutorial i can follow
+- do you have tutorials about [nlu](product)
+- i am looking for a [nlu](product) tutorial
+- i need a [nlu](product) tutorial
+- i need a rasa [nlu](product) tutorial
+- i need a tutorial on how to use rasa [nlu](product)
+- i want a tutorial on [nlu](product)
+- i want a tutorial on rasa [nlu](product)
+- i would like to follow a [nlu](product) tutorial
+- [nlu](product) tutorial
+- please show me a [nlu](product) tutorial
+- rasa [nlu](product) tutorial
+- I am looking for tutorial on Rasa [nlu](product)
+
+## intent:faq/tutorialsx
+- how do I use [rasa x](product)?
+- i need a tutorial on using [rasa x](product)
+- i want a tutorial on [rasa x](product)
+- [rasa x](product) tutorial
+- [rasa x](product) how to use
+- tutorials about [rasa x](product)
+- [rasa x](product) user guide
+- do you have a [rasa x](product) tutorial i can follow
+- how do i set up [rasa x](product)
+- how do i install [rasa x](product)
+- how can i run [rasa x](product)
+- help me on how to use [rasa x](product)
+
+## intent:faq/voice
 - Building a rasa voice bot?
 - can i programm a vocal assistant
 - Building a voice bot using rasa.
@@ -1030,7 +1044,7 @@
 - with rasa can I make a voice bot?
 - you have speech recognition?
 
-## intent:ask_faq_what_is_forum
+## intent:faq/what_is_forum
 - Could you please describe the Rasa forum?
 - Could you please explain the Rasa forum to me?
 - Could you please give me a description of the Rasa forum?
@@ -3199,7 +3213,7 @@
 - slack
 - e commerce bot
 
-## intent:explain
+## intent:explain/all
 - can you elaborate
 - could you explain why you need that
 - could you tell me more
@@ -4685,6 +4699,8 @@
 - your code please
 
 ## intent:switch
+- from which tools can i migrate to Rasa
+- is there a migration guide
 - Do you have any tutorials how to migrate from [dialogflow](current_api)?
 - How to migrate a bot from [DialogFlow](current_api) to Rasa?
 - How to migrate from [DialogFlow](current_api) to Rasa?
