@@ -356,6 +356,7 @@
 - i want to learn more about Rasa X
 - tell me what is rasa x
 - what is rasa x?
+- Can you tell me more about Rasa X
 
 ## intent:ask_faq_channels
 - Can you tell which messaging channels does rasa support?
@@ -2258,7 +2259,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -3359,6 +3360,7 @@
 - whats up
 - yo
 - yoo
+- Hi Sara I'm Jon
 
 ## intent:handleinsult
 - FUCK
@@ -3765,6 +3767,7 @@
 - where to start?
 - yes i wanna know more about rasa [nlu](product)
 - I am trying to build a bot using rasa
+- how to get started whit Rasa
 
 ## intent:human_handoff
 - Can I speak to anyone who can really help me?
@@ -4841,6 +4844,7 @@
 - python sdk
 - how to run sdk endpoint in background
 - sdk
+- cool, does rasa connect with oracle ebs?
 
 ## intent:telljoke
 - Can you tell a joke?
@@ -4923,58 +4927,55 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
+## intent:out_of_scope
+- como comenzar con rasa
 
 ## synonym: duration
-- how long
 - durations
+- how long
 
 ## synonym:USA
-- U.S.
 - US
-- usa
+- U.S.
 - United States
+- usa
 
 ## synonym:United Kingdom
-- UK
 - U.K.
+- UK
 
 ## synonym:all
 - both
 
 ## synonym:core
-- Core
 - CORE
+- Core
 
 ## synonym:custom actions
+- Custom actions
 - actions
 - Actions
-- Custom actions
 
 ## synonym:date
 - dates
 
 ## synonym:dialogflow
-- DialogFlow
-- DialogFlwo
 - dialog flow
+- DialogFlwo
 - google
+- DialogFlow
 
 ## synonym:distance
 - distances
 
 ## synonym:entity recognition
+- etnity extraction
+- entity extraction
+- recognition
 - ner
-- entity extraction 
+- entities
 - Entity recognition
 - NER
-- recognition
-- etnity extraction
-- entities
 
 ## synonym:full stack developer
 - full stack develope
@@ -4983,19 +4984,19 @@ data/nlu/lookups/products.txt
 - Helvetia
 
 ## synonym:intent classification
-- intent classificaton
-- intent recognition
 - intent
 - intents
+- intent recognition
+- intent classificaton
 
 ## synonym:italian
 - italina
 
 ## synonym:luis
+- luis.ai
 - LUIS
 - Luis
 - LUIS.ai
-- luis.ai
 
 ## synonym:money
 - amounts
@@ -5004,10 +5005,10 @@ data/nlu/lookups/products.txt
 - names
 
 ## synonym:nlu
-- NLU
 - Natural Language Understanding
-- Nlu
 - rasa_nlu
+- Nlu
+- NLU
 
 ## synonym:organisation
 - companies
@@ -5016,25 +5017,25 @@ data/nlu/lookups/products.txt
 - Rasa
 
 ## synonym:stack
-- fullstack
-- Full Stack
 - Full
 - full stack
-- full staclk
 - Full stack
+- Full Stack
+- fullstack
 - full
 - full framework
+- full staclk
 
 ## synonym:wit.ai
 - wit
 
 ## synonym:x
-- rasa x
 - Rasa X
-- X
 - Rasax
-- rasax
 - RASAX
+- X
+- rasa x
+- rasax
 - RASA X
 
 ## regex:greet
@@ -5042,3 +5043,9 @@ data/nlu/lookups/products.txt
 
 ## regex:zipcode
 - [0-9]{5}
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
