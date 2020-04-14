@@ -604,6 +604,7 @@
 - Is there API for any other programming languages?
 - which language is rasa programmed in
 - Which programming language is rasa written in?
+- Is it complicated?
 
 ## intent:ask_faq_languages
 - Any languages that rasa supports?
@@ -803,6 +804,7 @@
 - would you call rasa open source software?
 - would you consider rasa open source software?
 - How is it opensource
+- what is price
 
 ## intent:ask_faq_python_version
 - What Python version should I use?
@@ -955,6 +957,7 @@
 - where can i get a tutorial on rasa
 - yes, where I can find some hand-on tutorials to use RASA products?
 - I need to study RASA step by step, which is the best site to study?
+- any tutorials
 
 ## intent:ask_faq_voice
 - Building a rasa voice bot?
@@ -2258,7 +2261,7 @@
 - I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
-- purchase rasa enterprise 
+- purchase rasa enterprise
 - buy rasa enterprise
 - Ok I want to talk to your sales team immediately
 - Please connect me to someone from sales
@@ -2381,6 +2384,7 @@
 - sign me up, my email is Elizabeth@yahoo.com
 - talk to sales team
 - we started working with rasa but now we need support
+- How [Rasa](product) stores session data?
 
 ## intent:deny
 - I don't want to
@@ -3773,6 +3777,7 @@
 - [rasa open source](product)
 - [rasa Open source](product)
 - [Rasa Open Source](product)
+- ok, so how do I get started?
 
 ## intent:human_handoff
 - Can I speak to anyone who can really help me?
@@ -4409,6 +4414,7 @@
 - you will know it from the single red rose it carries between its teeth
 - you're a woman
 - ı am learning python
+- can yoou help me with covid
 
 ## intent:pipeline_recommendation
 - I don’t know which pipeline to use
@@ -4849,6 +4855,7 @@
 - python sdk
 - how to run sdk endpoint in background
 - sdk
+- how to see the rasa output
 
 ## intent:telljoke
 - Can you tell a joke?
@@ -4931,11 +4938,8 @@
 - thx
 - yes thanks
 
-## lookup: location
-data/nlu/lookups/location.txt
-
-## lookup: product
-data/nlu/lookups/products.txt
+## intent:out_of_scope
+- who is better you or siri
 
 ## synonym: duration
 - how long
@@ -4977,7 +4981,7 @@ data/nlu/lookups/products.txt
 
 ## synonym:entity recognition
 - ner
-- entity extraction 
+- entity extraction
 - Entity recognition
 - NER
 - recognition
@@ -5054,3 +5058,9 @@ data/nlu/lookups/products.txt
 
 ## regex:zipcode
 - [0-9]{5}
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt

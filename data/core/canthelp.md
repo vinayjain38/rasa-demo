@@ -68,3 +68,12 @@
     - utter_thumbsup
     - action_deactivate_form
     - form{"name": null}
+
+## New Story
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* out_of_scope/other
+    - utter_getstarted
+    - utter_first_bot_with_rasa
