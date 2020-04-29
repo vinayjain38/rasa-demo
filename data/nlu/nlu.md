@@ -4974,6 +4974,9 @@
 - thx
 - yes thanks
 
+## intent:What_are_you
+- Are you dog
+
 ## synonym: duration
 - how long
 - durations
@@ -5058,8 +5061,8 @@
 - companies
 
 ## synonym:rasa
-- Rasa
 - rasa open source
+- Rasa
 - Rasa Open Source
 - Rasa open source
 - rasa Open Source
@@ -5088,7 +5091,6 @@
 - rasax
 - RASAX
 - RASA X
--  rasa x
 
 ## regex:greet
 - hey[^\s]*
