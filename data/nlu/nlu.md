@@ -225,6 +225,7 @@
 - yup
 - yyeeeh
 - considering
+- yes thanks
 
 ## intent:chitchat/ask_builder
 - By whom were you built?
@@ -4972,7 +4973,6 @@
 - thankyou
 - thnks
 - thx
-- yes thanks
 
 ## synonym: duration
 - how long
@@ -5088,7 +5088,6 @@
 - rasax
 - RASAX
 - RASA X
--  rasa x
 
 ## regex:greet
 - hey[^\s]*
