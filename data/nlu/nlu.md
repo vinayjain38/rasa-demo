@@ -3370,6 +3370,7 @@
 - whats up
 - yo
 - yoo
+- hi ma boy
 
 ## intent:chitchat/handleinsult
 - FUCK
@@ -4449,6 +4450,7 @@
 - Cars
 - please voulette
 - Out of scope question.
+- what type of bot?
 
 ## intent:pipeline_recommendation
 - I don’t know which pipeline to use
@@ -5088,7 +5090,6 @@
 - rasax
 - RASAX
 - RASA X
--  rasa x
 
 ## regex:greet
 - hey[^\s]*
