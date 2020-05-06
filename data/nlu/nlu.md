@@ -4963,7 +4963,7 @@
 - thank you anyways
 - thanks
 - thanks a bunch for everything
-- thanks a lot
+- thanks a lot oh yea
 - thanks for forum link, I'll check it out
 - thanks for the help
 - thanks this is great news
@@ -5088,7 +5088,6 @@
 - rasax
 - RASAX
 - RASA X
--  rasa x
 
 ## regex:greet
 - hey[^\s]*
