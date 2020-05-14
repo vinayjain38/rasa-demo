@@ -283,6 +283,7 @@
 - you are so smart
 - That's awesome.
 - Got it
+- oh my god
 
 ## intent:chitchat/ask_builder
 - By whom were you built?
@@ -4118,6 +4119,7 @@
 - how can I install [rasa open source](product)?
 - How to download rasa
 - where do i download rasa
+- Installation windows 7
 
 ## intent:next_step
 - continue to next step
@@ -5207,6 +5209,12 @@
 - yes thanks
 - thanks for your information
 - thanks f
+
+## intent:out_of_scope
+- what sub
+
+## intent:chitchat
+- what`s u name?
 
 ## synonym: duration
 - durations

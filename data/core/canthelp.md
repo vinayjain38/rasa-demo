@@ -68,3 +68,14 @@
     - utter_thumbsup
     - action_deactivate_form
     - form{"name": null}
+
+## New Story
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* greet
+    - action_greet_user
+* chitchat
+    - respond_chitchat
+* react_positive
