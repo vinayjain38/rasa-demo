@@ -3342,6 +3342,7 @@
 - contexual
 - Sorry  it's not [suleman](name) is [Shehzad](name)
 - [x](product)
+- t.dunn@rasa.com
 
 ## intent:explain
 - can you elaborate
@@ -4877,6 +4878,7 @@
 - yes I would like to subscribe
 - yes subscribe me
 - yes.I.would.like.to.subscrbe
+- I want to join newsletter
 
 ## intent:source_code
 - Can u tell where is ur code
@@ -5208,6 +5210,9 @@
 - thanks for your information
 - thanks f
 
+## intent:chitchat
+- can you tell me a joke? I feel so bad today
+
 ## synonym: duration
 - durations
 - how long
@@ -5322,12 +5327,6 @@
 - RASA X
 - X
 - rasax
-
-## regex:greet
-- hey[^\s]*
-
-## regex:zipcode
-- [0-9]{5}
 
 ## lookup:location.txt
   data/nlu/lookups/location.txt
