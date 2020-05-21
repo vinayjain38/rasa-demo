@@ -68,3 +68,28 @@
     - utter_thumbsup
     - action_deactivate_form
     - form{"name": null}
+
+## New Story
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* pipeline_recommendation
+
+## New Story
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* how_to_get_started
+    - utter_getstarted
+    - utter_first_bot_with_rasa
+* deny
+    - action_set_onboarding
+    - slot{"onboarding":false}
+    - utter_ask_which_product
+* faq
+    - respond_faq
+    - action_set_faq_slot
+    - slot{"faq":null}
+    - utter_ask_which_product

@@ -1552,6 +1552,7 @@
 - ARE YOU [SPANISH](language)
 - we cant converse in [french](language)?
 - can we converse in [french](language)?
+- I have question about languages
 
 ## intent:ask_question_in_forum
 - Can we stop at the forum so I can ask a question
@@ -4260,6 +4261,7 @@
 - what is a [intent](nlu_part)?
 - where to [intents](nlu_part)?
 - where to train [intents](nlu_part) in rasa?
+- what is NLU?
 
 ## intent:out_of_scope/non_english
 - Wie fange ich mit Rasa an?
@@ -4687,6 +4689,13 @@
 - what pipeline should I start with?
 - what pipeline should i use?
 - which pipeline is better?
+- how to configure rasa in spanish
+- what is the best pipeline to extract person's names
+- how to build a pipeline
+- What does pipeline mean
+- Pipeline rasa nlu
+- pipeline for vietnamese
+- Recommend pipeline
 
 ## intent:react_negative
 - I am feeling bad
@@ -4878,6 +4887,7 @@
 - yes I would like to subscribe
 - yes subscribe me
 - yes.I.would.like.to.subscrbe
+- add my email
 
 ## intent:source_code
 - Can u tell where is ur code
@@ -4910,6 +4920,7 @@
 - yes with your source code
 - your code
 - your code please
+- show me your dataset
 
 ## intent:switch
 - Do you have any tutorials how to migrate from [dialogflow](current_api)?
@@ -5127,6 +5138,13 @@
 - multipass issue
 - embeddings
 - how to write stories to train rasa
+- I want confidence score along with the chat answer
+- Do you use LSTM or something else?
+- What kind of algorithm do you use?
+- define pipeline
+- my model is not training
+- What algorithms are avaliable in the NLU
+- show me example of payload
 
 ## intent:chitchat/telljoke
 - Can you tell a joke?
@@ -5210,6 +5228,19 @@
 - yes thanks
 - thanks for your information
 - thanks f
+
+## intent:migration
+- How does one migrate responses from [Dialogflow]{"entity": "current_api", "value": "dialogflow"} to rasa?
+
+## intent:feedback
+- rasa nlp
+
+## intent:rate_plan_change
+- i want to change my rate plan
+- rate plan
+- rate change
+- change my rate plan
+- rate plan needs to be changed
 
 ## synonym: duration
 - durations
