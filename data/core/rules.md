@@ -1,8 +1,3 @@
->> out_of_scope
-    - ...
-* out_of_scope
-    - respond_out_of_scope
-
 >> just newsletter
     - ...
 * signup_newsletter
@@ -10,6 +5,7 @@
     - subscribe_newsletter_form
     - form{"name": "subscribe_newsletter_form"}
     - form{"name": null}
+    - submit_subscribe_newsletter_form
     - utter_docu
     - utter_ask_feedback
 
@@ -20,6 +16,7 @@
     - subscribe_newsletter_form
     - form{"name": "subscribe_newsletter_form"}
     - form{"name": null}
+    - submit_subscribe_newsletter_form
     - utter_docu
     - utter_ask_feedback
 
@@ -31,6 +28,26 @@
     - form{"name": "subscribe_newsletter_form"}
 * deny
     - utter_cantsignup
+    - utter_ask_continue_newsletter
+
+>> newsletter + greet
+    - ...
+* signup_newsletter
+    - utter_can_do
+    - subscribe_newsletter_form
+    - form{"name": "subscribe_newsletter_form"}
+* greet
+    - action_greet_user
+    - utter_ask_continue_newsletter
+
+>> newsletter + bye
+    - ...
+* signup_newsletter
+    - utter_can_do
+    - subscribe_newsletter_form
+    - form{"name": "subscribe_newsletter_form"}
+* bye
+    - utter_bye
     - utter_ask_continue_newsletter
 
 >> newsletter + explain
@@ -123,6 +140,7 @@
     - utter_great
     - subscribe_newsletter_form
     - form{"name": null}
+    - submit_subscribe_newsletter_form
     - utter_docu
     - utter_ask_feedback
 
@@ -144,6 +162,7 @@
     - sales_form
     - form{"name": "sales_form"}
     - form{"name": null}
+    - submit_sales_form
     - utter_ask_feedback
 
 >> sales + chitchat
@@ -218,6 +237,26 @@
     - action_explain_sales_form
     - utter_ask_continue_sales
 
+>> sales + greet
+    - ...
+* contact_sales
+    - utter_moreinformation
+    - sales_form
+    - form{"name": "sales_form"}
+* greet
+    - action_greet_user
+    - utter_ask_continue_sales
+
+>> sales + bye
+    - ...
+* contact_sales
+    - utter_moreinformation
+    - sales_form
+    - form{"name": "sales_form"}
+* bye
+    - utter_bye
+    - utter_ask_continue_sales
+
 >> sales + out_of_scope
     - ...
 * contact_sales
@@ -237,6 +276,7 @@
     - utter_great
     - sales_form
     - form{"name": null}
+    - submit_sales_form
     - utter_ask_feedback
 
 >> ask continue sales + deny

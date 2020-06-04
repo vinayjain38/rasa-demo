@@ -17,8 +17,6 @@
     - respond_faq
     - action_set_faq_slot
 
-
-
 ## not new to rasa + not interested in products
 * greet
     - action_greet_user

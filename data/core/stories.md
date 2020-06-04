@@ -3,9 +3,11 @@
     - utter_noworries
     - utter_anything_else
 
-## bye
+>> bye
+    - ...
 * bye
     - utter_bye
+    - ...
 
 ## greet
 * greet OR enter_data{"name": "akela"}

@@ -28,3 +28,40 @@
     - action_docs_search
     - slot{"docs_found": false}
     - action_forum_search
+
+## newsletter, continue, confirm
+* greet
+    - action_greet_user
+* signup_newsletter
+    - utter_can_do
+    - subscribe_newsletter_form
+    - form{"name": "subscribe_newsletter_form"}
+* chitchat
+    - respond_chitchat
+    - utter_ask_continue_newsletter
+* affirm
+    - utter_great
+    - subscribe_newsletter_form
+    - form{"name": null}
+    - submit_subscribe_newsletter_form
+    - utter_docu
+    - utter_ask_feedback
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
+
+
+## newsletter
+* greet
+    - action_greet_user
+* signup_newsletter
+    - utter_can_do
+    - subscribe_newsletter_form
+    - form{"name": "subscribe_newsletter_form"}
+    - form{"name": null}
+    - submit_subscribe_newsletter_form
+    - utter_docu
+    - utter_ask_feedback
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
