@@ -30,7 +30,6 @@ intents:
 - nlu_generation_tool_recommendation
 - nlu_info
 - out_of_scope:
-    triggers: respond_out_of_scope
     use_entities: []
 - pipeline_recommendation
 - react_negative
@@ -561,8 +560,48 @@ actions:
 - respond_chitchat
 - respond_faq
 - respond_out_of_scope
+- validate_email
+- validate_business_email
+- submit_sales_form
+- submit_subscribe_newsletter_form
+- submit_suggestion_form
 
 forms:
-- sales_form
-- subscribe_newsletter_form
-- suggestion_form
+- sales_form:
+    job_function:
+      - type: from_entity
+        entity: job_function
+      - type: from_text
+        intent: enter_data
+    use_case:
+      - type: from_text
+        intent: enter_data    
+    budget:
+      - type: from_entity
+        entity: amount-of-money
+      - type: from_entity
+        entity: number
+      - type: from_text
+        intent: enter_data
+    person_name:
+      - type: from_entity
+        entity: name
+      - type: from_text
+        intent: enter_data
+    company:
+      - type: from_entity
+        entity: company
+      - type: from_text
+        intent: enter_data
+    business_email:
+      - type: from_entity
+        entity: email
+      - type: from_text
+        intent: enter_data
+- subscribe_newsletter_form:
+    email:
+      - type: from_entity
+        entity: email
+      - type: from_text
+        intent: enter_data
+- suggestion_form:

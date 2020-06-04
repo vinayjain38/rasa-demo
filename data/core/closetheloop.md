@@ -1,75 +1,3 @@
-## story number 1
-* greet
-    - action_greet_user
-* out_of_scope
-    - respond_out_of_scope
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* thank
-    - utter_noworries
-    - utter_anything_else
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
-    - utter_ask_feedback
-
-## story number 2
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* out_of_scope
-    - utter_thumbsup
-    - utter_anything_else
-
-## story number 4
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* thank
-    - utter_noworries
-    - utter_anything_else
-* chitchat
-    - respond_chitchat
-* out_of_scope
-    - respond_out_of_scope
-    - utter_possibilities
-
-## story number 5
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* thank
-    - utter_noworries
-    - utter_anything_else
-* out_of_scope
-    - respond_out_of_scope
-    - utter_possibilities
-
 ## story number 6
 * greet
     - action_greet_user
@@ -78,19 +6,6 @@
 * chitchat
     - respond_chitchat
 
-## story number 7
-* greet
-    - action_greet_user
-* greet
-    - action_greet_user
-* chitchat
-    - respond_chitchat
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
-    - utter_ask_feedback
 
 ## story number 8
 * greet
@@ -111,106 +26,6 @@
 * deny
     - utter_nohelp
 
-## story number 11, continue
-* greet
-    - action_greet_user
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* deny
-    - utter_cantsignup
-    - utter_ask_continue_newsletter
-* affirm
-    - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-
-## story number 11, don't continue
-* greet
-    - action_greet_user
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* deny
-    - utter_cantsignup
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
-
-## story number 12
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-
-## story number 12, continue
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* out_of_scope
-    - respond_out_of_scope
-    - utter_ask_continue_newsletter
-* affirm
-    - utter_great
-    - subscribe_newsletter_form
-    - form{"name": null}
-    - utter_docu
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-
-## story number 12, don't continue
-* greet
-    - action_greet_user
-* signup_newsletter
-    - utter_can_do
-    - subscribe_newsletter_form
-    - form{"name": "subscribe_newsletter_form"}
-* out_of_scope
-    - respond_out_of_scope
-    - utter_ask_continue_newsletter
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
 
 ## story number 14
 * greet
@@ -421,24 +236,6 @@
 * affirm
     - utter_thumbsup
 
-## Story from conversation with 35d1ecc91c364cbf8a6edf006e5d8c9a on November 19th 2018
-
-* greet
-    - action_greet_user
-* enter_data
-    - utter_not_sure
-    - utter_possibilities
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
-    - utter_ask_feedback
-* deny
-    - utter_thumbsup
-    - utter_anything_else
-* affirm
-    - utter_thumbsup
 
 ## Story from conversation with 4c274f8d470e4b77adbfefe7cda7cad7 on October 27th 2018
 
@@ -452,21 +249,6 @@
     - utter_getstarted
     - utter_first_bot_with_rasa
 
-## Story from conversation with d041ba4b0a89479e9bb6a5007f2cdc87 on November 15th 2018
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-* chitchat
-    - respond_chitchat
-* enter_data
-    - utter_not_sure
-    - utter_possibilities
 
 ## Story from conversation with dominik on November 19th 2018
 * greet
@@ -748,52 +530,6 @@
 * out_of_scope
     - respond_out_of_scope
     - utter_possibilities
-
-## Story from conversation with af5a6b3c39d04c6db2b682960e63f01c on January 21st 2019
-* get_started_step1
-    - action_greet_user
-    - slot{"shown_privacy":true}
-    - slot{"step":"1"}
-* greet
-    - action_greet_user
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-* react_positive
-    - utter_react_positive
-    - utter_ask_continue_sales
-* affirm
-    - utter_great
-    - sales_form
-    - form{"name": null}
-
-## Story from conversation with af5a6b3c39d04c6db2b682960e63f01c on January 21st 2019
-* get_started_step1
-    - action_greet_user
-    - slot{"shown_privacy":true}
-    - slot{"step":"1"}
-* greet
-    - action_greet_user
-* chitchat
-    - respond_chitchat
-* chitchat
-    - respond_chitchat
-* contact_sales
-    - utter_moreinformation
-    - sales_form
-    - form{"name": "sales_form"}
-* react_positive
-    - utter_react_positive
-    - utter_ask_continue_sales
-* deny
-    - utter_thumbsup
-    - action_deactivate_form
-    - form{"name": null}
 
 ## Story from conversation with 53d4ca53494d4469b7d94aca2f7b3fec on January 21st 2019
 * get_started_step1

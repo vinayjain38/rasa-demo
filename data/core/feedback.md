@@ -1,34 +1,35 @@
-## feedback1
-    - utter_ask_feedback
-* out_of_scope
-    - utter_thumbsup
-    - utter_anything_else
-
-## feedback2
-    - utter_ask_feedback
-* enter_data
-    - utter_thumbsup
-    - utter_anything_else
-
-## feedback3
-    - utter_ask_feedback
-* affirm
-    - utter_great
-    - utter_anything_else
-
-## feedback deny
-    - utter_ask_feedback
-* deny
-    - utter_thumbsup
-    - utter_anything_else
-
-## feedback thank
+>> feedback + thanks
+    - ...
     - utter_ask_feedback
 * thank
     - utter_noworries
     - utter_anything_else
 
-## feedback thumbsup
+>> feedback + out_of_scope
+    - ...
+    - utter_ask_feedback
+* out_of_scope
+    - utter_thumbsup
+    - utter_anything_else
+
+>> feedback + enter_data
+    - ...
+    - utter_ask_feedback
+* enter_data
+    - utter_thumbsup
+    - utter_anything_else
+
+>> feedback + positive
+    - ...
+    - utter_ask_feedback
+* feedback{"feedback_value": "positive"}
+    - slot{"feedback_value": "positive"}
+    - action_tag_feedback
+    - utter_great
+    - utter_anything_else
+
+>> feedback + negative
+    - ...
     - utter_ask_feedback
 * feedback{"feedback_value": "negative"}
     - slot{"feedback_value": "negative"}
@@ -36,10 +37,16 @@
     - utter_thumbsup
     - utter_anything_else
 
-## feedback thumbsup
+>> feedback + affirm
+    - ...
     - utter_ask_feedback
-* feedback{"feedback_value": "positive"}
-    - slot{"feedback_value": "positive"}
-    - action_tag_feedback
-    - utter_great
+* affirm
+    - utter_thumbsup
+    - utter_anything_else
+
+>> feedback + deny
+    - ...
+    - utter_ask_feedback
+* deny
+    - utter_thumbsup
     - utter_anything_else

@@ -28,6 +28,126 @@ logger = logging.getLogger(__name__)
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 
 
+class SubmitSubscribeNewsletterForm(Action):
+    def name(self) -> Text:
+        return "submit_subscribe_newsletter_form"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        """Once we have an email, attempt to add it to the database"""
+
+        email = tracker.get_slot("email")
+        client = MailChimpAPI(config.mailchimp_api_key)
+        # if the email is already subscribed, this returns False
+        added_to_list = client.subscribe_user(config.mailchimp_list, email)
+
+        # utter submit template
+        if added_to_list:
+            dispatcher.utter_message(template="utter_confirmationemail")
+        else:
+            dispatcher.utter_message(template="utter_already_subscribed")
+        return []
+
+
+class SubmitSalesForm(Action):
+    def name(self) -> Text:
+        return "submit_sales_form"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        """Once we have an email, attempt to add it to the database"""
+
+        import datetime
+
+        budget = tracker.get_slot("budget")
+        company = tracker.get_slot("company")
+        email = tracker.get_slot("business_email")
+        job_function = tracker.get_slot("job_function")
+        person_name = tracker.get_slot("person_name")
+        use_case = tracker.get_slot("use_case")
+        date = datetime.datetime.now().strftime("%d/%m/%Y")
+
+        sales_info = [company, use_case, budget, date, person_name, job_function, email]
+
+        try:
+            gdrive = GDriveService()
+            gdrive.store_data(sales_info)
+            dispatcher.utter_message(template="utter_confirm_salesrequest")
+            return []
+        except Exception as e:
+            logger.error(
+                "Failed to write data to gdocs. Error: {}" "".format(e.message),
+                exc_info=True,
+            )
+            dispatcher.utter_message(template="utter_salesrequest_failed")
+            return []
+
+
+class SubmitSuggestionForm(Action):
+    def name(self) -> Text:
+        return "submit_suggestion_form"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        """Once we have an email, attempt to add it to the database"""
+
+        dispatcher.utter_message(template="utter_thank_suggestion")
+        return []
+
+
+class validate_email(Action):
+    """Returns the explanation for the sales form questions"""
+
+    def name(self) -> Text:
+        return "validate_email"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[EventType]:
+
+        value = tracker.get_slot("email")
+        if MailChimpAPI.is_valid_email(value):
+            return [ SlotSet("email", value) ]
+        else:
+            dispatcher.utter_message(template="utter_no_email")
+            return [ SlotSet("email", None) ]
+
+
+class validate_business_email(Action):
+    """Returns the explanation for the sales form questions"""
+
+    def name(self) -> Text:
+        return "validate_business_email"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[EventType]:
+
+        value = tracker.get_slot("business_email")
+        if MailChimpAPI.is_valid_email(value):
+            return [ SlotSet("business_email", value) ]
+        else:
+            return [ SlotSet("business_email", None) ]
+
+
 class SubscribeNewsletterForm(FormAction):
     """Asks for the user's email, call the newsletter API and sign up user"""
 

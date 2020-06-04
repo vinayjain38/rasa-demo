@@ -31,6 +31,7 @@ pipeline:
   retrieval_intent: chitchat
   scale_loss: false
 policies:
+- name: RulePolicy
 - name: TEDPolicy
   max_history: 10
   epochs: 20
@@ -43,5 +44,3 @@ policies:
   name: TwoStageFallbackPolicy
   nlu_threshold: 0.8
   deny_suggestion_intent_name: "trigger_rephrase"
-- name: FormPolicy
-- name: MappingPolicy
