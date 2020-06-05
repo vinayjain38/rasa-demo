@@ -301,6 +301,7 @@
 - you cant help me
 - quit
 - that does not help
+- i want to stop
 
 ## intent:deny
 - I don't want to
