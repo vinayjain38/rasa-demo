@@ -92,6 +92,7 @@
 - custom connection
 - Can I create a chat bot and set it up on a web page?
 - Does Rasa have the functionality of being able to set up the bot on web pages?
+- socketio
 
 ## intent:faq/community_size
 - Did you know the size of rasa community?
@@ -515,6 +516,7 @@
 - How is it opensource
 - What is included in [RASA open source](product) edition?
 - you are [open source](product)
+- What features are paid for?
 
 ## intent:faq/python_version
 - What Python version should I use?

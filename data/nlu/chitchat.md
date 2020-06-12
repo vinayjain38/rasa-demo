@@ -159,6 +159,7 @@
 - so how were you made?
 - what are you made of
 - Are you built using rasa?
+- were you built using rasa?
 
 ## intent:chitchat/ask_howdoing
 - Ahoy matey how are you?
@@ -377,6 +378,7 @@
 - you sound like a real human
 - wow you sound like real human
 - are you human ?
+- Are you a human?
 
 ## intent:chitchat/ask_languagesbot
 - Are you familiar with more than one language?
@@ -1208,3 +1210,17 @@
 - tell me something funny, like a joke
 - you can say a jok
 - telljoke
+
+## intent:faq
+- what is rasa x
+
+## intent:out_of_scope
+- can you open a ticket?
+- assajklfs
+- sdfs
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
