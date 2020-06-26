@@ -1212,6 +1212,35 @@
 - you can say a jok
 - telljoke
 
+## intent:out_of_scope
+- What's your favourite hobby?
+
+## intent:faq
+- Does Rasa [NLU]{"entity": "product", "value": "nlu"} cost money?
+
+## intent:why_rasa
+- why are you better than other chatbots
+- [why should I switch](company)
+- [I meant why you over competitors ?](company)
+- [why to use RASA](company)
+- [why is Rasa useful](company)
+- [why is rasa better?](company)
+- why RASA?
+- [why should i choose rasa](company)
+- [why is rasa so good?](company)
+- why is rasa good
+- why rasa
+- [why should I use Rasa](company)
+- [why only rasa](company)
+- [why to use rasa](company)
+- [why should I migrate to rasa?](company)
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
+
 ## lookup:location.txt
   data/nlu/lookups/location.txt
 

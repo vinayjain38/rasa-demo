@@ -229,6 +229,7 @@
 - cool beans
 - sounds good!
 - really
+- /greet
 
 ## intent:bye
 - Bye
