@@ -1212,6 +1212,15 @@
 - you can say a jok
 - telljoke
 
+## intent:out_of_scope
+- miss you
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
+
 ## lookup:location.txt
   data/nlu/lookups/location.txt
 
