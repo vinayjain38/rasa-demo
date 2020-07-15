@@ -77,3 +77,16 @@
 * nlu_generation_tool_recommendation{"product":"nlu"}
     - slot{"product":"nlu"}
     - utter_nlu_tools
+
+## New Story
+
+* greet
+    - action_greet_user
+    - slot{"shown_privacy":true}
+* install_rasa
+    - utter_installation_command
+    - utter_having_trouble_installing
+    - utter_ask_ready_to_build
+* thank
+    - utter_noworries
+    - utter_anything_else
