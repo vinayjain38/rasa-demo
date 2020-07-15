@@ -229,6 +229,7 @@
 - cool beans
 - sounds good!
 - really
+- /get_started_step1
 
 ## intent:bye
 - Bye
