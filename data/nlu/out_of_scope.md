@@ -40,6 +40,7 @@
 - αστεία λές
 - rasa codigo abierto
 - 卧槽
+- Wie ist das Wetter heute?
 
 ## intent:out_of_scope/other
 - I am asking you an out of scope question

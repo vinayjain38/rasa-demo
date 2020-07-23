@@ -754,6 +754,8 @@
 - RASA IS SOFTWARE?
 - rasa os
 - what is Rasa
+- product of rasa
+- can i make chatbot using [rasa](product)?
 
 ## intent:chitchat/ask_whatspossible
 - Can you explain me in one sentence what you are doing?
@@ -1211,6 +1213,19 @@
 - tell me something funny, like a joke
 - you can say a jok
 - telljoke
+
+## intent:hosting
+- how much is hosting?
+- Is there a hosted version of rasa ?
+- do you also host?
+- can I host my bot with you?
+- Is rasa x a hosted application?
+
+## lookup:location.txt
+  data/nlu/lookups/location.txt
+
+## lookup:products.txt
+  data/nlu/lookups/products.txt
 
 ## lookup:location.txt
   data/nlu/lookups/location.txt

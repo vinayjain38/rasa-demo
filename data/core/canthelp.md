@@ -77,3 +77,7 @@
 * nlu_generation_tool_recommendation{"product":"nlu"}
     - slot{"product":"nlu"}
     - utter_nlu_tools
+
+## hosting
+* hosting
+  - utter_hosting_not_supported

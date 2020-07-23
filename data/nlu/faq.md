@@ -307,6 +307,7 @@
 - I need help to make rasa in java
 - Rasa development in Java
 - What language is the open source coding done in?
+- Programmatically use [rasa](product)
 
 ## intent:faq/languages
 - I want to build a bot in [Hindi](language)
