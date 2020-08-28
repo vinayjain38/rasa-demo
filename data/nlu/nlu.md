@@ -44,6 +44,7 @@
 - why is rasa interesting
 - Why rasa?
 - Why choose rasa?
+- Why should I be interested in using rasa?
 
 ## intent:ask_how_contribute
 - Can I assist?
@@ -2242,13 +2243,6 @@
 - restart session pls
 - restart ps
 
-## synonym:english
-- English
-- en
-- eng
-- Eng
-- ENGLISH
-
 ## synonym: duration
 - durations
 - how long
@@ -2378,9 +2372,3 @@
 
 ## regex:zipcode
 - [0-9]{5}
-
-## lookup:location.txt
-data/nlu/lookups/location.txt
-
-## lookup:products.txt
-data/nlu/lookups/products.txt
