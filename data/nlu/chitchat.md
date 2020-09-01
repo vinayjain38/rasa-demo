@@ -754,6 +754,7 @@
 - RASA IS SOFTWARE?
 - rasa os
 - what is Rasa
+- what is [rasa opens](product)our[ce](product)
 
 ## intent:chitchat/ask_whatspossible
 - Can you explain me in one sentence what you are doing?

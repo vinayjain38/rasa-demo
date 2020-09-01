@@ -480,6 +480,7 @@
 - what do you mean
 - what does that mean
 - how come?
+- why sorry !
 
 ## intent:greet
 - Bom dia

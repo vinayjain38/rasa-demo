@@ -44,6 +44,11 @@
 - why is rasa interesting
 - Why rasa?
 - Why choose rasa?
+- why rasa is better than [dialogflow](current_api)?
+- why is rasa good?
+- why should i use rasa?
+- how does rasa compare to [dialogflow](current_api)?
+- why should I use rasa
 
 ## intent:ask_how_contribute
 - Can I assist?
@@ -2229,6 +2234,7 @@
 - is Rasa works with Unity3d?
 - rasa uses deep learning ?
 - i want to extract predefined entity from user query
+- can you tell me how to deploy
 
 ## intent:restart
 - yep you can restart
@@ -2241,13 +2247,6 @@
 - hey, i said restart
 - restart session pls
 - restart ps
-
-## synonym:english
-- English
-- en
-- eng
-- Eng
-- ENGLISH
 
 ## synonym: duration
 - durations
@@ -2378,9 +2377,3 @@
 
 ## regex:zipcode
 - [0-9]{5}
-
-## lookup:location.txt
-data/nlu/lookups/location.txt
-
-## lookup:products.txt
-data/nlu/lookups/products.txt
