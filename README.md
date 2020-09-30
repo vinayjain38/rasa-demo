@@ -20,7 +20,7 @@ You can find planned enhancements for Sara in the
 
 ## 👷‍ Installation
 
-To install Sara, please clone the repo and run:
+To install Rasa, please clone the repo and run:
 
 ```
 cd rasa-demo
